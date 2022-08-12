@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbarItems {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 48px;
+}
+
+.discord {
+  display: flex;
+  background-color: palevioletred;
+  width: 100px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
