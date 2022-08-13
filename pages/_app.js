@@ -7,10 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>LA CTF Home</title>
+        <title>LA CTF | Home</title>
         <meta
           name="description"
-          content="LA CTF is a jeopardy-style capture-the-flag (CTF) style cybersecurity competition hosted ACM Cyber @ UCLA & Psi Beta Rho!"
+          content="LA CTF is a jeopardy-style capture-the-flag (CTF) cybersecurity competition hosted by ACM Cyber at UCLA & Psi Beta Rho!"
         />
         <link rel="icon" href="./favicon.ico" />
       </Head>

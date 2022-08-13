@@ -1,35 +1,34 @@
-.navbar {
-  display: flex;
-  justify-content: right;
-  align-items: center;
+nav.navbar {
+  position: fixed;
+  width: 100%;
+  display: inline;
+  background-color: #31221b;
+  border-bottom: 3px solid black;
+  top: 0;
 }
 
-.navbarItems {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 48px;
-  list-style-type: none;
+.navbar > ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
 }
 
-.discord {
-  display: flex;
-  background-color: #F44D8A;
-  width: 80px;
-  height: 60px;
-  align-items: center;
-  justify-content: center;
+.navbar > ul > li {
+  display: inline;
+  float: right;
+  padding: 1.25rem;
 }
 
-.navbarElement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 40px;
-
-}
-.navbarElement:hover {
-  background-color: black;
+.navbar > ul > li:hover {
+  color: black;
+  text-decoration: underline;
+  background-color: #ffba44;
 }
 
+.navbar > ul > li.discord {
+  background-color: #f44d8a;
+}
+
+.navbar > ul > li.discord:hover {
+  color: white;
+}

@@ -11,10 +11,21 @@ export default function Home() {
         </p>
 
         <h2 id="about">Join Us</h2>
+        <p>
+          Want to participate in LA CTF? Make sure to join our Discord to stay
+          up to date with the latest notifications about the coolest
+          cybersecurity competition in southern California!
+        </p>
 
         <h2 id="speakers">Speakers</h2>
+        <p>
+          Here are some of the exciting speakers that will be attending LA CTF!
+        </p>
 
         <h2 id="sponsors">Sponsors</h2>
+        <p>
+          Here are some of the amazing companies that help make LA CTF happen!
+        </p>
       </main>
 
       <footer className={styles.footer}>
