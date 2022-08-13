@@ -9,13 +9,27 @@
   flex-direction: row;
   align-items: center;
   column-gap: 48px;
+  list-style-type: none;
 }
 
 .discord {
   display: flex;
-  background-color: palevioletred;
-  width: 100px;
+  background-color: #F44D8A;
+  width: 80px;
   height: 60px;
   align-items: center;
   justify-content: center;
 }
+
+.navbarElement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+
+}
+.navbarElement:hover {
+  background-color: black;
+}
+
