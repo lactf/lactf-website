@@ -1,8 +1,11 @@
+import Navbar from "../components/Navbar";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <main className={styles.main}>
         <h1>Welcome to LA CTF!</h1>
         <p>

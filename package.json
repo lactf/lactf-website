@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint",
+    "fix": "yarn prettier -w pages/*.js styles/*.css components/*.js",
     "postinstall": "husky install"
   },
   "dependencies": {
