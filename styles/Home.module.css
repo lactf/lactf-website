@@ -23,6 +23,7 @@
   padding-top: 0.5rem;
   font-size: xx-large;
   vertical-align: top;
+  font-weight: bold;
 }
 
 a.mailto {
@@ -31,6 +32,41 @@ a.mailto {
 
 a.mailto:hover {
   color: #ffba44;
+}
+
+.aboutContainer {
+  background-color: #e9c681;
+  min-width: 100vw;
+  min-height: 50vh;
+  padding: 0 4rem;
+  display: flex;
+}
+
+.aboutPic {
+  min-width: 40vw;
+  padding: 3rem 1.5rem 3rem 3rem;
+}
+
+.aboutText {
+  color: black;
+  padding: 3rem 3rem 3rem 1.5rem;
+}
+
+.twoColumns {
+  display: flex;
+  gap: 8rem;
+}
+
+.prizes {
+  width: 50%;
+}
+
+.contacts {
+  width: 50%;
+}
+
+.contactsLink {
+  padding: 1rem;
 }
 
 /* Footer Styles */
