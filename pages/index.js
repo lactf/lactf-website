@@ -17,7 +17,7 @@ export default function Home() {
         </p>
 
         <h2 id="about">
-          <Image src={Flag} width={60} height={60} className={styles.flag} />
+          <Image src={Flag} width={60} height={60} className={styles.flag} alt="Pink LA CTF flag."/>
           <span className={styles.headerText}>About</span>
         </h2>
         <p>
@@ -33,7 +33,7 @@ export default function Home() {
         </p>
 
         <h2 id="prizes">
-          <Image src={Flag} width={60} height={60} />
+          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
           <span className={styles.headerText}>Prizes</span>
         </h2>
         <p>
@@ -42,12 +42,12 @@ export default function Home() {
         </p>
 
         <h2 id="contacts">
-          <Image src={Flag} width={60} height={60} />
+          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
           <span className={styles.headerText}>Contacts</span>
         </h2>
 
         <h2 id="speakers">
-          <Image src={Flag} width={60} height={60} />
+          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
           <span className={styles.headerText}>Speakers</span>
         </h2>
         <p>
@@ -55,7 +55,7 @@ export default function Home() {
         </p>
 
         <h2 id="sponsors">
-          <Image src={Flag} width={60} height={60} />
+          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
           <span className={styles.headerText}>Sponsors</span>
         </h2>
         <p>
