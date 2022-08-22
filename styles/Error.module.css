@@ -5,10 +5,10 @@
   text-align: center;
 }
 
-a.home {
+.home a {
   text-decoration: underline;
 }
 
-a.home:hover {
+.home:hover a {
   color: #ffba44;
 }
