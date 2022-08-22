@@ -37,19 +37,22 @@ a.mailto:hover {
 .aboutContainer {
   background-color: #e9c681;
   min-width: 100vw;
-  min-height: 50vh;
-  padding: 0 4rem;
+  min-height: 30vh;
+  padding: 0 25%;
+  left: 0;
+  margin: 2rem calc(100vw - 35%) 2rem calc((100% - 100vw) / 2);
   display: flex;
 }
 
 .aboutPic {
-  min-width: 40vw;
-  padding: 3rem 1.5rem 3rem 3rem;
+  min-width: 35vw;
+  padding: 2rem 1.5rem 2rem 3rem;
+  object-fit: cover;
 }
 
 .aboutText {
   color: black;
-  padding: 3rem 3rem 3rem 1.5rem;
+  padding: 2rem 3rem 2rem 1.5rem;
 }
 
 .twoColumns {

@@ -18,32 +18,30 @@ export default function Home() {
         <p className={styles.subheading}>
           February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
         </p>
-      </main>
 
-      <div className={styles.aboutContainer}>
-        <div className={styles.aboutPic}>
-          <Image
-            src={CyberGM}
-            style={{ borderRadius: "8px" }}
-            alt="Cyber General Meeting."
-          />
+        <div className={styles.aboutContainer}>
+          <div className={styles.aboutPic}>
+            <Image
+              src={CyberGM}
+              style={{ borderRadius: "8px" }}
+              alt="Cyber General Meeting."
+            />
+          </div>
+          <div className={styles.aboutText}>
+            <p>
+              LA CTF is an annual Capture the Flag (CTF) cybersecurity
+              competition hosted by ACM Cyber at UCLA. LA CTF is open to all
+              skill levels of cybersecurity! Whether you are tackling your first
+              exploit or have professional experience, there will be challenges
+              just right for you! There will be a variety of events ranging from
+              the competition containing jeopardy-style cybersecurity challenges
+              to talks from UCLA professors to fun events such as typing
+              competitions! If you are interested in attending, join the Discord
+              to stay up to date with the latest information about LA CTF!
+            </p>
+          </div>
         </div>
-        <div className={styles.aboutText}>
-          <p>
-            LA CTF is an annual Capture the Flag (CTF) cybersecurity competition
-            hosted by ACM Cyber at UCLA. LA CTF is open to all skill levels of
-            cybersecurity! Whether you are tackling your first exploit or have
-            professional experience, there will be challenges just right for
-            you! There will be a variety of events ranging from the competition
-            containing jeopardy-style cybersecurity challenges to talks from
-            UCLA professors to fun events such as typing competitions! If you
-            are interested in attending, join the Discord to stay up to date
-            with the latest information about LA CTF!
-          </p>
-        </div>
-      </div>
 
-      <main className={styles.main}>
         <div className={styles.twoColumns}>
           <div className={styles.prizes}>
             <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
