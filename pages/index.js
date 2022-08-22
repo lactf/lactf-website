@@ -17,7 +17,13 @@ export default function Home() {
         </p>
 
         <h2 id="about">
-          <Image src={Flag} width={60} height={60} className={styles.flag} alt="Pink LA CTF flag."/>
+          <Image
+            src={Flag}
+            width={60}
+            height={60}
+            className={styles.flag}
+            alt="Pink LA CTF flag."
+          />
           <span className={styles.headerText}>About</span>
         </h2>
         <p>
