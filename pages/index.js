@@ -8,7 +8,6 @@ import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
 
-
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -79,7 +78,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-        
+
         <h2 id="speakers">
           <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
           <span className={styles.headerText}>Speakers</span>
