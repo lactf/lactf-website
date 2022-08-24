@@ -97,11 +97,3 @@ a.mailto:hover {
   display: block;
   margin-left: -0.25rem;
 }
-
-/* Footer Styles */
-
-.footer {
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #ffba44;
-}

@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import Flag from "../public/images/flag.png";
 import CyberGM from "../public/images/cyberGM.png";
@@ -121,9 +122,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}>
-        <p>© ACM Cyber at UCLA 2022</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
