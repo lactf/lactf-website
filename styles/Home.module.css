@@ -23,6 +23,7 @@
   padding-top: 0.5rem;
   font-size: xx-large;
   vertical-align: top;
+  font-weight: bold;
 }
 
 a.mailto {
@@ -31,6 +32,44 @@ a.mailto {
 
 a.mailto:hover {
   color: #ffba44;
+}
+
+.aboutContainer {
+  background-color: #e9c681;
+  min-width: 100vw;
+  min-height: 30vh;
+  padding: 0 25%;
+  left: 0;
+  margin: 2rem calc(100vw - 35%) 2rem calc((100% - 100vw) / 2);
+  display: flex;
+}
+
+.aboutPic {
+  min-width: 35vw;
+  padding: 2rem 1.5rem 2rem 3rem;
+  object-fit: cover;
+}
+
+.aboutText {
+  color: black;
+  padding: 2rem 3rem 2rem 1.5rem;
+}
+
+.twoColumns {
+  display: flex;
+  gap: 8rem;
+}
+
+.prizes {
+  width: 50%;
+}
+
+.contacts {
+  width: 50%;
+}
+
+.contactsLink {
+  padding: 1rem;
 }
 
 /* Footer Styles */
