@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Footer from "../components/Footer";
 
 import Navbar from "../components/Navbar";
 
@@ -14,6 +15,7 @@ export default function Error() {
           Click <Link href="/">here</Link> to return to the home page.
         </p>
       </main>
+      <Footer />
     </div>
   );
 }

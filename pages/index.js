@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import Countdown from "../components/Countdown";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
         <p className={styles.subheading}>
           February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
         </p>
+        <Countdown />
 
         <div className={styles.aboutContainer} id="about">
           <div className={styles.aboutPic}>
