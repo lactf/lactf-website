@@ -1,27 +1,42 @@
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 4rem 0 4rem 0;
   margin: 4rem 20% 0 20%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+}
+
+.main h1 {
   text-align: center;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffba44;
+.flag {
+  display: inline-block;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.subheading {
+  text-align: center;
+  font-size: large;
+}
+
+.headerText {
+  display: inline-block;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+  font-size: xx-large;
+  vertical-align: top;
+}
+
+a.mailto {
+  text-decoration: underline;
+}
+
+a.mailto:hover {
+  color: #ffba44;
+}
+
+/* Footer Styles */
+
+.footer {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #ffba44;
 }

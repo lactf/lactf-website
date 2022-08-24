@@ -1,13 +1,14 @@
-.main > h1 {
-  padding-top: 80px;
-  margin: 20px;
+.error {
+  min-height: 80vh;
+  padding: 4rem 0 4rem 0;
+  margin: 4rem 20% 0 20%;
+  text-align: center;
 }
 
-.main p {
-  padding-left: 20px;
-}
-
-.main p:hover {
-  cursor: pointer;
+.home a {
   text-decoration: underline;
+}
+
+.home:hover a {
+  color: #ffba44;
 }
