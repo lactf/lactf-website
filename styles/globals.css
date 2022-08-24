@@ -24,3 +24,7 @@ h1,
 h2 {
   margin: 1rem 0;
 }
+
+img {
+  z-index: 1;
+}
