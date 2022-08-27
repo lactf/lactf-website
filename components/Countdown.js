@@ -1,31 +1,42 @@
 import React, { useEffect, useState } from "react";
+import "next/dynamic";
+
+import styles from "../styles/Countdown.module.css";
 
 const Countdown = () => {
   let [time, setTime] = useState(1676088000 - Date.now() / 1000);
 
   useEffect(() => {
-    setInterval(() => setTime(1676088000 - Date.now() / 1000), 1000);
-  }, time);
+    setInterval(() => setTime(1676088000 - Date.now() / 1000), 5000);
+  }, [time]);
 
   return (
-    <div>
-      <h1>Timer</h1>
-      <p>Days: {Math.floor(time / 86400)}</p>
-      <p>
-        Hours: {Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)}
-      </p>
-      <p>
-        Minutes:{" "}
-        {Math.floor(
-          Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) / 60
-        )}
-      </p>
-      <p>
-        Seconds:{" "}
-        {Math.floor(
-          Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) % 60
-        )}
-      </p>
+    <div className={styles.timerContainer}>
+      <ul className={styles.timer}>
+        <li>
+          <span className={styles.labelDays}>Days</span>
+          <span className={styles.days}>{Math.floor(time / 86400)}</span>
+        </li>
+        <li>
+          <span className={styles.labelHours}>Hours</span>
+          <span className={styles.hours}>
+            {String(
+              Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
+            ).length < 2
+              ? "0" +
+                Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
+              : Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)}
+          </span>
+        </li>
+        <li>
+          <span className={styles.labelMinutes}>Minutes</span>
+          <span className={styles.minutes}>
+            {Math.floor(
+              Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) / 60
+            )}
+          </span>
+        </li>
+      </ul>
     </div>
   );
 };
