@@ -20,6 +20,7 @@
 .headerText {
   display: inline-block;
   margin-left: 1rem;
+  margin-bottom: 1.5rem;
   padding-top: 0.5rem;
   font-size: xx-large;
   vertical-align: top;
@@ -46,16 +47,18 @@ a.mailto:hover {
 
 .aboutPic {
   min-width: 35vw;
-  padding: 2rem 1.5rem 2rem 3rem;
-  object-fit: cover;
+  padding: 0 1.5rem 0 3rem;
+  margin-top: 3.5rem;
+  object-fit: fill;
 }
 
 .aboutText {
   color: black;
-  padding: 2rem 3rem 2rem 1.5rem;
+  padding: 1rem 3rem 2rem 1.5rem;
 }
 
 .twoColumns {
+  margin-top: 5rem;
   display: flex;
   gap: 8rem;
 }
@@ -68,14 +71,29 @@ a.mailto:hover {
   width: 50%;
 }
 
-.contactsLink {
-  padding: 1rem;
+.contacts li {
+  display: inline-block;
+  margin: 0.5rem;
 }
 
-/* Footer Styles */
+.contacts li > a {
+  padding-bottom: 1rem;
+  text-decoration: underline;
+  vertical-align: top;
+  padding-top: 0.75rem;
+  display: inline-block;
+  font-size: larger;
+}
 
-.footer {
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #ffba44;
+.contacts li > a:hover {
+  color: #ffba44;
+}
+
+.contactsLink {
+  padding: 0 1rem;
+}
+
+.discord {
+  display: block;
+  margin-left: -0.25rem;
 }

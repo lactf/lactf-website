@@ -2,9 +2,11 @@ nav.navbar {
   position: fixed;
   width: 100%;
   display: inline;
-  background-color: #31221b;
+  background-color: #e9c681;
   border-bottom: 1px solid black;
+  color: black;
   top: 0;
+  z-index: 2;
 }
 
 .navbar > ul {
@@ -16,17 +18,32 @@ nav.navbar {
 .navbar > ul > li {
   display: inline;
   float: right;
-  padding: 1.25rem;
+  padding: 1rem;
+  font-size: larger;
+}
+
+.navbar > ul > li > a {
+  display: block;
+  padding: 1rem;
 }
 
 .navbar > ul > li:hover {
   color: black;
   text-decoration: underline;
-  background-color: #ffba44;
 }
 
-.navbar > ul > li.discord {
+button.discord {
   background-color: #f44d8a;
+  color: white;
+  border: none;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  font-size: large;
+}
+
+button.discord:hover {
+  background-color: #f44384;
+  box-shadow: inset 0 0 0 0.2rem #d22c69;
 }
 
 .navbar > ul > li.discord:hover {

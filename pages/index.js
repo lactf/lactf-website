@@ -1,6 +1,8 @@
 import Image from "next/image";
 
+import Countdown from "../components/Countdown";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import Flag from "../public/images/flag.png";
 import CyberGM from "../public/images/cyberGM.png";
@@ -19,8 +21,9 @@ export default function Home() {
         <p className={styles.subheading}>
           February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
         </p>
+        <Countdown />
 
-        <div className={styles.aboutContainer}>
+        <div className={styles.aboutContainer} id="about">
           <div className={styles.aboutPic}>
             <Image
               src={CyberGM}
@@ -29,6 +32,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.aboutText}>
+            <h2>About Us</h2>
             <p>
               LA CTF is an annual Capture the Flag (CTF) cybersecurity
               competition hosted by ACM Cyber at UCLA. LA CTF is open to all
@@ -56,26 +60,45 @@ export default function Home() {
           <div className={styles.contacts}>
             <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
             <span className={styles.headerText}>Contacts</span>
-            <br />
-            <a href="https://discord.gg/VEJf6gqdP5">
-              <Image src={Discord} height={25} width={30} alt="Discord logo." />
-              <span className={styles.contactsLink}>discord.gg/VEJf6gqdP5</span>
-            </a>
-            <br />
-            <a href="mailto:uclacyber@gmail.com">
-              <Image src={Email} height={30} width={30} alt="Email symbol." />
-              <span className={styles.contactsLink}>uclacyber@gmail.com</span>
-            </a>
-            <br />
-            <a href="https://www.instagram.com/uclacyber">
-              <Image
-                src={Instagram}
-                height={30}
-                width={30}
-                alt="Instagram logo."
-              />
-              <span className={styles.contactsLink}>@uclacyber</span>
-            </a>
+            <ul>
+              <li>
+                <Image
+                  src={Discord}
+                  height={45}
+                  width={55}
+                  alt="Discord logo."
+                />
+                <a
+                  href="https://discord.gg/VEJf6gqdP5"
+                  className={`${styles.contactsLink} ${styles.discord}`}
+                >
+                  discord.gg/VEJf6gqdP5
+                </a>
+              </li>
+              <li>
+                <Image src={Email} height={50} width={50} alt="Email symbol." />
+                <a
+                  href="mailto:uclacyber@gmail.com"
+                  className={styles.contactsLink}
+                >
+                  uclacyber@gmail.com
+                </a>
+              </li>
+              <li>
+                <Image
+                  src={Instagram}
+                  height={50}
+                  width={50}
+                  alt="Instagram logo."
+                />
+                <a
+                  href="https://www.instagram.com/uclacyber"
+                  className={styles.contactsLink}
+                >
+                  @uclacyber
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
@@ -101,9 +124,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}>
-        <p>© ACM Cyber at UCLA 2022</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

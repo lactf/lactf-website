@@ -7,8 +7,15 @@ function Navbar() {
   return (
     <nav className={styles.navbar}>
       <ul>
-        <li className={styles.discord}>
-          <a href="https://discord.gg/qD6vmsgECn">Join Us</a>
+        <li>
+          <button
+            onClick={() =>
+              (window.location.href = "https://discord.gg/qD6vmsgECn")
+            }
+            className={styles.discord}
+          >
+            <a href="https://discord.gg/qD6vmsgECn">Join Us</a>
+          </button>
         </li>
         <li>
           <Link href="/#sponsors">Sponsors</Link>
