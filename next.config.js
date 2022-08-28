@@ -7,7 +7,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  assetPrefix: !debug ? 'https://uclaacm.github.io/lactf-website/' : '',
+  assetPrefix: !debug ? 'https://lactf.uclaacm.com' : '',
 }
 
 module.exports = nextConfig
