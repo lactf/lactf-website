@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import Navbar from "../components/Navbar";
+import Speaker from "../components/Speaker";
 
 import Flag from "../public/images/flag.png";
 import CyberGM from "../public/images/cyberGM.png";
@@ -86,6 +87,8 @@ export default function Home() {
         <p>
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
+
+         <Speaker/> 
 
         <h2 id="sponsors">
           <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
