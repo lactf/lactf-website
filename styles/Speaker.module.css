@@ -1,32 +1,30 @@
 div.main {
-    margin: 20px;
-    border-radius: 25px;
-    display: block;
-    min-block-size: 350px;
-    justify-content: left;
-    align-items: center;
-    background-color: #E9C681;
-
+  margin: 20px;
+  border-radius: 25px;
+  display: block;
+  min-block-size: 350px;
+  justify-content: left;
+  align-items: center;
+  background-color: #e9c681;
 }
-
 
 .main > div.image {
-    display: block;
-    float: left;
-    overflow: hidden;
-    border-radius:50%;
-    margin: 10px;
-    margin-left: 50px;
-    margin-right: 100px;
+  display: block;
+  float: left;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 100px;
 }
 
-.main > div.info h2{
-    font-weight: 900;
+.main > div.info h2 {
+  font-weight: 900;
 }
 
 .main > div.info {
-    color: black;
-    margin-left: 100px;
-    text-align: left;
-    display: inline;
+  color: black;
+  margin-left: 100px;
+  text-align: left;
+  display: inline;
 }

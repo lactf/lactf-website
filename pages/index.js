@@ -88,7 +88,7 @@ export default function Home() {
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
 
-         <Speaker/> 
+        <Speaker />
 
         <h2 id="sponsors">
           <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
