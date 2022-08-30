@@ -5,7 +5,6 @@ import Countdown from "../components/Countdown";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import Flag from "../public/images/flag.png";
 import CyberGM from "../public/images/cyberGM.png";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";

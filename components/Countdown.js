@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "next/dynamic";
 
 import styles from "../styles/Countdown.module.css";
 
