@@ -25,8 +25,8 @@ export default function Home() {
           images: [
             {
               url: "https://lactf.uclaacm.com/images/LongLogoWaving.gif",
-              width: 1200,
-              height: 1200,
+              width: 990,
+              height: 555,
               alt: "LA CTF logo",
             },
           ],
