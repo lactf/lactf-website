@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { NextSeo } from "next-seo";
 
 import Countdown from "../components/Countdown";
 import Navbar from "../components/Navbar";
@@ -16,6 +17,21 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
+      <NextSeo
+        title="Home | LA CTF"
+        description="LA CTF is a jeopardy-style capture-the-flag (CTF) cybersecurity competition hosted by ACM Cyber at UCLA & Psi Beta Rho!"
+        openGraph={{
+          images: [
+            {
+              url: "https://lactf.uclaacm.com/images/LongLogo.png",
+              width: 1200,
+              height: 1200,
+              alt: "LA CTF logo",
+            },
+          ],
+          site_name: "LA CTF",
+        }}
+      />
       <Navbar />
       <main className={styles.main}>
         <div className={styles.logoContainer}>
