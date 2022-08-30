@@ -11,6 +11,7 @@ import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
 import LongLogo from "../public/images/LongLogoWaving.gif";
+import WavingFlag from "../public/images/TransparentWavingFlag.gif";
 
 import styles from "../styles/Home.module.css";
 
@@ -23,7 +24,7 @@ export default function Home() {
         openGraph={{
           images: [
             {
-              url: "https://lactf.uclaacm.com/images/LongLogo.png",
+              url: "https://lactf.uclaacm.com/images/SmallLogoWaving.gif",
               width: 1200,
               height: 1200,
               alt: "LA CTF logo",
@@ -68,7 +69,12 @@ export default function Home() {
 
         <div className={styles.twoColumns}>
           <div className={styles.prizes}>
-            <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+            <Image
+              src={WavingFlag}
+              width={50}
+              height={60}
+              alt="Waving pink LA CTF flag."
+            />
             <span className={styles.headerText}>Prizes</span>
             <p>
               LA CTF will have prizes for both the beginner and open sections!
@@ -77,7 +83,12 @@ export default function Home() {
           </div>
 
           <div className={styles.contacts}>
-            <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+            <Image
+              src={WavingFlag}
+              width={50}
+              height={60}
+              alt="Waving pink LA CTF flag."
+            />
             <span className={styles.headerText}>Contacts</span>
             <ul>
               <li>
@@ -122,7 +133,12 @@ export default function Home() {
         </div>
 
         <h2 id="speakers">
-          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
           <span className={styles.headerText}>Speakers</span>
         </h2>
         <p>
@@ -130,7 +146,12 @@ export default function Home() {
         </p>
 
         <h2 id="sponsors">
-          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
           <span className={styles.headerText}>Sponsors</span>
         </h2>
         <p>

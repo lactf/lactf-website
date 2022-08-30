@@ -31,9 +31,18 @@ const Countdown = () => {
         <li>
           <span className={styles.labelMinutes}>Minutes</span>
           <span className={styles.minutes}>
-            {Math.floor(
-              Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) / 60
-            )}
+            {String(
+              Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
+            ).length < 2
+              ? "0" +
+                Math.floor(
+                  Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
+                    60
+                )
+              : Math.floor(
+                  Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
+                    60
+                )}
           </span>
         </li>
       </ul>
