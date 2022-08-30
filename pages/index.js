@@ -9,9 +9,12 @@ import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
 
+import data from "../data/speakers.js";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  var speakers = data["speakers"]
   return (
     <div>
       <Navbar />
@@ -87,8 +90,8 @@ export default function Home() {
         <p>
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
-
-        <Speaker />
+        
+        <Speaker name={speakers[0].name} title={speakers[0].title} info={speakers[0].info} image={speakers[0].image}/>
 
         <h2 id="sponsors">
           <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />

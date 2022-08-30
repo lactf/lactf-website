@@ -1,21 +1,21 @@
 div.main {
   margin: 20px;
   border-radius: 25px;
-  display: block;
+  display: flex;
   min-block-size: 350px;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #e9c681;
 }
 
 .main > div.image {
-  display: block;
+  display: inline;
   float: left;
   overflow: hidden;
   border-radius: 50%;
-  margin: 10px;
+  margin: auto;
+  min-inline-size: 300px;
   margin-left: 50px;
-  margin-right: 100px;
 }
 
 .main > div.info h2 {
@@ -24,7 +24,8 @@ div.main {
 
 .main > div.info {
   color: black;
-  margin-left: 100px;
+  margin-left: 50px;
+  margin-right: 30px;
   text-align: left;
   display: inline;
 }
