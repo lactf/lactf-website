@@ -68,7 +68,7 @@ export default function Home() {
         </div>
 
         <div className={styles.twoColumns}>
-          <div className={styles.prizes}>
+          <div className={styles.prizes} id="prizes">
             <Image
               src={WavingFlag}
               width={50}
@@ -82,7 +82,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className={styles.contacts}>
+          <div className={styles.contacts} id="contact">
             <Image
               src={WavingFlag}
               width={50}
