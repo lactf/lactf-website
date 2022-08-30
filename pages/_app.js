@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
           openGraph={{
             images: [
               {
-                url: "https://www.uclaacm.com/images/logo.png",
+                url: "../public/images/LongLogo.png",
                 width: 1200,
                 height: 1200,
                 alt: "LA CTF logo",
