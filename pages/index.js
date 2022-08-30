@@ -24,13 +24,16 @@ export default function Home() {
         openGraph={{
           images: [
             {
-              url: "https://lactf.uclaacm.com/images/SmallLogoWaving.gif",
+              url: "https://lactf.uclaacm.com/images/LongLogoWaving.gif",
               width: 1200,
               height: 1200,
               alt: "LA CTF logo",
             },
           ],
           site_name: "LA CTF",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
         }}
       />
       <Navbar />
