@@ -9,6 +9,7 @@ import CyberGM from "../public/images/cyberGM.png";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
+import LongLogo from "../public/images/LongLogoWaving.gif";
 
 import styles from "../styles/Home.module.css";
 
@@ -17,7 +18,9 @@ export default function Home() {
     <div>
       <Navbar />
       <main className={styles.main}>
-        <h1>Welcome to LA CTF!</h1>
+        <div className={styles.logoContainer}>
+          <Image src={LongLogo} alt="Pink LA CTF flag." />
+        </div>
         <p className={styles.subheading}>
           February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
         </p>
