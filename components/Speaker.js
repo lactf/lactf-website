@@ -13,9 +13,7 @@ export default function Speaker(props) {
       <div className={styles.info}>
         <h2>{props.name}</h2>
         <h3>{props.title}</h3>
-        <p>
-          {props.info}
-        </p>
+        <p>{props.info}</p>
       </div>
     </div>
   );
