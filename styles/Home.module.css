@@ -85,7 +85,8 @@ a.mailto:hover {
   background-color: #ffba44;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: relative;
   top: 50%;
@@ -98,8 +99,9 @@ a.mailto:hover {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .dots {

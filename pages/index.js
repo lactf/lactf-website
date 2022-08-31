@@ -18,7 +18,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   var speakers = data["speakers"];
 
-  const [index, setIndex] = useState(0)
+  const [index, setIndex] = useState(0);
 
   return (
     <div>
@@ -96,25 +96,38 @@ export default function Home() {
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
         <div className={styles.slideshow}>
-          <a className={styles.prev} onClick={() => setIndex((index + (speakers.length - 1))% speakers.length) }>
+          <a
+            className={styles.prev}
+            onClick={() =>
+              setIndex((index + (speakers.length - 1)) % speakers.length)
+            }
+          >
             &#10094;
           </a>
           <Speaker
-          name={speakers[index].name}
-          title={speakers[index].title}
-          info={speakers[index].info}
-          image={speakers[index].image}
+            name={speakers[index].name}
+            title={speakers[index].title}
+            info={speakers[index].info}
+            image={speakers[index].image}
           />
-          <a className={styles.next} onClick={() => setIndex((index + 1)% speakers.length) }>
+          <a
+            className={styles.next}
+            onClick={() => setIndex((index + 1) % speakers.length)}
+          >
             &#10095;
           </a>
         </div>
 
         <div className={styles.dots}>
-          <span className={(index == 0) ? styles.active : styles.dot} onClick={() => setIndex(0)}></span>
-          <span className={(index == 1) ? styles.active : styles.dot} onClick={() => setIndex(1)}></span>
+          <span
+            className={index == 0 ? styles.active : styles.dot}
+            onClick={() => setIndex(0)}
+          ></span>
+          <span
+            className={index == 1 ? styles.active : styles.dot}
+            onClick={() => setIndex(1)}
+          ></span>
         </div>
-
 
         <h2 id="sponsors">
           <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
