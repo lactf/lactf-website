@@ -43,7 +43,7 @@ export default function Home() {
           <Image src={LongLogo} alt="Pink LA CTF flag." />
         </div>
         <p className={styles.subheading}>
-          February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
+          February 10th, 2023 (8:00 pm PST) - February 12th, 2023 (2:00 pm PST)
         </p>
         <Countdown />
 
