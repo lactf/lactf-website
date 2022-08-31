@@ -1,15 +1,20 @@
 import Image from "next/image";
+import { NextSeo } from "next-seo";
 
 import { useState } from "react";
 
 import Navbar from "../components/Navbar";
-import Speaker from "../components/Speaker";
+import Footer from "../components/Footer";
 
-import Flag from "../public/images/flag.png";
+import Speaker from "../components/Speaker";
+import Countdown from "../components/Countdown";
+
 import CyberGM from "../public/images/cyberGM.png";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
+import LongLogo from "../public/images/LongLogoWaving.gif";
+import WavingFlag from "../public/images/TransparentWavingFlag.gif";
 
 import data from "../data/speakers.js";
 
@@ -22,14 +27,35 @@ export default function Home() {
 
   return (
     <div>
+      <NextSeo
+        title="Home | LA CTF"
+        description="LA CTF is a jeopardy-style capture-the-flag (CTF) cybersecurity competition hosted by ACM Cyber at UCLA & Psi Beta Rho!"
+        openGraph={{
+          images: [
+            {
+              url: "https://lactf.uclaacm.com/images/LongLogoWaving.gif",
+              width: 990,
+              height: 555,
+              alt: "LA CTF logo",
+            },
+          ],
+          site_name: "LA CTF",
+        }}
+        twitter={{
+          cardType: "summary_large_image",
+        }}
+      />
       <Navbar />
       <main className={styles.main}>
-        <h1>Welcome to LA CTF!</h1>
+        <div className={styles.logoContainer}>
+          <Image src={LongLogo} alt="Pink LA CTF flag." />
+        </div>
         <p className={styles.subheading}>
           February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
         </p>
+        <Countdown />
 
-        <div className={styles.aboutContainer}>
+        <div className={styles.aboutContainer} id="about">
           <div className={styles.aboutPic}>
             <Image
               src={CyberGM}
@@ -38,6 +64,7 @@ export default function Home() {
             />
           </div>
           <div className={styles.aboutText}>
+            <h2>About Us</h2>
             <p>
               LA CTF is an annual Capture the Flag (CTF) cybersecurity
               competition hosted by ACM Cyber at UCLA. LA CTF is open to all
@@ -53,8 +80,13 @@ export default function Home() {
         </div>
 
         <div className={styles.twoColumns}>
-          <div className={styles.prizes}>
-            <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <div className={styles.prizes} id="prizes">
+            <Image
+              src={WavingFlag}
+              width={50}
+              height={60}
+              alt="Waving pink LA CTF flag."
+            />
             <span className={styles.headerText}>Prizes</span>
             <p>
               LA CTF will have prizes for both the beginner and open sections!
@@ -62,34 +94,63 @@ export default function Home() {
             </p>
           </div>
 
-          <div className={styles.contacts}>
-            <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <div className={styles.contacts} id="contact">
+            <Image
+              src={WavingFlag}
+              width={50}
+              height={60}
+              alt="Waving pink LA CTF flag."
+            />
             <span className={styles.headerText}>Contacts</span>
-            <br />
-            <a href="https://discord.gg/VEJf6gqdP5">
-              <Image src={Discord} height={25} width={30} alt="Discord logo." />
-              <span className={styles.contactsLink}>discord.gg/VEJf6gqdP5</span>
-            </a>
-            <br />
-            <a href="mailto:uclacyber@gmail.com">
-              <Image src={Email} height={30} width={30} alt="Email symbol." />
-              <span className={styles.contactsLink}>uclacyber@gmail.com</span>
-            </a>
-            <br />
-            <a href="https://www.instagram.com/uclacyber">
-              <Image
-                src={Instagram}
-                height={30}
-                width={30}
-                alt="Instagram logo."
-              />
-              <span className={styles.contactsLink}>@uclacyber</span>
-            </a>
+            <ul>
+              <li>
+                <Image
+                  src={Discord}
+                  height={45}
+                  width={55}
+                  alt="Discord logo."
+                />
+                <a
+                  href="https://discord.gg/VEJf6gqdP5"
+                  className={`${styles.contactsLink} ${styles.discord}`}
+                >
+                  discord.gg/VEJf6gqdP5
+                </a>
+              </li>
+              <li>
+                <Image src={Email} height={50} width={50} alt="Email symbol." />
+                <a
+                  href="mailto:uclacyber@gmail.com"
+                  className={styles.contactsLink}
+                >
+                  uclacyber@gmail.com
+                </a>
+              </li>
+              <li>
+                <Image
+                  src={Instagram}
+                  height={50}
+                  width={50}
+                  alt="Instagram logo."
+                />
+                <a
+                  href="https://www.instagram.com/uclacyber"
+                  className={styles.contactsLink}
+                >
+                  @uclacyber
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
 
         <h2 id="speakers">
-          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
           <span className={styles.headerText}>Speakers</span>
         </h2>
         <p>
@@ -130,7 +191,12 @@ export default function Home() {
         </div>
 
         <h2 id="sponsors">
-          <Image src={Flag} width={60} height={60} alt="Pink LA CTF flag." />
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
           <span className={styles.headerText}>Sponsors</span>
         </h2>
         <p>
@@ -143,9 +209,7 @@ export default function Home() {
         </p>
       </main>
 
-      <footer className={styles.footer}>
-        <p>© ACM Cyber at UCLA 2022</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

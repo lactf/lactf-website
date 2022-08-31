@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #31221b;
+  background-color: #3a2420;
   color: white;
 }
 
@@ -23,4 +23,8 @@ a {
 h1,
 h2 {
   margin: 1rem 0;
+}
+
+img {
+  z-index: 1;
 }

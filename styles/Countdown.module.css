@@ -1,0 +1,48 @@
+.timerContainer {
+  width: 100%;
+  display: block;
+  margin: 3rem 0 5rem 3rem;
+  padding: 3rem;
+}
+
+ul.timer {
+  list-style: none;
+  display: inline;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 2rem;
+}
+
+ul.timer > li {
+  display: inline;
+  padding: 3rem;
+}
+
+.labelDays,
+.labelHours,
+.labelMinutes {
+  font-size: xx-large;
+  position: absolute;
+  display: inline;
+  padding-top: 5rem;
+}
+
+.labelDays {
+  padding-left: 1.5rem;
+}
+
+.labelHours {
+  padding-left: 1rem;
+}
+
+.days,
+.hours,
+.minutes {
+  background-color: grey;
+  padding: 2rem;
+  font-size: xx-large;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+}
