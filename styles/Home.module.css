@@ -92,6 +92,12 @@ a.mailto:hover {
   font-size: larger;
 }
 
+.footer {
+  padding: 3rem 0;
+  text-align: center;
+  background-color: #ffba44;
+}
+
 .contacts li > a:hover {
   color: #ffba44;
 }
