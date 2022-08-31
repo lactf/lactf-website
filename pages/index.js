@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { NextSeo } from "next-seo";
 
-import Countdown from "../components/Countdown";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
+import Countdown from "../components/Countdown";
 
 import CyberGM from "../public/images/cyberGM.png";
 import Discord from "../public/images/discord.png";
@@ -13,6 +14,7 @@ import LongLogo from "../public/images/LongLogoWaving.gif";
 import WavingFlag from "../public/images/TransparentWavingFlag.gif";
 
 import styles from "../styles/Home.module.css";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -146,6 +148,8 @@ export default function Home() {
         <p>
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
+
+        <Carousel />
 
         <h2 id="sponsors">
           <Image
