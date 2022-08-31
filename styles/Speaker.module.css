@@ -1,31 +1,56 @@
 div.main {
-  margin: 20px;
+  margin: 3rem 0 1rem 0;
   border-radius: 25px;
-  display: flex;
-  min-block-size: 350px;
-  justify-content: space-evenly;
-  align-items: center;
+  width: 90%;
+  height: 42vh;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #e9c681;
 }
 
-.main > div.image {
+.containerLeft {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 40%;
+  padding: 1.5rem;
+  padding-top: 2rem;
+}
+
+.containerRight {
+  display: block;
+  float: right;
+  height: 100%;
+  width: 60%;
+  padding: 1.5rem;
+}
+
+.main > .containerLeft > div.image {
   display: inline;
   float: left;
   overflow: hidden;
   border-radius: 50%;
-  margin: auto;
-  min-inline-size: 300px;
-  margin-left: 50px;
+  height: 300px;
+  width: 300px;
+  line-height: 300px;
 }
 
-.main > div.info h2 {
-  font-weight: 900;
+.main > .containerRight > div.info h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
-.main > div.info {
+.main > .containerRight > div.info h3 {
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.main > .containerRight > div.info {
   color: black;
-  margin-left: 50px;
-  margin-right: 30px;
   text-align: left;
-  display: inline;
 }

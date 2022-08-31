@@ -1,12 +1,9 @@
 import Image from "next/image";
 import { NextSeo } from "next-seo";
 
-import { useState } from "react";
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import Speaker from "../components/Speaker";
 import Countdown from "../components/Countdown";
 
 import CyberGM from "../public/images/cyberGM.png";
@@ -16,15 +13,10 @@ import Instagram from "../public/images/instagram.png";
 import LongLogo from "../public/images/LongLogoWaving.gif";
 import WavingFlag from "../public/images/TransparentWavingFlag.gif";
 
-import data from "../data/speakers.js";
-
 import styles from "../styles/Home.module.css";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
-  var speakers = data["speakers"];
-
-  const [index, setIndex] = useState(0);
-
   return (
     <div>
       <NextSeo
@@ -156,39 +148,8 @@ export default function Home() {
         <p>
           Here are some of the exciting speakers that will be attending LA CTF!
         </p>
-        <div className={styles.slideshow}>
-          <a
-            className={styles.prev}
-            onClick={() =>
-              setIndex((index + (speakers.length - 1)) % speakers.length)
-            }
-          >
-            &#10094;
-          </a>
-          <Speaker
-            name={speakers[index].name}
-            title={speakers[index].title}
-            info={speakers[index].info}
-            image={speakers[index].image}
-          />
-          <a
-            className={styles.next}
-            onClick={() => setIndex((index + 1) % speakers.length)}
-          >
-            &#10095;
-          </a>
-        </div>
 
-        <div className={styles.dots}>
-          <span
-            className={index == 0 ? styles.active : styles.dot}
-            onClick={() => setIndex(0)}
-          ></span>
-          <span
-            className={index == 1 ? styles.active : styles.dot}
-            onClick={() => setIndex(1)}
-          ></span>
-        </div>
+        <Carousel />
 
         <h2 id="sponsors">
           <Image

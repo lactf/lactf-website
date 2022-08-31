@@ -1,6 +1,8 @@
-import eggert from "../public/images/eggert.jpg";
+import nader from "../public/images/nader.jpeg";
 import nachenberg from "../public/images/nachenberg.jpg";
-var data = {
+import cybean from "../public/images/SmallLogo.png";
+
+let data = {
     "speakers": [
         {
             "name": "Carey Nachenberg",
@@ -9,10 +11,16 @@ var data = {
             "image": nachenberg
         },
         {
-            "name": "Paul Eggert",
-            "title": "UCLA Computer Science",
-            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-            "image": eggert
+            "name": "Dr. Nader Sehatbakhsh",
+            "title": "UCLA Electrical and Computer Engineering",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "image": nader
+        },
+        {
+            "name": "Cyber McCybean",
+            "title": "ACM Cyber at UCLA",
+            "info": "We are inviting many more speakers to come to LA CTF! Stay tuned for more information.",
+            "image": cybean
         }
     ]
 }
