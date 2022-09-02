@@ -1,7 +1,67 @@
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  .twoColumns {
+    margin-top: 3rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: [first] 50% [line2] 50% [end];
+    gap: 0;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    margin: 4rem 2% 0 2%;
+  }
+
+  .aboutContainer {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1232px) {
+  .main {
+    margin: 4rem 5% 0 5%;
+  }
+
+  .aboutContainer {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1232px) and (max-width: 1440px) {
+  .main {
+    margin: 4rem 10% 0 10%;
+  }
+
+  .aboutContainer {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  .main {
+    margin: 4rem 15% 0 15%;
+  }
+
+  .aboutContainer {
+    padding: 0 25%;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  /* Edge case for 4k monitors */
+}
+
+/* General */
+
 .main {
   min-height: 100vh;
   padding: 4rem 0 4rem 0;
-  margin: 4rem 20% 0 20%;
 }
 
 .main h1 {
@@ -46,17 +106,18 @@ a.mailto:hover {
   background-color: #e9c681;
   min-width: 100vw;
   min-height: 30vh;
-  padding: 0 25%;
   left: 0;
-  margin: 2rem calc(100vw - 35%) 2rem calc((100% - 100vw) / 2);
+  margin: 2rem calc(100vw - 5%) 2rem calc((100% - 100vw) / 2);
   display: flex;
 }
 
-.aboutPic {
-  min-width: 35vw;
-  padding: 0 1.5rem 0 3rem;
-  margin-top: 3.5rem;
-  object-fit: fill;
+.groupPic {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: auto;
 }
 
 .aboutText {
@@ -64,23 +125,15 @@ a.mailto:hover {
   padding: 1rem 3rem 2rem 1.5rem;
 }
 
-.twoColumns {
-  margin-top: 5rem;
-  display: flex;
-  gap: 8rem;
-}
-
-.prizes {
-  width: 50%;
-}
-
 .contacts {
-  width: 50%;
+  width: 100%;
+  padding-left: 10%;
 }
 
 .contacts li {
   display: inline-block;
   margin: 0.5rem;
+  width: 100%;
 }
 
 .contacts li > a {

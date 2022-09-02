@@ -1,8 +1,26 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .containerLeft {
+    width: 50%;
+  }
+  .containerRight {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .containerLeft {
+    width: 40%;
+  }
+  .containerRight {
+    width: 60%;
+  }
+}
+
 div.main {
   margin: 3rem 0 1rem 0;
   border-radius: 25px;
   width: 90%;
-  height: 42vh;
+  min-height: 42vh;
   margin-left: auto;
   margin-right: auto;
   background-color: #e9c681;
@@ -12,7 +30,6 @@ div.main {
   display: block;
   float: left;
   height: 100%;
-  width: 40%;
   padding: 1.5rem;
   padding-top: 2rem;
 }
@@ -21,7 +38,6 @@ div.main {
   display: block;
   float: right;
   height: 100%;
-  width: 60%;
   padding: 1.5rem;
 }
 
@@ -30,9 +46,10 @@ div.main {
   float: left;
   overflow: hidden;
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  line-height: 300px;
+  width: 80%;
+  height: 80%;
+  margin: 0 10%;
+  line-height: 60%;
 }
 
 .main > .containerRight > div.info h2 {
