@@ -43,18 +43,11 @@ export default function Home() {
           <Image src={LongLogo} alt="Pink LA CTF flag." />
         </div>
         <p className={styles.subheading}>
-          February, 10th 8:00 pm PST - February 12th 2:00 pm PST (42 hours)
+          February 10th, 2023 (8:00 pm PST) - February 12th, 2023 (2:00 pm PST)
         </p>
         <Countdown />
 
         <div className={styles.aboutContainer} id="about">
-          <div className={styles.aboutPic}>
-            <Image
-              src={CyberGM}
-              style={{ borderRadius: "8px" }}
-              alt="Cyber General Meeting."
-            />
-          </div>
           <div className={styles.aboutText}>
             <h2>About Us</h2>
             <p>
@@ -71,6 +64,20 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.prizes} id="prizes">
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
+          <span className={styles.headerText}>Prizes</span>
+          <p>
+            LA CTF will have prizes for both the beginner and open sections!
+            More information to come.
+          </p>
+        </div>
+
         <div className={styles.twoColumns}>
           <div className={styles.prizes} id="prizes">
             <Image
@@ -79,11 +86,56 @@ export default function Home() {
               height={60}
               alt="Waving pink LA CTF flag."
             />
-            <span className={styles.headerText}>Prizes</span>
+            <span className={styles.headerText}>Beginner Section</span>
             <p>
-              LA CTF will have prizes for both the beginner and open sections!
-              More information to come.
+              The Beginner Section will be composed of teams of at most four
+              students. The challenges are designed to be easier and provide
+              more learning opportunities for beginners to CTFs. While members
+              of the team can be from anywhere, only UCLA teams will be awarded
+              prizes for winning in the Beginner Section.
             </p>
+          </div>
+
+          <div className={styles.contacts} id="contact">
+            <Image
+              src={WavingFlag}
+              width={50}
+              height={60}
+              alt="Waving pink LA CTF flag."
+            />
+            <span className={styles.headerText}>Open Section</span>
+            <p>
+              The Open Section will be composed of teams with no size limit. The
+              challenges will range from intermediate to advanced difficulty.
+              All of the challenges made available for the Beginner Section will
+              be made available for the option section. Teams in the option
+              section may consist of members from anywhere.
+            </p>
+          </div>
+        </div>
+
+        <h2 id="speakers">
+          <Image
+            src={WavingFlag}
+            width={50}
+            height={60}
+            alt="Waving pink LA CTF flag."
+          />
+          <span className={styles.headerText}>Speakers</span>
+        </h2>
+        <p>
+          Here are some of the exciting speakers that will be attending LA CTF!
+        </p>
+
+        <Carousel />
+
+        <div className={styles.twoColumns}>
+          <div className={styles.groupPic}>
+            <Image
+              src={CyberGM}
+              style={{ borderRadius: "8px" }}
+              alt="Cyber General Meeting."
+            />
           </div>
 
           <div className={styles.contacts} id="contact">
@@ -135,21 +187,6 @@ export default function Home() {
             </ul>
           </div>
         </div>
-
-        <h2 id="speakers">
-          <Image
-            src={WavingFlag}
-            width={50}
-            height={60}
-            alt="Waving pink LA CTF flag."
-          />
-          <span className={styles.headerText}>Speakers</span>
-        </h2>
-        <p>
-          Here are some of the exciting speakers that will be attending LA CTF!
-        </p>
-
-        <Carousel />
 
         <h2 id="sponsors">
           <Image

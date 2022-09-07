@@ -8,6 +8,7 @@ body {
   background-color: #3a2420;
   color: white;
   scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
 }
 
 a {
