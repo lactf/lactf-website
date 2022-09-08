@@ -9,6 +9,14 @@ nav.navbar {
   z-index: 2;
 }
 
+.menutoggle {
+  display: none;
+}
+
+.menucontainer {
+  display: none;
+}
+
 .navbar > ul {
   list-style: none;
   display: inline;
@@ -48,4 +56,110 @@ button.discord:hover {
 
 .navbar > ul > li.discord:hover {
   color: white;
+}
+
+.menubutton,
+.menubutton::before,
+.menubutton::after {
+  display: block;
+  background-color: #fff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menubutton::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menubutton::after {
+  content: "";
+  margin-top: 8px;
+}
+
+.menutoggle:checked + .menucontainer .menubutton::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+.menutoggle:checked + .menucontainer .menubutton {
+  background: rgba(255, 255, 255, 0);
+}
+
+.menutoggle:checked + .menucontainer .menubutton::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media (max-width: 713px) {
+  nav.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .navbar > ul {
+    display: flex;
+    position: absolute;
+    flex-direction: column-reverse;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    align-items: center;
+    top: 49px;
+  }
+
+  .navbar > ul > li {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+
+  .navbar > ul > li > a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menucontainer {
+    display: flex;
+    height: 100%;
+    width: 30px;
+    margin: 1.5rem;
+    cursor: pointer;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar > ul > li:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .menutoggle ~ ul > li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .menutoggle ~ ul > li > a,
+  .menutoggle ~ ul > li > button {
+    display: none;
+  }
+
+  .menutoggle:checked ~ ul > li {
+    height: 5em;
+    padding: 1em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .menutoggle:checked ~ ul > li > a,
+  .menutoggle:checked ~ ul > li > button {
+    display: block;
+  }
 }
