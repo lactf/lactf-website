@@ -94,7 +94,7 @@ button.discord:hover {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 713px) {
+@media (max-width: 768px) {
   nav.navbar {
     display: flex;
     flex-direction: row-reverse;
