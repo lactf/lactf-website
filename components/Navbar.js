@@ -5,6 +5,14 @@ import styles from "../styles/Navbar.module.css";
 function Navbar() {
   return (
     <nav className={styles.navbar}>
+      <input
+        className={styles.menutoggle}
+        id="menu-toggle"
+        type="checkbox"
+      ></input>
+      <label className={styles.menucontainer} htmlFor="menu-toggle">
+        <div className={styles.menubutton}></div>
+      </label>
       <ul>
         <li>
           <button
