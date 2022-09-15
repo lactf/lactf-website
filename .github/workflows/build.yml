@@ -2,7 +2,7 @@ name: Run Build
 on:
   push:
     branches:
-      - 'main'
+      - "main"
   pull_request:
     types: [opened, reopened]
 
@@ -18,7 +18,7 @@ jobs:
       - name: Cache node_modules
         uses: actions/cache@v2
         with:
-          path: '**/node_modules'
+          path: "**/node_modules"
           key: ${{ runner.os }}-modules-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
