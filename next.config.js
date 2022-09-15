@@ -4,10 +4,10 @@ const debug = process.env.NODE_ENV !== "production";
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    loader: 'akamai',
-    path: '',
+    loader: "akamai",
+    path: "",
   },
-  assetPrefix: !debug ? 'https://lactf.uclaacm.com' : '',
-}
+  assetPrefix: !debug ? "https://lactf.uclaacm.com" : "",
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
