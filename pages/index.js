@@ -201,7 +201,7 @@ export default function Home() {
           LA CTF would not be possible without all of these amazing sponsors!
           Want your company to be a sponsor? Reach out to{" "}
           <a href="mailto:uclacyber@gmail.com" className={styles.mailto}>
-            uclacyber@gmail
+            uclacyber@gmail.com
           </a>
           .
         </p>
