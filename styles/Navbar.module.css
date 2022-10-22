@@ -100,6 +100,7 @@ button.discord:hover {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: right;
+    height: 48px;
   }
 
   .navbar > ul {
