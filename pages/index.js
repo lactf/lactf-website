@@ -44,7 +44,8 @@ export default function Home() {
             <Image src={LongLogo} alt="Pink LA CTF flag." />
           </div>
           <p className={styles.subheading}>
-            February 10th, 2023 (8:00 pm PST) - February 12th, 2023 (2:00 pm PST)
+            February 10th, 2023 (8:00 pm PST) - February 12th, 2023 (2:00 pm
+            PST)
           </p>
           <Countdown />
         </section>
@@ -64,7 +65,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        
+
         <section className={styles.main}>
           <div className={styles.prizes} id="prizes">
             <Image
@@ -93,8 +94,8 @@ export default function Home() {
                 The Beginner Section will be composed of teams of at most four
                 students. The challenges are designed to be easier and provide
                 more learning opportunities for beginners to CTFs. While members
-                of the team can be from anywhere, only UCLA teams will be awarded
-                prizes for winning in the Beginner Section.
+                of the team can be from anywhere, only UCLA teams will be
+                awarded prizes for winning in the Beginner Section.
               </p>
             </div>
 
@@ -107,11 +108,12 @@ export default function Home() {
               />
               <span className={styles.headerText}>Open Section</span>
               <p>
-                The Open Section will be composed of teams with no size limit. The
-                challenges will range from intermediate to advanced difficulty.
-                All of the challenges made available for the Beginner Section will
-                be made available for the option section. Teams in the option
-                section may consist of members from anywhere.
+                The Open Section will be composed of teams with no size limit.
+                The challenges will range from intermediate to advanced
+                difficulty. All of the challenges made available for the
+                Beginner Section will be made available for the option section.
+                Teams in the option section may consist of members from
+                anywhere.
               </p>
             </div>
           </div>
@@ -126,7 +128,8 @@ export default function Home() {
             <span className={styles.headerText}>Speakers</span>
           </h2>
           <p>
-            Here are some of the exciting speakers that will be attending LA CTF!
+            Here are some of the exciting speakers that will be attending LA
+            CTF!
           </p>
 
           <Carousel />
@@ -164,7 +167,12 @@ export default function Home() {
                   </a>
                 </li>
                 <li>
-                  <Image src={Email} height={50} width={50} alt="Email symbol." />
+                  <Image
+                    src={Email}
+                    height={50}
+                    width={50}
+                    alt="Email symbol."
+                  />
                   <a
                     href="mailto:uclacyber@gmail.com"
                     className={styles.contactsLink}
@@ -207,7 +215,6 @@ export default function Home() {
             </a>
           </p>
         </section>
-
       </main>
 
       <Footer />
