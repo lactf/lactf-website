@@ -60,7 +60,6 @@ export default function Home() {
           <div className={styles.aboutFlexContainer}>
             <div className={styles.aboutBlock}>
               <div className={styles.aboutImageContainer}>
-                <div className={styles.aboutSpacer}></div>
                 <Image className={styles.aboutImage} src={aboutHosts}></Image>
               </div>
               <h2>Hosts</h2>

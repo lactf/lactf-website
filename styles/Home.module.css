@@ -123,10 +123,6 @@ a.mailto:hover {
   max-width: 250px;
 }
 
-.aboutSpacer {
-  margin: auto;
-}
-
 .groupPic {
   width: 90%;
   height: 100%;
@@ -148,7 +144,17 @@ a.mailto:hover {
 
 .aboutImageContainer {
   width: 60%;
+  height: 40%;
   margin: 0 auto;
+}
+
+.aboutImage:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(0px 8px 5px #222);
+}
+
+.aboutImageContainer > span {
+  overflow: visible;
 }
 
 .contacts {
