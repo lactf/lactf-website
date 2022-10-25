@@ -132,7 +132,8 @@ a.mailto:hover {
   margin-bottom: auto;
 }
 
-.aboutContainer p, .aboutContainer h2 {
+.aboutContainer p,
+.aboutContainer h2 {
   color: black;
   text-align: center;
   margin: 0;
