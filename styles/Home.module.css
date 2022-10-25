@@ -49,7 +49,7 @@
   }
 
   .aboutContainer {
-    padding: 0 25%;
+    padding: 0 5%;
   }
 }
 
@@ -104,11 +104,23 @@ a.mailto:hover {
 
 .aboutContainer {
   background-color: #e9c681;
-  min-width: 100vw;
   min-height: 30vh;
-  left: 0;
-  margin: 2rem calc(100vw - 5%) 2rem calc((100% - 100vw) / 2);
+  padding: 2vh 2vw 3vh 2vw;
+}
+
+.aboutFlexContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutBlock {
+  flex-grow: 1;
+  margin: 1vh 1vw;
+  width: 250px;
+  max-width: 250px;
 }
 
 .groupPic {
@@ -120,9 +132,30 @@ a.mailto:hover {
   margin-bottom: auto;
 }
 
-.aboutText {
+.aboutContainer p,
+.aboutContainer h2 {
   color: black;
-  padding: 1rem 3rem 2rem 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutContainer h2 {
+  font-weight: bolder;
+}
+
+.aboutImageContainer {
+  width: 60%;
+  height: 40%;
+  margin: 0 auto;
+}
+
+.aboutImage:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px black);
+  filter: drop-shadow(0px 8px 5px #222);
+}
+
+.aboutImageContainer > span {
+  overflow: visible;
 }
 
 .contacts {
