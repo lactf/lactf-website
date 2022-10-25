@@ -49,7 +49,7 @@
   }
 
   .aboutContainer {
-    padding: 0 25%;
+    padding: 0 5%;
   }
 }
 
@@ -105,7 +105,26 @@ a.mailto:hover {
 .aboutContainer {
   background-color: #e9c681;
   min-height: 30vh;
-  display: relative;
+  padding: 1vh 2vw 3vh 2vw;
+}
+
+.aboutFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.aboutBlock {
+  flex-grow: 1;
+  margin: 1vh 1vw;
+  width: 250px;
+  max-width: 250px;
+}
+
+.aboutSpacer {
+  margin: auto;
 }
 
 .groupPic {
@@ -117,9 +136,19 @@ a.mailto:hover {
   margin-bottom: auto;
 }
 
-.aboutText {
+.aboutContainer p, .aboutContainer h2 {
   color: black;
-  padding: 1rem 3rem 2rem 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutContainer h2 {
+  font-weight: bolder;
+}
+
+.aboutImageContainer {
+  width: 60%;
+  margin: 0 auto;
 }
 
 .contacts {
