@@ -96,7 +96,7 @@ export default function Home() {
               </div>
               <h2>Levels</h2>
               <p>
-                LA CTF is open to all skill levels! No matter yhour experience,
+                LA CTF is open to all skill levels! No matter your experience,
                 there will be challenges just right for you!
               </p>
             </div>
