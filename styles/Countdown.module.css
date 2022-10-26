@@ -1,6 +1,6 @@
 .timerContainer {
   width: 100%;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   padding: 0 3rem;
   max-width: 1000px;
   box-sizing: border-box;
@@ -25,15 +25,20 @@ ul.timer > li {
   margin: 20px 20px;
 }
 
-.labelDays,
-.labelHours,
-.labelMinutes {
+.countdownLabel:before {
+  content: "";
+  margin-left: -100%;
+}
+.countdownLabel:after {
+  content: "";
+  margin-right: -100%;
+}
+
+.countdownLabel {
   font-size: xx-large;
 }
 
-.days,
-.hours,
-.minutes {
+.countdownNum {
   background-color: grey;
   padding: 2rem;
   margin: 0 auto;
@@ -48,21 +53,39 @@ ul.timer > li {
   flex-direction: column;
 }
 
+/* Put higher max widths first */
+
 @media (max-width: 1024px) {
-  .days,
-  .hours,
-  .minutes {
+  .countdownNum {
     padding: 1rem;
-    font-size: large;
+    font-size: x-large;
     border-radius: 1rem;
-    width: 30px;
-    height: 30px;
+    width: 65px;
+    height: 65px;
     box-sizing: content-box;
   }
 
-  .labelDays,
-  .labelHours,
-  .labelMinutes {
+  .countdownLabel {
+    font-size: x-large;
+  }
+
+  ul.timer > li {
+    width: 120px;
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .countdownNum {
+    padding: 1rem;
+    font-size: large;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
+  }
+
+  .countdownLabel {
     font-size: large;
   }
 
