@@ -14,23 +14,22 @@ const Countdown = () => {
     <div className={styles.timerContainer}>
       <ul className={styles.timer}>
         <li>
+          <p className={styles.days}>{Math.floor(time / 86400)}</p>
           <span className={styles.labelDays}>Days</span>
-          <span className={styles.days}>{Math.floor(time / 86400)}</span>
         </li>
         <li>
-          <span className={styles.labelHours}>Hours</span>
-          <span className={styles.hours}>
+          <p className={styles.hours}>
             {String(
               Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
             ).length < 2
               ? "0" +
                 Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
               : Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)}
-          </span>
+          </p>
+          <span className={styles.labelHours}>Hours</span>
         </li>
         <li>
-          <span className={styles.labelMinutes}>Minutes</span>
-          <span className={styles.minutes}>
+          <p className={styles.minutes}>
             {String(
               Math.floor(
                 Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
@@ -46,7 +45,8 @@ const Countdown = () => {
                   Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
                     60
                 )}
-          </span>
+          </p>
+          <span className={styles.labelMinutes}>Minutes</span>
         </li>
       </ul>
     </div>
