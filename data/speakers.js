@@ -8,10 +8,10 @@ import cybean from "../public/images/SmallLogo.png";
 let data = {
   speakers: [
     {
-        name: "John Hammond",
-        title: "Cybersecurity Researcher, Educator and Content Creator",
-        info: "John Hammond is a cybersecurity researcher, educator and content creator. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PNPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).",
-        image: hammond,
+      name: "John Hammond",
+      title: "Cybersecurity Researcher, Educator and Content Creator",
+      info: "John Hammond is a cybersecurity researcher, educator and content creator. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PNPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).",
+      image: hammond,
     },
     {
       name: "Carey Nachenberg",

@@ -149,8 +149,7 @@ export default function Home() {
                 The challenges will range from intermediate to advanced
                 difficulty. All of the challenges made available for the
                 Beginner Section will be made available for the Open section.
-                Teams in the Open section may consist of members from
-                anywhere.
+                Teams in the Open section may consist of members from anywhere.
               </p>
             </div>
           </div>
