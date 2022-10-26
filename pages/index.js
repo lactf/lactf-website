@@ -148,9 +148,8 @@ export default function Home() {
                 The Open Section will be composed of teams with no size limit.
                 The challenges will range from intermediate to advanced
                 difficulty. All of the challenges made available for the
-                Beginner Section will be made available for the option section.
-                Teams in the option section may consist of members from
-                anywhere.
+                Beginner Section will be made available for the Open section.
+                Teams in the Open section may consist of members from anywhere.
               </p>
             </div>
           </div>
