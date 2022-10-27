@@ -25,16 +25,16 @@ function Navbar() {
           </button>
         </li>
         <li>
-          <Link href="#contact">Contact</Link>
+          <Link href="/#contact">Contact</Link>
         </li>
         <li>
-          <Link href="#sponsors">Sponsors</Link>
+          <Link href="/#sponsors">Sponsors</Link>
         </li>
         <li>
-          <Link href="#speakers">Speakers</Link>
+          <Link href="/#speakers">Speakers</Link>
         </li>
         <li>
-          <Link href="#about">About</Link>
+          <Link href="/#about">About</Link>
         </li>
       </ul>
     </nav>
