@@ -1,49 +1,96 @@
 .timerContainer {
   width: 100%;
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 3rem;
-  padding: 3rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+  max-width: 1000px;
+  box-sizing: border-box;
 }
 
 ul.timer {
   list-style: none;
-  display: inline;
+  display: flex;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 200px;
+}
+
+ul.timer span {
+  display: block;
 }
 
 ul.timer > li {
-  display: inline;
-  padding: 3rem;
+  width: 220px;
+  margin: 20px 20px;
 }
 
-.labelDays,
-.labelHours,
-.labelMinutes {
+.countdownLabel:before {
+  content: "";
+  margin-left: -100%;
+}
+.countdownLabel:after {
+  content: "";
+  margin-right: -100%;
+}
+
+.countdownLabel {
   font-size: xx-large;
-  position: absolute;
-  display: inline;
-  padding-top: 5rem;
 }
 
-.labelDays {
-  padding-left: 0.9rem;
-}
-
-.labelHours {
-  padding-left: 0.25rem;
-}
-
-.days,
-.hours,
-.minutes {
+.countdownNum {
   background-color: grey;
   padding: 2rem;
+  margin: 0 auto;
   font-size: xx-large;
   border-radius: 1rem;
+  width: 50px;
+  height: 50px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+/* Put higher max widths first */
+
+@media (max-width: 1024px) {
+  .countdownNum {
+    padding: 1rem;
+    font-size: x-large;
+    border-radius: 1rem;
+    width: 65px;
+    height: 65px;
+    box-sizing: content-box;
+  }
+
+  .countdownLabel {
+    font-size: x-large;
+  }
+
+  ul.timer > li {
+    width: 120px;
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .countdownNum {
+    padding: 1rem;
+    font-size: large;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+    box-sizing: content-box;
+  }
+
+  .countdownLabel {
+    font-size: large;
+  }
+
+  ul.timer > li {
+    width: 80px;
+    margin: 10px 10px;
+  }
 }
