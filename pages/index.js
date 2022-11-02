@@ -104,7 +104,7 @@ export default function Home() {
         </section>
 
         <section className={styles.main}>
-          <div className={styles.prizes} id="prizes">
+          <div className={styles.waivingFlagBlock} id="prizes">
             <Image
               src={WavingFlag}
               width={50}
@@ -119,7 +119,7 @@ export default function Home() {
           </div>
 
           <div className={styles.twoColumns}>
-            <div className={styles.prizes} id="prizes">
+            <div className={styles.waivingFlagBlock}>
               <Image
                 src={WavingFlag}
                 width={50}
@@ -136,7 +136,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className={styles.contacts} id="contact">
+            <div className={styles.rightColumn}>
               <Image
                 src={WavingFlag}
                 width={50}
@@ -179,7 +179,7 @@ export default function Home() {
               />
             </div>
 
-            <div className={styles.contacts} id="contact">
+            <div className={styles.rightColumn} id="contact">
               <Image
                 src={WavingFlag}
                 width={50}
@@ -187,7 +187,7 @@ export default function Home() {
                 alt="Waving pink LA CTF flag."
               />
               <span className={styles.headerText}>Contacts</span>
-              <ul>
+              <ul className={styles.contacts}>
                 <li>
                   <Image
                     src={Discord}
