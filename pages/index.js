@@ -196,10 +196,10 @@ export default function Home() {
                     alt="Discord logo."
                   />
                   <a
-                    href="https://discord.gg/VEJf6gqdP5"
+                    href="/discord"
                     className={`${styles.contactsLink} ${styles.discord}`}
                   >
-                    discord.gg/VEJf6gqdP5
+                    lactf.uclaacm.com/discord
                   </a>
                 </li>
                 <li>
