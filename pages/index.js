@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link'
 import { NextSeo } from "next-seo";
 
 import Navbar from "../components/Navbar";
@@ -195,12 +196,11 @@ export default function Home() {
                     width={55}
                     alt="Discord logo."
                   />
-                  <a
+                  <Link
                     href="/discord"
-                    className={`${styles.contactsLink} ${styles.discord}`}
                   >
-                    lactf.uclaacm.com/discord
-                  </a>
+                    <a className={`${styles.contactsLink} ${styles.discord}`}>lactf.uclaacm.com/discord</a>
+                  </Link>
                 </li>
                 <li>
                   <Image
