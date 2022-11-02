@@ -1,0 +1,14 @@
+.redirect {
+  min-height: 80vh;
+  padding: 4rem 0 4rem 0;
+  margin: 4rem 20% 0 20%;
+  text-align: center;
+}
+
+.home a {
+  text-decoration: underline;
+}
+
+.home:hover a {
+  color: #ffba44;
+}
