@@ -16,9 +16,7 @@ function Navbar() {
       <ul>
         <li>
           <button
-            onClick={() =>
-              (window.location.href = "/discord")
-            }
+            onClick={() => (window.location.href = "/discord")}
             className={styles.discord}
           >
             <a href="/discord">Join Us</a>

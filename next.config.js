@@ -11,11 +11,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/discord',
-        destination: 'https://discord.gg/uZM6vxqHDq',
+        source: "/discord",
+        destination: "https://discord.gg/uZM6vxqHDq",
         permanent: false,
       },
-    ]
+    ];
   },
 };
 
