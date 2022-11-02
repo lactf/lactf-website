@@ -19,7 +19,9 @@ export default function Discord() {
           </Link>
         </p>
       </main>
-      <Script id="discord-redirect">window.location.href = "https://discord.gg/uZM6vxqHDq";</Script>
+      <Script id="discord-redirect">
+        {`window.location.href = "https://discord.gg/uZM6vxqHDq"`}
+      </Script>
       <Footer />
     </div>
   );

@@ -8,15 +8,6 @@ const nextConfig = {
     path: "",
   },
   assetPrefix: !debug ? "https://lactf.uclaacm.com" : "",
-  async redirects() {
-    return [
-      {
-        source: "/discord",
-        destination: "https://discord.gg/uZM6vxqHDq",
-        permanent: false,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
