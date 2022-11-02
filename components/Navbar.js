@@ -17,11 +17,11 @@ function Navbar() {
         <li>
           <button
             onClick={() =>
-              (window.location.href = "https://discord.gg/qD6vmsgECn")
+              (window.location.href = "/discord")
             }
             className={styles.discord}
           >
-            <a href="https://discord.gg/qD6vmsgECn">Join Us</a>
+            <a href="/discord">Join Us</a>
           </button>
         </li>
         <li>
