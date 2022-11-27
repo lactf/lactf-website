@@ -5,9 +5,10 @@ import styles from "../styles/Countdown.module.css";
 const Countdown = () => {
   let [time, setTime] = useState(0);
 
+  let updateTime = () => setTime(1676088000 - Date.now() / 1000);
   useEffect(() => {
-    if (time === 0) setTime(1676088000 - Date.now() / 1000);
-    setInterval(() => setTime(1676088000 - Date.now() / 1000), 5000);
+    if (time === 0) updateTime();
+    setInterval(updateTime, 5000);
   }, [time]);
 
   return (
@@ -19,32 +20,17 @@ const Countdown = () => {
         </li>
         <li>
           <p className={styles.countdownNum}>
-            {String(
-              Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
-            ).length < 2
-              ? "0" +
-                Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)
-              : Math.floor((time - 86400 * Math.floor(time / 86400)) / 3600)}
+            {Math.floor((time % 86400) / 3600)
+              .toString()
+              .padStart(2, "0")}
           </p>
           <span className={styles.countdownLabel}>Hours</span>
         </li>
         <li>
           <p className={styles.countdownNum}>
-            {String(
-              Math.floor(
-                Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
-                  60
-              )
-            ).length < 2
-              ? "0" +
-                Math.floor(
-                  Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
-                    60
-                )
-              : Math.floor(
-                  Math.floor((time - 86400 * Math.floor(time / 86400)) % 3600) /
-                    60
-                )}
+            {Math.floor(Math.floor((time % 86400) % 3600) / 60)
+              .toString()
+              .padStart(2, "0")}
           </p>
           <span className={styles.countdownLabel}>Minutes</span>
         </li>
