@@ -2,7 +2,7 @@ nav.navbar {
   position: fixed;
   display: inline;
   width: 100%;
-  background-color: transparent;
+  background-color: #39251fdd;
   color: white;
   top: 0;
   z-index: 2;
@@ -117,7 +117,7 @@ button.discord:hover {
     position: absolute;
     flex-direction: column-reverse;
     width: 100%;
-    background-color: black;
+    background-color: #39251fdd;
     margin: 0;
     align-items: center;
     top: 48px;

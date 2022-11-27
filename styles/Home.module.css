@@ -52,7 +52,7 @@
   text-align: center;
   font-size: 24pt;
   margin: 2rem 0 2rem 0;
-  z-index: 100;
+  z-index: 1;
 }
 
 .headerText {
