@@ -1,3 +1,5 @@
+/* === Hero === */
+
 .hero {
   min-height: 100vh;
   padding-top: 6rem;
@@ -50,7 +52,7 @@
 .subheading {
   position: relative;
   text-align: center;
-  font-size: 24pt;
+  font-size: x-large;
   margin: 2rem 0 2rem 0;
   z-index: 1;
 }
@@ -63,6 +65,31 @@
   font-size: xx-large;
   vertical-align: top;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mainInfoContainer {
+    max-width: 100%;
+    background-color: transparent;
+  }
+}
+
+@media (max-width: 600px) {
+  .subheading {
+    font-size: larger;
+  }
+}
+
+@media (max-width: 400px) {
+  .subheading {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 324px) {
+  .subheading {
+    font-size: smaller;
+  }
 }
 
 a.mailto {

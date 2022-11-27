@@ -12,7 +12,6 @@ ul.timer {
   width: 100%;
   text-align: center;
   justify-content: space-evenly;
-  min-height: 200px;
 }
 
 ul.timer span {
@@ -56,4 +55,18 @@ ul.timer > li {
   transform: translateY(0.8rem);
   font-size: xx-small;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .timerContainer {
+    padding: 0 1rem;
+  }
+
+  ul.timer > li {
+    margin: 0px;
+  }
+
+  .countdownArc {
+    stroke-width: 4;
+  }
 }
