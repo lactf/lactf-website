@@ -45,16 +45,18 @@ export default function Home() {
       />
       <Navbar />
       <main>
-        <section className={styles.main}>
-          <div className={styles.logoContainer}>
-            <Image src={LongLogo} alt="Pink LA CTF flag." />
+        <section className={styles.hero}>
+          <div className={styles.mainInfoContainer}>
+            <div className={styles.logoContainer}>
+              <Image src={LongLogo} alt="Pink LA CTF flag." />
+            </div>
+            <p className={styles.subheading}>
+              Feb 10, 8:00PM PST - Feb 12, 2:00PM PST
+            </p>
+            <Countdown />
           </div>
-          <p className={styles.subheading}>
-            February 10th, 2023 (8:00 pm PST) - February 12th, 2023 (2:00 pm
-            PST)
-          </p>
-          <Countdown />
         </section>
+
         <section className={styles.aboutContainer} id="about">
           <div className={styles.aboutFlexContainer}>
             <div className={styles.aboutBlock}>

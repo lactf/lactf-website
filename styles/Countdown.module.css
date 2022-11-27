@@ -12,7 +12,6 @@ ul.timer {
   width: 100%;
   text-align: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   min-height: 200px;
 }
 
@@ -22,75 +21,39 @@ ul.timer span {
 
 ul.timer > li {
   width: 220px;
-  margin: 20px 20px;
+  margin: 10px 10px;
 }
 
-.countdownLabel:before {
-  content: "";
-  margin-left: -100%;
-}
-.countdownLabel:after {
-  content: "";
-  margin-right: -100%;
+.countdownArc {
+  overflow: visible;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
 }
 
-.countdownLabel {
-  font-size: xx-large;
+.countdownArc path {
+  stroke: white;
+  transform-origin: center;
+  transform: rotate(-90deg);
 }
 
-.countdownNum {
-  background-color: grey;
-  padding: 2rem;
-  margin: 0 auto;
-  font-size: xx-large;
-  border-radius: 1rem;
-  width: 50px;
-  height: 50px;
-  box-sizing: content-box;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
+.countdownArc circle {
+  stroke: rgba(255, 255, 255, 20%);
 }
 
-/* Put higher max widths first */
-
-@media (max-width: 1024px) {
-  .countdownNum {
-    padding: 1rem;
-    font-size: x-large;
-    border-radius: 1rem;
-    width: 65px;
-    height: 65px;
-    box-sizing: content-box;
-  }
-
-  .countdownLabel {
-    font-size: x-large;
-  }
-
-  ul.timer > li {
-    width: 120px;
-    margin: 10px 10px;
-  }
+.countdownArc text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  fill: white;
 }
 
-@media (max-width: 600px) {
-  .countdownNum {
-    padding: 1rem;
-    font-size: large;
-    border-radius: 1rem;
-    width: 40px;
-    height: 40px;
-    box-sizing: content-box;
-  }
+.countdownArc text:first-of-type {
+  transform: translateY(-0.25rem);
+  font-size: x-large;
+}
 
-  .countdownLabel {
-    font-size: large;
-  }
-
-  ul.timer > li {
-    width: 80px;
-    margin: 10px 10px;
-  }
+.countdownArc text:last-of-type {
+  transform: translateY(0.8rem);
+  font-size: xx-small;
+  font-weight: 300;
 }

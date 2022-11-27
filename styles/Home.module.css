@@ -1,87 +1,58 @@
-/* Mobile Devices */
-@media screen and (max-width: 768px) {
-}
-
-@media screen and (min-width: 768px) {
-  .twoColumns {
-    margin-top: 3rem;
-    width: 100%;
-    display: grid;
-    grid-template-columns: [first] 50% [line2] 50% [end];
-    gap: 0;
-    margin-bottom: 3rem;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .main {
-    margin: 4rem 2% 0 2%;
-  }
-
-  .aboutContainer {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1232px) {
-  .main {
-    margin: 4rem 5% 0 5%;
-  }
-
-  .aboutContainer {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (min-width: 1232px) and (max-width: 1440px) {
-  .main {
-    margin: 4rem 10% 0 10%;
-  }
-
-  .aboutContainer {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (min-width: 1440px) and (max-width: 2560px) {
-  .main {
-    margin: 4rem 15% 0 15%;
-  }
-
-  .aboutContainer {
-    padding: 0 5%;
-  }
-}
-
-@media screen and (min-width: 2560px) {
-  /* Edge case for 4k monitors */
-}
-
-/* General */
-
-.main {
+.hero {
   min-height: 100vh;
-  padding: 4rem 0 4rem 0;
+  padding-top: 6rem;
+  display: flex;
+  justify-content: center;
+
+  background: bottom/contain no-repeat url("../public/images/mountains.svg"),
+    top/cover no-repeat url("../public/images/clouds.svg"),
+    linear-gradient(
+      #39251f 14.53122%,
+      #624422 33.75%,
+      #7e5a24 43.59375%,
+      #f4b42c 74.53125%,
+      #ffd99f 90%
+    );
 }
 
-.main h1 {
-  text-align: center;
-}
-
-.flag {
-  display: inline-block;
+.mainInfoContainer {
+  margin-top: 4rem;
+  max-width: 80%;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 30%);
+  border-radius: 2rem;
 }
 
 .logoContainer {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: -4%;
+  overflow: visible;
+}
+
+.logoContainer span {
+  overflow: visible !important;
+  overflow-y: hidden;
+}
+
+.mainInfoContainer img {
+  /* TODO(salma) REMOVE WHEN WE ACTUALLY HAVE THE TRANSPRENT GIF */
+  mask: url("../public/images/LogoMask.png");
+  mask-size: contain;
+  transform: scale(1.3);
+}
+
+.flag {
+  display: inline-block;
 }
 
 .subheading {
+  position: relative;
   text-align: center;
-  font-size: large;
-  margin: 2rem 0 3rem 0;
+  font-size: 24pt;
+  margin: 2rem 0 2rem 0;
+  z-index: 100;
 }
 
 .headerText {
