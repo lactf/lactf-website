@@ -5,7 +5,7 @@ import styles from "../styles/Countdown.module.css";
 const Countdown = () => {
   let [time, setTime] = useState(0);
 
-  let updateTime = () => setTime(1676088000 - Date.now() / 1000);
+  let updateTime = () => setTime(Math.max(1676088000 - Date.now() / 1000, 0));
   useEffect(() => {
     if (time === 0) updateTime();
     setInterval(updateTime, 5000);
@@ -42,6 +42,7 @@ const CountdownRing = ({ time, label, max }) => {
         <circle cx="50" cy="50" r={radius.toString()} />
         <path
           d={`M ${startX} ${startY} A ${radius} ${radius} 0 ${large} ${sweep} ${endX} ${endY}`}
+          visibility={angle == 0 ? "hidden" : "visible"}
         />
         <text x="50%" y="50%">
           {Math.floor(time).toString().padStart(2, "0")}
