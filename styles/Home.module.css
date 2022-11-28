@@ -6,7 +6,7 @@
   padding-top: 6rem;
   display: flex;
   justify-content: center;
-  z-index: 1;
+  z-index: 2;
 
   background: bottom/contain no-repeat url("../public/images/mountains.svg"),
     top/cover no-repeat url("../public/images/clouds.svg"),
@@ -92,6 +92,7 @@
 
 .about {
   position: relative;
+  z-index: 1;
   min-height: 100vh;
   background: 50% 10% / auto 200% no-repeat var(--ground-gradient);
 }
