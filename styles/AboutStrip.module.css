@@ -1,0 +1,61 @@
+.aboutFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px 2vw;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 60%);
+}
+
+.aboutBlock {
+  flex-grow: 1;
+  margin: 0px 1vw;
+  width: 250px;
+  max-width: 250px;
+}
+
+.aboutBlock p,
+.aboutBlock h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.aboutBlock h2 {
+  display: table;
+  margin: 0 auto 14px auto;
+  color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;
+  font-weight: 700;
+}
+
+.aboutBlock p {
+  color: white;
+  margin-bottom: 60px;
+}
+
+.aboutImageContainer {
+  width: 150px;
+  height: 150px;
+  margin: 60px auto 40px auto;
+  background: linear-gradient(#eac221, #c36d48);
+  border-radius: 20%;
+  transform: scale(0.70710678118) rotate(-45deg);
+}
+
+.aboutImageContainer:hover {
+  filter: drop-shadow(0px 8px 5px #39251f);
+}
+
+.aboutImageSmall {
+  transform: scale(0.85) rotate(45deg);
+}
+
+.aboutImageBig {
+  transform: scale(0.70710678118) rotate(45deg);
+}
+
+.aboutImageContainer > span {
+  overflow: visible;
+}

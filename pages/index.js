@@ -14,13 +14,9 @@ import Instagram from "../public/images/instagram.png";
 import LongLogo from "../public/images/LongLogoWaving.gif";
 import WavingFlag from "../public/images/TransparentWavingFlag.gif";
 
-import aboutEvents from "../public/images/aboutEvents.png";
-import aboutHosts from "../public/images/aboutHosts.png";
-import aboutSpeakers from "../public/images/aboutSpeakers.png";
-import aboutLevels from "../public/images/aboutLevels.png";
-
 import styles from "../styles/Home.module.css";
 import Carousel from "../components/Carousel";
+import AboutStrip from "../components/AboutStrip";
 
 export default function Home() {
   return (
@@ -57,56 +53,11 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.aboutContainer} id="about">
-          <div className={styles.aboutFlexContainer}>
-            <div className={styles.aboutBlock}>
-              <div className={styles.aboutImageContainer}>
-                <Image className={styles.aboutImage} src={aboutHosts}></Image>
-              </div>
-              <h2>Hosts</h2>
-              <p>
-                LA CTF is an annual cybersecurity competition hosted by ACM
-                Cyber at UCLA
-              </p>
-            </div>
-            <div className={styles.aboutBlock}>
-              <div className={styles.aboutImageContainer}>
-                <Image className={styles.aboutImage} src={aboutEvents}></Image>
-              </div>
-              <h2>Events</h2>
-              <p>
-                There will be a variety of events ranging from competitive
-                cybersecurity challenges to more relaxed events like typing
-                competitions
-              </p>
-            </div>
-            <div className={styles.aboutBlock}>
-              <div className={styles.aboutImageContainer}>
-                <Image
-                  className={styles.aboutImage}
-                  src={aboutSpeakers}
-                ></Image>
-              </div>
-              <h2>Speakers</h2>
-              <p>
-                Throughout the event, a variety of UCLA professors and
-                cybersecurity experts will be giving talks
-              </p>
-            </div>
-            <div className={styles.aboutBlock}>
-              <div className={styles.aboutImageContainer}>
-                <Image className={styles.aboutImage} src={aboutLevels}></Image>
-              </div>
-              <h2>Levels</h2>
-              <p>
-                LA CTF is open to all skill levels! No matter your experience,
-                there will be challenges just right for you!
-              </p>
-            </div>
-          </div>
+        <section className={styles.about} id="about">
+          <AboutStrip />
         </section>
 
-        <section className={styles.main}>
+        <section className={styles.speakers}>
           <div className={styles.waivingFlagBlock} id="prizes">
             <Image
               src={WavingFlag}

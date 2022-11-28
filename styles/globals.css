@@ -1,5 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
+:root {
+  --sky-gradient: linear-gradient(
+    #39251f 16.1458%,
+    #624422 37.5%,
+    #7e5a24 48.4375%,
+    #f4b42c 82.8125%,
+    #ffd99f 100%
+  );
+  --ground-gradient: linear-gradient(
+    #ecc61f 0%,
+    #dba130 17.1875%,
+    #7e5a24 51.5625%,
+    #624422 62.5%,
+    #39251f 83.8542%
+  );
+  --gold-gradient: linear-gradient(115deg, #f3d518, #c36d48 80%);
+}
+
 html,
 body {
   padding: 0;

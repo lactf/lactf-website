@@ -1,20 +1,16 @@
 /* === Hero === */
 
 .hero {
+  position: relative;
   min-height: 100vh;
   padding-top: 6rem;
   display: flex;
   justify-content: center;
+  z-index: 1;
 
   background: bottom/contain no-repeat url("../public/images/mountains.svg"),
     top/cover no-repeat url("../public/images/clouds.svg"),
-    linear-gradient(
-      #39251f 14.53122%,
-      #624422 33.75%,
-      #7e5a24 43.59375%,
-      #f4b42c 74.53125%,
-      #ffd99f 90%
-    );
+    top/auto 90% no-repeat var(--sky-gradient), #ffd99f;
 }
 
 .mainInfoContainer {
@@ -92,33 +88,45 @@
   }
 }
 
-a.mailto {
-  text-decoration: underline;
+/* === About === */
+
+.about {
+  position: relative;
+  min-height: 100vh;
+  background: 50% 10% / auto 200% no-repeat var(--ground-gradient);
 }
 
-a.mailto:hover {
-  color: #ffba44;
+.about::before {
+  content: "";
+  position: absolute;
+  overflow: visible;
+  width: 100vw;
+  height: 120%;
+  transform: translateY(-2.5%);
+  background: 100% 100% / auto 100% no-repeat
+    url("../public/images/road-top.svg");
 }
 
-.aboutContainer {
-  background-color: #e9c681;
-  min-height: 30vh;
-  padding: 2vh 2vw 3vh 2vw;
+.about > div:nth-child(1) {
+  position: relative;
+  z-index: 1;
 }
 
-.aboutFlexContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  max-width: 1200px;
-  margin: 0 auto;
+/* width at which point the about section becomes a single column */
+@media (max-width: 543px) {
+  .about::before {
+    background: none;
+  }
 }
 
-.aboutBlock {
-  flex-grow: 1;
-  margin: 1vh 1vw;
-  width: 250px;
-  max-width: 250px;
+/* === Speakers === */
+
+.speakers {
+}
+
+.rightColumn {
+  width: 100%;
+  padding-left: 10%;
 }
 
 .groupPic {
@@ -128,37 +136,6 @@ a.mailto:hover {
   margin-right: auto;
   margin-top: 5%;
   margin-bottom: auto;
-}
-
-.aboutContainer p,
-.aboutContainer h2 {
-  color: black;
-  text-align: center;
-  margin: 0;
-}
-
-.aboutContainer h2 {
-  font-weight: bolder;
-}
-
-.aboutImageContainer {
-  width: 60%;
-  height: 40%;
-  margin: 0 auto;
-}
-
-.aboutImage:hover {
-  -webkit-filter: drop-shadow(5px 5px 5px black);
-  filter: drop-shadow(0px 8px 5px #222);
-}
-
-.aboutImageContainer > span {
-  overflow: visible;
-}
-
-.rightColumn {
-  width: 100%;
-  padding-left: 10%;
 }
 
 .contacts li {
@@ -180,6 +157,14 @@ a.mailto:hover {
   padding: 3rem 0;
   text-align: center;
   background-color: #ffba44;
+}
+
+a.mailto {
+  text-decoration: underline;
+}
+
+a.mailto:hover {
+  color: #ffba44;
 }
 
 .contacts li > a:hover {
