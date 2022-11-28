@@ -13,6 +13,7 @@ import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
 import LongLogo from "../public/images/LongLogoWaving.gif";
 import WavingFlag from "../public/images/TransparentWavingFlag.gif";
+import BackgroundMasks from "../public/images/BackgroundMasks.svg.js";
 
 import styles from "../styles/Home.module.css";
 import Carousel from "../components/Carousel";
@@ -41,6 +42,8 @@ export default function Home() {
       />
       <Navbar />
       <main>
+        <BackgroundMasks />
+
         <section className={styles.hero}>
           <div className={styles.mainInfoContainer}>
             <div className={styles.logoContainer}>
@@ -53,11 +56,25 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.about} id="about">
-          <AboutStrip />
-        </section>
+        <div className={styles.aboutAndSpeakerBackgroundContainer}>
+          <section className={styles.about} id="about">
+            <AboutStrip />
+          </section>
 
-        <section className={styles.speakers}>
+          <section className={styles.speakers}>
+            <h2 id="speakers">
+              <span className={styles.headerText}>Speakers</span>
+            </h2>
+            <p>
+              Here are some of the exciting speakers that will be attending LA
+              CTF!
+            </p>
+
+            <Carousel />
+          </section>
+        </div>
+
+        <section>
           <div className={styles.waivingFlagBlock} id="prizes">
             <Image
               src={WavingFlag}
@@ -107,22 +124,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-
-          <h2 id="speakers">
-            <Image
-              src={WavingFlag}
-              width={50}
-              height={60}
-              alt="Waving pink LA CTF flag."
-            />
-            <span className={styles.headerText}>Speakers</span>
-          </h2>
-          <p>
-            Here are some of the exciting speakers that will be attending LA
-            CTF!
-          </p>
-
-          <Carousel />
 
           <div className={styles.twoColumns}>
             <div className={styles.groupPic}>

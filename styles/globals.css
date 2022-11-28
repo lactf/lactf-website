@@ -15,6 +15,15 @@
     #624422 62.5%,
     #39251f 83.8542%
   );
+  --sunrise-gradient: linear-gradient(
+    #39251f 0%,
+    #4d2f25 13.5417%,
+    #6f4030 25%,
+    #c26a49 63.5417%,
+    #cd823e 74.4792%,
+    #d38f38 78.6458%,
+    #f2d219 100%
+  );
   --gold-gradient: linear-gradient(115deg, #f3d518, #c36d48 80%);
 }
 

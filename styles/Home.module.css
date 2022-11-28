@@ -90,19 +90,24 @@
 
 /* === About === */
 
+.aboutAndSpeakerBackgroundContainer {
+  /* https://www.w3.org/TR/CSS2/colors.html#propdef-background-position */
+  background: 50% 208% / auto 104% no-repeat var(--ground-gradient);
+}
+
 .about {
   position: relative;
   z-index: 1;
-  min-height: 100vh;
-  background: 50% 10% / auto 200% no-repeat var(--ground-gradient);
+  min-height: 130vh;
 }
 
 .about::before {
   content: "";
   position: absolute;
   overflow: visible;
+  pointer-events: none;
   width: 100vw;
-  height: 120%;
+  height: 130%;
   transform: translateY(-2.5%);
   background: 100% 100% / auto 100% no-repeat
     url("../public/images/road-top.svg");
@@ -123,6 +128,14 @@
 /* === Speakers === */
 
 .speakers {
+  position: relative;
+  min-height: 140vh;
+  margin: 0;
+  padding: 20vh 0vh;
+  background: 50% 42.75%/100% 61.5% no-repeat var(--sunrise-gradient),
+    50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
+    50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
+  clip-path: url(#speakers);
 }
 
 .rightColumn {
