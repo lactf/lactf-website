@@ -1,4 +1,4 @@
-# LA CTF Website
+# 🚩 LA CTF Website
 
 ![](https://user-images.githubusercontent.com/67720812/199395061-226a6a48-a16d-43e7-a05c-8bb15db4403c.gif)
 
