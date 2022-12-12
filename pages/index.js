@@ -61,7 +61,7 @@ export default function Home() {
             <AboutStrip />
           </section>
 
-          <section className={styles.speakers}>
+          <section className={`${styles.speakers} ${styles.wavySection}`}>
             <h2 id="speakers">
               <span className={styles.headerText}>Speakers</span>
             </h2>

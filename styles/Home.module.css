@@ -1,3 +1,23 @@
+/* === Global === */
+
+.headerText {
+  display: table;
+  margin: 0.5rem auto 1.5rem auto;
+  color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.subheading {
+  position: relative;
+  text-align: center;
+  font-size: x-large;
+  margin: 2rem 0 2rem 0;
+  z-index: 1;
+}
+
 /* === Hero === */
 
 .hero {
@@ -43,24 +63,6 @@
 
 .flag {
   display: inline-block;
-}
-
-.subheading {
-  position: relative;
-  text-align: center;
-  font-size: x-large;
-  margin: 2rem 0 2rem 0;
-  z-index: 1;
-}
-
-.headerText {
-  display: inline-block;
-  margin-left: 1rem;
-  margin-bottom: 1.5rem;
-  padding-top: 0.5rem;
-  font-size: xx-large;
-  vertical-align: top;
-  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -123,6 +125,15 @@
   .about::before {
     background: none;
   }
+
+  .aboutAndSpeakerBackgroundContainer {
+    /* background: 50% 220% / auto 131% no-repeat var(--ground-gradient); */
+    background: 50% 500% / auto 111% no-repeat var(--ground-gradient);
+  }
+
+  .about > div {
+    background: none;
+  }
 }
 
 /* === Speakers === */
@@ -131,11 +142,33 @@
   position: relative;
   min-height: 140vh;
   margin: 0;
-  padding: 20vh 0vh;
+  padding: 20vh 0px 40vh 0px;
   background: 50% 42.75%/100% 61.5% no-repeat var(--sunrise-gradient),
     50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
     50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
   clip-path: url(#speakers);
+  text-align: center;
+}
+
+.speakers > p {
+  padding: 0 10vw;
+  font-size: medium;
+  font-weight: 400;
+}
+
+/* width at which point the about section becomes a single column */
+@media (max-width: 543px) {
+  .speakers {
+    background: 50% 42.75%/100% 61.5% no-repeat var(--sunrise-gradient-small),
+      50% 0%/100% 50% no-repeat linear-gradient(#4d351b 0%, #4d351b 100%),
+      50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .speakers > p {
+    display: none;
+  }
 }
 
 .rightColumn {
@@ -192,4 +225,17 @@ a.mailto:hover {
 .discord {
   display: block;
   margin-left: -0.25rem;
+}
+
+/* === Wavy Sections === */
+/* declared at bottom so that we don't have to use !important */
+
+@media (max-width: 768px) {
+  .wavySection {
+    --left: 0;
+    margin-left: calc((768px - 50vw) * -0.5 * var(--left));
+    margin-right: calc((768px - 50vw) * -0.5 * (1 - var(--left)));
+    padding-left: calc((768px - 50vw) * 0.5 * var(--left));
+    padding-right: calc((768px - 50vw) * 0.5 * (1 - var(--left)));
+  }
 }
