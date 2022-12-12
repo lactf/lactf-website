@@ -8,7 +8,7 @@ export default function Speaker(props) {
     <div className={styles.main}>
       <div className={styles.containerLeft}>
         <div className={styles.image}>
-          <Image src={props.image} alt={props.name} />
+          <Image src={props.image} alt="A cool LA CTF speaker" />
         </div>
       </div>
       <div className={styles.containerRight}>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { NextSeo } from "next-seo";
-import { Link } from "next/link";
+import Link from "next/link";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -103,7 +103,7 @@ export default function Home() {
           </h2>
           <ul>
             <li>
-              <Link
+              <a
                 href="/discord"
                 className={`${styles.contactsLink} ${styles.discord}`}
               >
@@ -114,10 +114,10 @@ export default function Home() {
                   alt="Discord logo."
                 />
                 <span>lactf.uclaacm.com/discord</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 href="mailto:uclacyber@gmail.com"
                 className={styles.contactsLink}
               >
@@ -128,10 +128,10 @@ export default function Home() {
                   alt="Email symbol."
                 />
                 <span>uclacyber@gmail.com</span>
-              </Link>
+              </a>
             </li>
             <li>
-              <Link
+              <a
                 href="https://www.instagram.com/uclacyber"
                 className={styles.contactsLink}
               >
@@ -142,7 +142,7 @@ export default function Home() {
                   alt="Instagram logo."
                 />
                 <span>@uclacyber</span>
-              </Link>
+              </a>
             </li>
           </ul>
         </section>
