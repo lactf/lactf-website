@@ -10,6 +10,13 @@
   font-weight: 700;
 }
 
+.headerDesc {
+  padding: 0 10vw;
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+}
+
 .subheading {
   position: relative;
   text-align: center;
@@ -34,6 +41,14 @@
   .subheading {
     font-size: smaller;
   }
+}
+
+a.mailto {
+  text-decoration: underline;
+}
+
+a.mailto:hover {
+  color: #f44d8a;
 }
 
 /* === Hero === */
@@ -93,6 +108,8 @@
 /* === About === */
 
 .aboutAndSpeakerBackgroundContainer {
+  position: relative;
+  z-index: 1;
   /* https://www.w3.org/TR/CSS2/colors.html#propdef-background-position */
   background: 50% 208% / auto 104% no-repeat var(--ground-gradient);
 }
@@ -147,13 +164,6 @@
     50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
     50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
   clip-path: url(#speakersClipPath);
-  text-align: center;
-}
-
-.speakers > p {
-  padding: 0 10vw;
-  font-size: medium;
-  font-weight: 400;
 }
 
 /* width at which point the about section becomes a single column */
@@ -169,6 +179,46 @@
   .speakers > p {
     display: none;
   }
+}
+
+/* === Prizes === */
+
+.prizes {
+  position: relative;
+  min-height: 140vh;
+  margin: -20vh 0px 0px 0px;
+  padding: 20vh 0px 40vh 0px;
+  background: 50% 100%/100% 110% no-repeat var(--sky-gradient),
+    50% 100%/100% 50% no-repeat linear-gradient(#ffd99f 0%, #ffd99f 100%);
+}
+
+/* === Sponsors === */
+
+.sponsors::before {
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: 2;
+  width: 100vw;
+  height: 200vh; /* this can cause the road to clip, but only at exotic aspect ratios */
+  transform: translateY(calc(-50% - var(--car-offset)));
+  background: 50% 50% / 140% auto no-repeat
+    url("../public/images/road-bottom.svg");
+  pointer-events: none;
+}
+
+.sponsors {
+  --car-height: calc(100vw / 1.4 * 550 / 1440);
+  --car-offset: calc(var(--car-height) * 0.8);
+  position: relative;
+  z-index: 1;
+  min-height: calc(var(--car-offset) + 120vh);
+  margin: 0px;
+  padding: var(--car-offset) 0px 40vh 0px;
+  background: 50% 80%/100% 60% no-repeat var(--sunrise-gradient),
+    50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
+    50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
+  clip-path: url(#sponsorsClipPath);
 }
 
 .rightColumn {
@@ -204,14 +254,6 @@
   padding: 3rem 0;
   text-align: center;
   background-color: #ffba44;
-}
-
-a.mailto {
-  text-decoration: underline;
-}
-
-a.mailto:hover {
-  color: #ffba44;
 }
 
 .contacts li > a:hover {

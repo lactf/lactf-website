@@ -65,7 +65,7 @@ export default function Home() {
             <h2 id="speakers">
               <span className={styles.headerText}>Speakers</span>
             </h2>
-            <p>
+            <p className={styles.headerDesc}>
               Here are some of the exciting speakers that will be attending LA
               CTF!
             </p>
@@ -74,66 +74,32 @@ export default function Home() {
           </section>
         </div>
 
-        <section>
-          <div className={styles.waivingFlagBlock} id="prizes">
-            <Image
-              src={WavingFlag}
-              width={50}
-              height={60}
-              alt="Waving pink LA CTF flag."
-            />
+        <section className={`${styles.prizes} ${styles.wavySection}`}>
+          <h2 id="prizes">
             <span className={styles.headerText}>Prizes</span>
-            <p>
-              LA CTF will have prizes for both the beginner and open sections!
-              More information to come.
-            </p>
-          </div>
+          </h2>
+          <p className={styles.headerDesc}>
+            LA CTF will have prizes for both the beginner and open sections!
+            More information to come.
+          </p>
+        </section>
 
-          <div className={styles.twoColumns}>
-            <div className={styles.waivingFlagBlock}>
-              <Image
-                src={WavingFlag}
-                width={50}
-                height={60}
-                alt="Waving pink LA CTF flag."
-              />
-              <span className={styles.headerText}>Beginner Section</span>
-              <p>
-                The Beginner Section will be composed of teams of at most four
-                students. The challenges are designed to be easier and provide
-                more learning opportunities for beginners to CTFs. While members
-                of the team can be from anywhere, only UCLA teams will be
-                awarded prizes for winning in the Beginner Section.
-              </p>
-            </div>
+        <section className={`${styles.sponsors} ${styles.wavySection}`}>
+          <h2 id="sponsors">
+            <span className={styles.headerText}>Sponsors</span>
+          </h2>
+          <p className={styles.headerDesc}>
+            LA CTF would not be possible without all of these amazing sponsors!
+            Want your company to be a sponsor? Reach out to{" "}
+            <a href="mailto:uclacyber@gmail.com" className={styles.mailto}>
+              uclacyber@gmail.com
+            </a>
+            !
+          </p>
+        </section>
 
-            <div className={styles.rightColumn}>
-              <Image
-                src={WavingFlag}
-                width={50}
-                height={60}
-                alt="Waving pink LA CTF flag."
-              />
-              <span className={styles.headerText}>Open Section</span>
-              <p>
-                The Open Section will be composed of teams with no size limit.
-                The challenges will range from intermediate to advanced
-                difficulty. All of the challenges made available for the
-                Beginner Section will be made available for the Open section.
-                Teams in the Open section may consist of members from anywhere.
-              </p>
-            </div>
-          </div>
-
-          <div className={styles.twoColumns}>
-            <div className={styles.groupPic}>
-              <Image
-                src={CyberGM}
-                style={{ borderRadius: "8px" }}
-                alt="Cyber General Meeting."
-              />
-            </div>
-
+        <section>
+          <div>
             <div className={styles.rightColumn} id="contact">
               <Image
                 src={WavingFlag}
@@ -187,23 +153,6 @@ export default function Home() {
               </ul>
             </div>
           </div>
-
-          <h2 id="sponsors">
-            <Image
-              src={WavingFlag}
-              width={50}
-              height={60}
-              alt="Waving pink LA CTF flag."
-            />
-            <span className={styles.headerText}>Sponsors</span>
-          </h2>
-          <p>
-            LA CTF would not be possible without all of these amazing sponsors!
-            Want your company to be a sponsor? Reach out to{" "}
-            <a href="mailto:uclacyber@gmail.com" className={styles.mailto}>
-              uclacyber@gmail.com
-            </a>
-          </p>
         </section>
       </main>
 

@@ -13,7 +13,9 @@
     #dba130 17.1875%,
     #7e5a24 51.5625%,
     #624422 62.5%,
-    #39251f 83.8542%
+    #39251f 83.8542%,
+    transparent 90%,
+    transparent 100%
   );
   --sunrise-gradient: linear-gradient(
     #39251f 0%,
@@ -47,6 +49,10 @@ body {
   color: white;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
+}
+
+main {
+  isolation: isolate;
 }
 
 a {
