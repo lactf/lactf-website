@@ -99,10 +99,12 @@ div.main {
 /* using max-width 1024 causes weird behavior at exactly 1024px ??? */
 @media (max-width: 1023px) {
   .containerLeft {
+    width: 100%;
     padding: 2.5rem 1.5rem 0rem 1.5rem;
   }
 
   .containerRight {
+    width: 100%;
     padding: 1.5rem;
   }
 
