@@ -78,7 +78,7 @@ a.mailto:hover {
 }
 
 .mainInfoContainer {
-  margin-top: 4rem;
+  margin: 0rem auto 8rem auto;
   max-width: 80%;
   height: fit-content;
   background-color: rgba(0, 0, 0, 30%);
@@ -107,6 +107,16 @@ a.mailto:hover {
 
 .flag {
   display: inline-block;
+}
+
+@media (max-width: 840px) {
+  .hero {
+    padding-top: 4rem;
+  }
+
+  .mainInfoContainer {
+    margin-top: 0rem;
+  }
 }
 
 @media (max-width: 768px) {
