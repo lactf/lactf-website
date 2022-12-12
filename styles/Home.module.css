@@ -1,5 +1,15 @@
 /* === Global === */
 
+main.root {
+  --mountain-mode: contain;
+}
+
+@media (min-aspect-ratio: 1440/514) {
+  main.root {
+    --mountain-mode: cover;
+  }
+}
+
 .headerText {
   display: table;
   margin: 0.5rem auto 1.5rem auto;
@@ -61,7 +71,8 @@ a.mailto:hover {
   justify-content: center;
   z-index: 2;
 
-  background: bottom/contain no-repeat url("../public/images/mountains.svg"),
+  background: bottom/var(--mountain-mode) no-repeat
+      url("../public/images/mountains.svg"),
     top/cover no-repeat url("../public/images/clouds.svg"),
     top/auto 90% no-repeat var(--sky-gradient), #ffd99f;
 }
@@ -221,43 +232,47 @@ a.mailto:hover {
   clip-path: url(#sponsorsClipPath);
 }
 
-.rightColumn {
-  width: 100%;
-  padding-left: 10%;
+/* === Contacts & Footer === */
+
+.contacts {
+  position: relative;
+  z-index: 0;
+  min-height: 120vh;
+  margin: -40vh 0px 0px 0px;
+  padding: 40vh 0px 40vh 0px;
+  background: bottom/var(--mountain-mode) no-repeat
+      url("../public/images/mountains.svg"),
+    top/cover no-repeat url("../public/images/clouds.svg"),
+    50% 80% / auto 110% no-repeat var(--sky-gradient), #ffd99f;
 }
 
-.groupPic {
-  width: 90%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  margin-bottom: auto;
-}
-
-.contacts li {
-  display: inline-block;
-  margin: 0.5rem;
-  width: 100%;
+.contacts ul {
+  margin: 50px auto 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 60px;
+  list-style: none;
 }
 
 .contacts li > a {
   padding-bottom: 1rem;
-  text-decoration: underline;
-  vertical-align: top;
+  text-decoration: none;
+  vertical-align: middle;
   padding-top: 0.75rem;
   display: inline-block;
   font-size: larger;
-}
-
-.footer {
-  padding: 3rem 0;
-  text-align: center;
-  background-color: #ffba44;
+  transition: filter ease-in 0.2s;
 }
 
 .contacts li > a:hover {
-  color: #ffba44;
+  text-decoration: underline;
+  filter: brightness(300%);
+}
+
+.contacts li > a > span:last-of-type {
+  margin-left: 1rem;
+  vertical-align: middle;
 }
 
 .contactsLink {
@@ -267,6 +282,28 @@ a.mailto:hover {
 .discord {
   display: block;
   margin-left: -0.25rem;
+}
+
+@media (max-width: 1024px) {
+  .contacts ul {
+    flex-direction: column;
+  }
+
+  .contacts li {
+    margin: auto;
+  }
+}
+
+@media (max-width: 384px) {
+  .contacts ul {
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  .contacts li > a > span:last-of-type {
+    visibility: hidden;
+    display: none;
+  }
 }
 
 /* === Wavy Sections === */

@@ -1,8 +1,13 @@
 /* Footer Styles */
 
 .footer {
-  padding: 3rem 0;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  margin: -3rem auto 0 auto;
+  padding: 0rem 0 1rem 0;
   text-align: center;
-  background-color: #e9c681;
-  color: black;
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
 }
