@@ -74,7 +74,7 @@ a.mailto:hover {
   background: bottom/var(--mountain-mode) no-repeat
       url("../public/images/mountains.svg"),
     top/cover no-repeat url("../public/images/clouds.svg"),
-    top/auto 90% no-repeat var(--sky-gradient), #ffd99f;
+    top/100% 90% no-repeat var(--sky-gradient), #ffd99f;
 }
 
 .mainInfoContainer {
@@ -122,7 +122,7 @@ a.mailto:hover {
   position: relative;
   z-index: 1;
   /* https://www.w3.org/TR/CSS2/colors.html#propdef-background-position */
-  background: 50% 208% / auto 104% no-repeat var(--ground-gradient);
+  background: 50% 208% / 100% 104% no-repeat var(--ground-gradient);
 }
 
 .about {
@@ -230,6 +230,7 @@ a.mailto:hover {
     50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
     50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
   clip-path: url(#sponsorsClipPath);
+  overflow-y: visible;
 }
 
 /* === Contacts & Footer === */

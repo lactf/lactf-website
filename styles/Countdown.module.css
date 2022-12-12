@@ -32,8 +32,6 @@ ul.timer > li {
 
 .countdownArc path {
   stroke: white;
-  transform-origin: center;
-  transform: rotate(-90deg);
 }
 
 .countdownArc circle {
@@ -47,12 +45,12 @@ ul.timer > li {
 }
 
 .countdownArc text:first-of-type {
-  transform: translateY(-0.25rem);
+  transform: translateY(-0.17em);
   font-size: x-large;
 }
 
 .countdownArc text:last-of-type {
-  transform: translateY(0.8rem);
+  transform: translateY(1.41em);
   font-size: xx-small;
   font-weight: 300;
 }

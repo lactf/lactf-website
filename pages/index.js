@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
@@ -19,6 +20,32 @@ import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 
 export default function Home() {
+  // there's a really weird bug in Safari where clip paths
+  // won't show on first load so we force a CSS reflow here
+  useEffect(() => {
+    let reflowDone = false;
+    let observer = new IntersectionObserver(
+      (entries) =>
+        entries.forEach((entry) => {
+          if (entry.intersectionRatio >= 0.01) {
+            if (!reflowDone) {
+              entry.target.style.display = "none";
+              entry.target.offsetHeight;
+              entry.target.style.display = "";
+              reflowDone = true;
+            }
+          }
+        }),
+      {
+        root: null,
+        rootMargin: "0px",
+        threshold: [0, 0.01],
+      }
+    );
+    observer.observe(document.querySelector("." + styles.speakers));
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div>
       <NextSeo

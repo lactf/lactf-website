@@ -32,10 +32,10 @@ const CountdownRing = ({ time, label, max }) => {
   const angle = (time / max) * 2 * Math.PI;
   const large = angle > Math.PI ? 1 : 0;
   const sweep = angle > 0 ? 1 : 0;
-  const startX = offset + radius * 2;
-  const startY = offset + radius;
-  const endX = offset + radius * (Math.cos(angle) + 1);
-  const endY = offset + radius * (Math.sin(angle) + 1);
+  const startX = offset + radius;
+  const startY = offset;
+  const endX = offset + radius * (Math.cos(angle - Math.PI / 2) + 1);
+  const endY = offset + radius * (Math.sin(angle - Math.PI / 2) + 1);
   return (
     <li>
       <svg viewBox="0,0,100,100" className={styles.countdownArc}>
