@@ -44,6 +44,7 @@ const AboutCard = ({ icon, big, title, desc }) => {
           className={big ? styles.aboutImageBig : styles.aboutImageSmall}
           src={icon}
           layout="fill"
+          alt="About icon showing details about LA CTF."
         ></Image>
       </div>
       <h2>{title}</h2>

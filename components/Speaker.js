@@ -8,7 +8,7 @@ export default function Speaker(props) {
     <div className={styles.main}>
       <div className={styles.containerLeft}>
         <div className={styles.image}>
-          <Image src={props.image} />
+          <Image src={props.image} alt={props.name} />
         </div>
       </div>
       <div className={styles.containerRight}>
