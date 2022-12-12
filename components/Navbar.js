@@ -29,6 +29,9 @@ function Navbar() {
           <Link href="/#sponsors">Sponsors</Link>
         </li>
         <li>
+          <Link href="/#prizes">Prizes</Link>
+        </li>
+        <li>
           <Link href="/#speakers">Speakers</Link>
         </li>
         <li>

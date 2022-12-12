@@ -1,12 +1,11 @@
 nav.navbar {
   position: fixed;
-  width: 100%;
   display: inline;
-  background-color: #e9c681;
-  border-bottom: 1px solid black;
-  color: black;
+  width: 100%;
+  background-color: #39251fdd;
+  color: white;
   top: 0;
-  z-index: 2;
+  z-index: 100;
 }
 
 .menutoggle {
@@ -20,14 +19,14 @@ nav.navbar {
 .navbar > ul {
   list-style: none;
   display: inline;
-  padding: 0;
+  padding-right: 1rem;
 }
 
 .navbar > ul > li {
   display: inline;
   float: right;
   padding: 1rem;
-  font-size: larger;
+  font-size: large;
 }
 
 .navbar > ul > li > a {
@@ -36,22 +35,32 @@ nav.navbar {
 }
 
 .navbar > ul > li:hover {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
+.navbar > ul > li:first-child:hover {
+  text-decoration: none;
+}
+
 button.discord {
-  background-color: #f44d8a;
-  color: white;
-  border: none;
-  padding: 1.25rem;
-  border-radius: 1rem;
+  color: #f44d8a;
+  background-color: transparent;
+  border: 2px #f44d8a solid;
+  border-radius: 0.75rem;
+  margin: calc(0.5rem - 1px) calc(1rem - 1px);
+  padding: calc(0.5rem - 1px) calc(1.5rem - 1px);
+  margin-right: calc(1rem - 1px);
   font-size: large;
+  font-weight: bold;
+  font-family: inherit;
+  transition: all 0.2s ease;
 }
 
 button.discord:hover {
-  background-color: #f44384;
-  box-shadow: inset 0 0 0 0.2rem #d22c69;
+  color: #fff;
+  background-color: #f44d8a;
+  cursor: pointer;
 }
 
 .navbar > ul > li.discord:hover {
@@ -62,7 +71,7 @@ button.discord:hover {
 .menubutton::before,
 .menubutton::after {
   display: block;
-  background-color: #fff;
+  background-color: #f44d8a;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -94,12 +103,12 @@ button.discord:hover {
   transform: rotate(-405deg);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   nav.navbar {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     height: 48px;
   }
 
@@ -108,10 +117,10 @@ button.discord:hover {
     position: absolute;
     flex-direction: column-reverse;
     width: 100%;
-    background-color: black;
+    background-color: #39251fdd;
     margin: 0;
     align-items: center;
-    top: 49px;
+    top: 48px;
   }
 
   .navbar > ul > li {
@@ -129,7 +138,7 @@ button.discord:hover {
     display: flex;
     height: 100%;
     width: 30px;
-    margin: 1.5rem;
+    margin: 1rem;
     cursor: pointer;
     flex-direction: column-reverse;
     justify-content: center;
@@ -162,5 +171,13 @@ button.discord:hover {
   .menutoggle:checked ~ ul > li > a,
   .menutoggle:checked ~ ul > li > button {
     display: block;
+  }
+
+  button.discord {
+    border: none;
+  }
+
+  button.discord:hover {
+    background-color: transparent;
   }
 }

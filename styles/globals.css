@@ -1,14 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+:root {
+  --sky-gradient: linear-gradient(
+    #39251f 16.1458%,
+    #624422 37.5%,
+    #7e5a24 48.4375%,
+    #f4b42c 82.8125%,
+    #ffd99f 100%
+  );
+  --ground-gradient: linear-gradient(
+    #ecc61f 0%,
+    #dba130 17.1875%,
+    #7e5a24 51.5625%,
+    #624422 62.5%,
+    #39251f 83.8542%,
+    transparent 90%,
+    transparent 100%
+  );
+  --sunrise-gradient: linear-gradient(
+    #39251f 0%,
+    #4d2f25 13.5417%,
+    #6f4030 25%,
+    #c26a49 63.5417%,
+    #cd823e 74.4792%,
+    #d38f38 78.6458%,
+    #f2d219 100%
+  );
+  --sunrise-gradient-small: linear-gradient(
+    #4d351b 0%,
+    #63411c 13.5417%,
+    #72402e 25%,
+    #c26a49 63.5417%,
+    #cd823e 74.4792%,
+    #d38f38 78.6458%,
+    #f2d219 100%
+  );
+  --gold-gradient: linear-gradient(115deg, #f3d518, #c36d48 80%);
+  --tropical-gradient: linear-gradient(115deg, #f44d8a, #feb943 80%);
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   background-color: #3a2420;
   color: white;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
+}
+
+main {
+  isolation: isolate;
 }
 
 a {

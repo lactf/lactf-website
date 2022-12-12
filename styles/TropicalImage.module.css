@@ -1,0 +1,10 @@
+.tropicalImg {
+  display: inline-block;
+  background: var(--tropical-gradient);
+  vertical-align: middle;
+  transition: filter ease-in 0.2s;
+}
+
+.tropicalImg:hover {
+  filter: brightness(300%);
+}

@@ -23,51 +23,109 @@ div.main {
   min-height: 42vh;
   margin-left: auto;
   margin-right: auto;
-  background-color: #e9c681;
+  background-color: rgba(0, 0, 0, 70%);
 }
 
 .containerLeft {
   display: block;
   float: left;
   height: 100%;
-  padding: 1.5rem;
-  padding-top: 2rem;
+  padding: 6rem 0rem 5.5rem 1.5rem;
 }
 
 .containerRight {
   display: block;
   float: right;
   height: 100%;
-  padding: 1.5rem;
+  padding: 5.5rem 4rem 5.5rem 1.5rem;
 }
 
 .main > .containerLeft > div.image {
-  display: inline;
-  float: left;
   overflow: hidden;
   border-radius: 50%;
   width: 80%;
-  height: 80%;
+  height: auto;
   margin: 0 10%;
   line-height: 60%;
 }
 
+.main > .containerRight > div.info {
+  color: white;
+  text-align: left;
+}
+
 .main > .containerRight > div.info h2 {
-  font-size: xx-large;
+  display: table;
+  color: transparent;
+  background: var(--tropical-gradient);
+  background-clip: text;
+  font-size: 2.5rem;
   font-weight: bold;
-  margin: 0;
-  margin-bottom: 0.5rem;
+  margin: 0 0 0.25rem 0;
 }
 
 .main > .containerRight > div.info h3 {
-  font-size: large;
-  font-weight: bold;
+  font-size: 1.85rem;
+  font-weight: 500;
   font-style: italic;
   margin: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
-.main > .containerRight > div.info {
-  color: black;
-  text-align: left;
+.main > .containerRight > div.info p {
+  margin-right: -14px;
+  padding-right: 14px;
+  line-height: 1.5;
+  max-height: calc(6 * 1.5 * 1rem);
+  overflow: auto scroll;
+  scrollbar-color: #fae7c4cc transparent;
+}
+
+.main > .containerRight > div.info p::-webkit-scrollbar {
+  width: 9px;
+}
+
+.main > .containerRight > div.info p::-webkit-scrollbar-thumb {
+  min-height: 50px;
+  background: #fae7c4cc;
+  border-radius: 6px;
+  border: 9px solid #fae7c4cc;
+}
+
+.main > .containerRight > div.info p::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* using max-width 1024 causes weird behavior at exactly 1024px ??? */
+@media (max-width: 1023px) {
+  .containerLeft {
+    width: 100%;
+    padding: 2.5rem 1.5rem 0rem 1.5rem;
+  }
+
+  .containerRight {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .main > .containerLeft > div.image {
+    width: 30%;
+    margin: auto;
+  }
+
+  .main > .containerRight > div.info h2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .main > .containerRight > div.info h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .main > .containerLeft > div.image {
+    width: 50%;
+  }
 }
