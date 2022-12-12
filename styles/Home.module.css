@@ -146,7 +146,7 @@
   background: 50% 42.75%/100% 61.5% no-repeat var(--sunrise-gradient),
     50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
     50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
-  clip-path: url(#speakers);
+  clip-path: url(#speakersClipPath);
   text-align: center;
 }
 
