@@ -99,8 +99,6 @@ a.mailto:hover {
 }
 
 .mainInfoContainer img {
-  /* TODO(salma) REMOVE WHEN WE ACTUALLY HAVE THE TRANSPRENT GIF */
-  mask: url("../public/images/LogoMask.png");
   mask-size: contain;
   transform: scale(1.3);
 }
