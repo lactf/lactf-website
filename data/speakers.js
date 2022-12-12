@@ -3,7 +3,6 @@ import nachenberg from "../public/images/nachenberg.jpg";
 import hammond from "../public/images/hammond.png";
 import tranberg from "../public/images/tranberg.jpg";
 import sanjana from "../public/images/sanjana.jpg";
-import cybean from "../public/images/SmallLogo.png";
 
 let data = {
   speakers: [
@@ -36,12 +35,6 @@ let data = {
       title: "Master's at Stanford University & UCLA Alumni",
       info: "Sanjana is currently pursuing her master's in Electrical Engineering at Stanford University with a focus in machine learning and security. A UCLA and ACM Cyber alumni, she has had numerous publications, her most recent involving the topic of face verification bypass. Sanjana has worked as a security engineer for Nuro, as an AI Research Fellow for Prove, and as a Security Analyst for Independent Security Evaluators.",
       image: sanjana,
-    },
-    {
-      name: "Cyber McCybean",
-      title: "ACM Cyber at UCLA",
-      info: "We are inviting many more speakers to come to LA CTF! Stay tuned for more information.",
-      image: cybean,
     },
   ],
 };
