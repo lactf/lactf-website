@@ -18,6 +18,24 @@
   z-index: 1;
 }
 
+@media (max-width: 600px) {
+  .subheading {
+    font-size: larger;
+  }
+}
+
+@media (max-width: 400px) {
+  .subheading {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 324px) {
+  .subheading {
+    font-size: smaller;
+  }
+}
+
 /* === Hero === */
 
 .hero {
@@ -69,24 +87,6 @@
   .mainInfoContainer {
     max-width: 100%;
     background-color: transparent;
-  }
-}
-
-@media (max-width: 600px) {
-  .subheading {
-    font-size: larger;
-  }
-}
-
-@media (max-width: 400px) {
-  .subheading {
-    font-size: medium;
-  }
-}
-
-@media (max-width: 324px) {
-  .subheading {
-    font-size: smaller;
   }
 }
 
