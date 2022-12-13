@@ -54,7 +54,7 @@ export default function Home() {
         openGraph={{
           images: [
             {
-              url: "https://lactf.uclaacm.com/images/LongLogoWaving.gif",
+              url: "https://lactf.uclaacm.com/images/mountains-logo.gif",
               width: 990,
               height: 555,
               alt: "LA CTF logo",
