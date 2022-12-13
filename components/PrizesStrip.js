@@ -6,16 +6,17 @@ const PrizesStrip = () => {
       <div className={styles.prizesBlock}>
         <h2>UCLA Section</h2>
         <p>
-          The UCLA Section will be composed of teams of at most four students.
-          Members of the team must all be from UCLA, in order to be awarded
-          prizes.
+          The UCLA Section will be composed of teams that must consist of a
+          maximum of four current UCLA undergraduate students in order to be
+          eligible for prizes.
         </p>
       </div>
       <div className={styles.prizesBlock}>
         <h2>Open Section</h2>
         <p>
-          The Open Section will be composed of teams with no size limit. Teams
-          in the option section may consist of members from anywhere.
+          The Open Section will be composed of teams with no size limit and can
+          be from anywhere to be eligible for prizes. All skill levels and
+          experiences are welcomed!
         </p>
       </div>
     </div>
