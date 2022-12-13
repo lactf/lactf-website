@@ -11,7 +11,7 @@ import Countdown from "../components/Countdown";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
-import LongLogo from "../public/images/LongLogoWaving.gif";
+import LongLogo from "../public/images/LongLogoWavingTransparentBig.gif";
 import BackgroundMasks from "../public/images/BackgroundMasks.svg.js";
 
 import styles from "../styles/Home.module.css";
@@ -73,7 +73,12 @@ export default function Home() {
         <section className={styles.hero}>
           <div className={styles.mainInfoContainer}>
             <div className={styles.logoContainer}>
-              <Image src={LongLogo} alt="Pink LA CTF flag." />
+              <Image
+                src={LongLogo}
+                width={990}
+                height={550}
+                alt="Pink LA CTF flag."
+              />
             </div>
             <p className={styles.subheading}>
               Feb 10, 8:00PM PST - Feb 12, 2:00PM PST
