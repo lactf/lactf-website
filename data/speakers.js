@@ -21,7 +21,7 @@ let data = {
     {
       name: "Dr. Nader Sehatbakhsh",
       title: "UCLA Electrical and Computer Engineering",
-      info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      info: "Dr. Nader Sehatbakhsh runs the Secure Systems and Architectures (SsysArch) research lab at UCLA. His research interest is in the broad area of Security and Privacy with emphasis on hardware support for security and privacy. Specifically, he is interested in computer architecture, IoT Security, embedded/cyber-physical systems, side-channels, trusted computing and hardware enclaves, and security and privacy in machine learning. He is affiliated with the Computer Engineering Lab in Electrical and Computer Engineering (ECE) Department at UCLA.\nPrior to joining to UCLA, Dr. Nader Sehatbakhsh was a PhD student at the School of Computer Science in Georgia Tech working with Professor Milos Prvulovic and Professor Alenka Zajic where he worked on Securing Computing Systems by Mitigating and Leveraging Side-Channels. He earned his PhD in Computer Science from Georgia Tech in 2020. Before that, he earned his B.Sc. in Electrical Engineering from the University of Tehran in 2013. He joined UCLA since July 2020.",
       image: nader,
     },
     {
