@@ -18,6 +18,7 @@ import styles from "../styles/Home.module.css";
 import Carousel from "../components/Carousel";
 import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
+import PrizesStrip from "../components/PrizesStrip";
 
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
@@ -110,9 +111,11 @@ export default function Home() {
             <span className={styles.headerText}>Prizes</span>
           </h2>
           <p className={styles.headerDesc}>
-            LA CTF will have prizes for both the beginner and open sections!
-            More information to come.
+            LA CTF will have prizes for both the UCLA and open sections! While
+            there will be two sections for prizes, all of the challenges will be
+            the same for both sections. More information coming soon.
           </p>
+          <PrizesStrip />
         </section>
 
         <section className={`${styles.sponsors} ${styles.wavySection}`}>

@@ -1,0 +1,16 @@
+.prizesFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px 2vw;
+  height: fit-content;
+}
+
+.prizesBlock {
+  flex-grow: 1;
+  margin: 0px 1vw;
+  width: 450px;
+  max-width: 450px;
+  text-align: center;
+}

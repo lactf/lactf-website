@@ -30,7 +30,7 @@ const AboutStrip = () => {
         icon={aboutLevels}
         big={true}
         title="Levels"
-        desc="LA CTF will have two divisions, Beginner (no experience necessary), and Open. No matter your skill level, there will be challenges right for you!"
+        desc="LA CTF will have two divisions, UCLA and Open. No matter your skill level, there will be challenges right for you!"
       />
     </div>
   );
