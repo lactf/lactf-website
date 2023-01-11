@@ -3,6 +3,7 @@ import nachenberg from "../public/images/nachenberg.jpg";
 import hammond from "../public/images/hammond.png";
 import tranberg from "../public/images/tranberg.jpg";
 import sanjana from "../public/images/sanjana.jpg";
+import nathan from "../public/images/nathan.png";
 
 let data = {
   speakers: [
@@ -36,6 +37,12 @@ let data = {
       info: "Sanjana is currently pursuing her master's in Electrical Engineering at Stanford University with a focus in machine learning and security. A UCLA and ACM Cyber alumni, she has had numerous publications, her most recent involving the topic of face verification bypass. Sanjana has worked as a security engineer for Nuro, as an AI Research Fellow for Prove, and as a Security Analyst for Independent Security Evaluators.",
       image: sanjana,
     },
+    {
+      name: "Nathan Sinclair",
+      title: "Cyber Defense Operations Team for the City & County of San Francisco",
+      info: "Nathan Sinclair, Manager of the Cyber Defense Operations Team for the City & County of San Francisco, Office of Cybersecurity plays a key role in protecting the City and its 30,000 employees. The Cyber Defense Operations Team is a Central service that provides cybersecurity monitoring, alerting and defense strategies for the entire organization. Before joining the Department of Technology, Nathan worked for the Oakland Unified School District. Starting as an intern in high school, Nathan worked his way up through the ranks from an entry level computer tech, senior tech, and eventually Network Admin. Providing key support for admin staff, teachers, and students.",
+      image: nathan,
+    }
   ],
 };
 
