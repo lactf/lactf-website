@@ -11,6 +11,7 @@ import Countdown from "../components/Countdown";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
+import Twitter from "../public/images/twitter.png";
 import LongLogo from "../public/images/LongLogoWavingTransparentBig.gif";
 import BackgroundMasks from "../public/images/BackgroundMasks.svg.js";
 
@@ -149,6 +150,20 @@ export default function Home() {
                   alt="Discord logo."
                 />
                 <span>lactf.uclaacm.com/discord</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/pbrucla"
+                className={styles.contactsLink}
+              >
+                <TropicalImage
+                  src={Twitter}
+                  height={50}
+                  width={50}
+                  alt="Twitter logo."
+                />
+                <span>@pbrucla</span>
               </a>
             </li>
             <li>
