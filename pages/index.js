@@ -11,7 +11,7 @@ import Countdown from "../components/Countdown";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
-import Twitter from "../public/images/twitter.png";
+import Twitter from "../public/images/twitter.svg";
 import LongLogo from "../public/images/LongLogoWavingTransparentBig.gif";
 import BackgroundMasks from "../public/images/BackgroundMasks.svg.js";
 
