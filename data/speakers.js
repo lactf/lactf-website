@@ -5,7 +5,7 @@ import tranberg from "../public/images/tranberg.jpg";
 import sanjana from "../public/images/sanjana.jpg";
 import nathan from "../public/images/nathan.png";
 
-let data = {
+const data = {
   speakers: [
     {
       name: "John Hammond",
