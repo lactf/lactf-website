@@ -33,17 +33,23 @@ const data = {
       image: tranberg,
     },
     {
+      name: "Sanjana Sarda",
+      title: "Master's at Stanford University & UCLA Alumni",
+      info: "Sanjana Sarda is a distinguished alumnus of UCLA and ACM Cyber with experience in application, cloud, hardware, and system security. She is currently pursuing her master's degree in Electrical Engineering at Stanford University focused on AI security and privacy and will be joining Anduril as their first offensive security engineer in April. She has spoken at DEFCON, HITB, and BSides San Diego and her security research has been featured in publications such as Forbes and Vice’s Motherboard. Some of her exploits include bypassing face verification in dating applications and leaking private information via Bumble's API for all users.",
+      image: sanjana,
+    },
+    {
       name: "Nathan Sinclair",
       title: "Office of Cybersecurity for the City and County of San Francisco",
       info: "Nathan Sinclair, Manager of the Cyber Defense Operations Team for the City and County of San Francisco, Office of Cybersecurity plays a key role in protecting the City and its 30,000 employees. The Cyber Defense Operations Team is a Central service that provides cybersecurity monitoring, alerting and defense strategies for the entire organization. Before joining the Department of Technology, Nathan worked for the Oakland Unified School District. Starting as an intern in high school, Nathan worked his way up through the ranks from an entry level computer tech, senior tech, and eventually Network Admin. Providing key support for admin staff, teachers, and students.",
       image: nathan,
     },
     {
-      name: "Sanjana Sarda",
-      title: "Master's at Stanford University & UCLA Alumni",
-      info: "Sanjana Sarda is a distinguished alumnus of UCLA and ACM Cyber with experience in application, cloud, hardware, and system security. She is currently pursuing her master's degree in Electrical Engineering at Stanford University focused on AI security and privacy and will be joining Anduril as their first offensive security engineer in April. She has spoken at DEFCON, HITB, and BSides San Diego and her security research has been featured in publications such as Forbes and Vice’s Motherboard. Some of her exploits include bypassing face verification in dating applications and leaking private information via Bumble's API for all users.",
-      image: sanjana,
-    },
+      name: "Aaron Yoo",
+      title: "Software Engineer at Apple & UCLA Alumni",
+      info: "Aaron Yoo is currently a software engineer on the Secure Runtime team at Apple. He also is a UCLA alumni and an ACM Cyber (formerly NetSec) alumni. Aaron has extensive experience in the field of cybersecurity. Previously, he has worked and interned at Green Hills Software, working on Green Hills INTEGRITY operating system. He also has interned at Trails of Bits, Ariento, and Ender Technology.",
+      image: aaron,
+    }
   ],
 };
 
