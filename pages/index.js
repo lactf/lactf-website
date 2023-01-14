@@ -20,6 +20,7 @@ import Carousel from "../components/Carousel";
 import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
+import SponsorsStrip from "../components/Sponsors";
 
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
@@ -131,6 +132,8 @@ export default function Home() {
             </Link>
             !
           </p>
+
+          <SponsorsStrip />
         </section>
 
         <section className={styles.contacts}>
