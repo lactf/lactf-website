@@ -1,0 +1,66 @@
+.sponsorsFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 0 1rem 0;
+  padding: 0 10vw;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  overflow: hidden;
+  width: calc(50% - 1rem);
+  padding: 20px;
+  margin: 20px 0.5rem;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.icon > img.logo {
+  margin: auto;
+  height: 6.25em;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0px 0px 10px #fff);
+}
+
+.icon > .flag {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  width: 36%;
+  height: 40%;
+  margin: -14px -22px 0px 0px;
+  pointer-events: none;
+  user-select: none;
+  opacity: 99%;
+}
+
+.icon > .flag > img {
+  height: 100%;
+  image-rendering: optimizequality;
+}
+
+@media (min-width: 1280px) {
+  /** Latticework's logo looks a little too big at typical desktop sizes */
+  .icon > img.logo[src*="latticework"] {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 840px) {
+  .sponsorsFlexContainer {
+    margin-bottom: 0rem;
+  }
+
+  .icon {
+    padding: 10px;
+  }
+
+  .icon > .flag {
+    margin: -7px -11px 0px 0px;
+  }
+}

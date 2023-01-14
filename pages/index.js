@@ -11,6 +11,7 @@ import Countdown from "../components/Countdown";
 import Discord from "../public/images/discord.png";
 import Email from "../public/images/email.png";
 import Instagram from "../public/images/instagram.png";
+import Twitter from "../public/images/twitter.svg";
 import LongLogo from "../public/images/LongLogoWavingTransparentBig.gif";
 import BackgroundMasks from "../public/images/BackgroundMasks.svg.js";
 
@@ -19,6 +20,7 @@ import Carousel from "../components/Carousel";
 import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
+import SponsorsStrip from "../components/Sponsors";
 
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
@@ -130,6 +132,8 @@ export default function Home() {
             </Link>
             !
           </p>
+
+          <SponsorsStrip />
         </section>
 
         <section className={styles.contacts}>
@@ -149,6 +153,20 @@ export default function Home() {
                   alt="Discord logo."
                 />
                 <span>lactf.uclaacm.com/discord</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/pbrucla"
+                className={styles.contactsLink}
+              >
+                <TropicalImage
+                  src={Twitter}
+                  height={50}
+                  width={50}
+                  alt="Twitter logo."
+                />
+                <span>@pbrucla</span>
               </a>
             </li>
             <li>

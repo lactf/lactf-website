@@ -17,6 +17,7 @@
 }
 
 div.main {
+  display: flex;
   margin: 3rem 0 1rem 0;
   border-radius: 25px;
   width: 90%;
@@ -29,14 +30,12 @@ div.main {
 .containerLeft {
   display: block;
   float: left;
-  height: 100%;
   padding: 6rem 0rem 5.5rem 1.5rem;
 }
 
 .containerRight {
   display: block;
   float: right;
-  height: 100%;
   padding: 5.5rem 4rem 5.5rem 1.5rem;
 }
 
@@ -45,8 +44,14 @@ div.main {
   border-radius: 50%;
   width: 80%;
   height: auto;
+  aspect-ratio: 1 / 1;
   margin: 0 10%;
   line-height: 60%;
+}
+
+.main > .containerLeft span {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 .main > .containerRight > div.info {
@@ -98,13 +103,21 @@ div.main {
 
 /* using max-width 1024 causes weird behavior at exactly 1024px ??? */
 @media (max-width: 1023px) {
-  .containerLeft {
+  div.main {
+    display: block;
+  }
+
+  .containerLeft,
+  .containerRight {
     width: 100%;
+    height: 100%;
+  }
+
+  .containerLeft {
     padding: 2.5rem 1.5rem 0rem 1.5rem;
   }
 
   .containerRight {
-    width: 100%;
     padding: 1.5rem;
   }
 
