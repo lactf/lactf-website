@@ -47,7 +47,7 @@ const data = {
     {
       name: "Aaron Yoo",
       title: "Software Engineer at Apple & UCLA Alumni",
-      info: "Aaron Yoo is currently a software engineer on the Secure Runtime team at Apple. He also is a UCLA alumni and an ACM Cyber (formerly NetSec) alumni. Aaron has extensive experience in the field of cybersecurity. Previously, he has worked and interned at Green Hills Software, working on Green Hills INTEGRITY operating system. He also has interned at Trails of Bits, Ariento, and Ender Technology.",
+      info: "Aaron Yoo is currently a software engineer on the Secure Runtime team at Apple. He also is a UCLA alumni and an ACM Cyber (formerly NetSec) alumni. Aaron has extensive experience in the field of cybersecurity. Previously, he has worked and interned at Green Hills Software, working on Green Hills INTEGRITY operating system. He also has interned at Trail of Bits, Ariento, and Ender Technology.",
       image: aaron,
     }
   ],
