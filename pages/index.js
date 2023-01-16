@@ -86,27 +86,33 @@ export default function Home() {
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
-              <button
-                className={
-                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                }
-              >
-                <a href="https://forms.gle/gESf8d2EMwfBKzeN6">Register</a>
-              </button>
-              <button
-                className={
-                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                }
-              >
-                <a href="https://platform.lac.tf/">CTF Platform</a>
-              </button>
-              <button
-                className={
-                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                }
-              >
-                <a href="/discord">Discord</a>
-              </button>
+              <a href="https://forms.gle/gESf8d2EMwfBKzeN6">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Register
+                </button>
+              </a>
+              <a href="https://platform.lac.tf/">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  CTF Platform
+                </button>
+              </a>
+              <a href="/discord">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Discord
+                </button>
+              </a>
             </div>
           </div>
         </section>

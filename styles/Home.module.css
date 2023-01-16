@@ -116,12 +116,15 @@ a.mailto:hover {
   width: 100%;
 }
 
+.heroButtonContainer > a {
+  margin: 0rem auto 2.5rem auto;
+}
+
 .bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
   color: white;
   background-color: #f44d8a;
   border: 2px #f44d8a solid;
   border-radius: 0.75rem;
-  margin: 0rem auto 2.5rem auto;
   padding: calc(0.5rem - 1px) calc(1.5rem - 1px);
   height: 4rem;
   font-size: larger;
@@ -139,7 +142,7 @@ a.mailto:hover {
   cursor: pointer;
 }
 
-.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth > a::after {
+.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth::after {
   content: "➜";
   margin-left: 1rem;
 }
@@ -177,7 +180,7 @@ a.mailto:hover {
     flex-direction: column;
   }
 
-  .bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
+  .heroButtonContainer > a {
     margin-top: 1.5rem;
     margin-bottom: 0rem;
   }
