@@ -107,6 +107,36 @@ a.mailto:hover {
   display: inline-block;
 }
 
+.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
+  display: block;
+  color: white;
+  background-color: #f44d8a;
+  border: 2px #f44d8a solid;
+  border-radius: 0.75rem;
+  margin: 0rem auto 2.5rem auto;
+  padding: calc(0.5rem - 1px) calc(1.5rem - 1px);
+  height: 4rem;
+  max-width: 80%;
+  font-size: larger;
+  font-weight: bold;
+  font-family: inherit;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth:hover {
+  color: #f44d8a;
+  background-color: white;
+  border-color: white;
+  cursor: pointer;
+}
+
+.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth > a::after {
+  content: "➜";
+  margin-left: 1rem;
+}
+
 @media (max-width: 840px) {
   .hero {
     padding-top: 4rem;
@@ -121,6 +151,10 @@ a.mailto:hover {
   .mainInfoContainer {
     max-width: 100%;
     background-color: transparent;
+  }
+
+  .bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
+    margin-top: 0.5rem;
   }
 }
 

@@ -85,6 +85,16 @@ export default function Home() {
               Feb 10, 8:00PM PST - Feb 12, 2:00PM PST
             </p>
             <Countdown />
+            <button
+              className={
+                styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+              }
+            >
+              <a href="https://platform.lac.tf/register">
+                big fat pink button that says "register" under the timers or
+                smth
+              </a>
+            </button>
           </div>
         </section>
 
