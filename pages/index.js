@@ -85,16 +85,29 @@ export default function Home() {
               Feb 10, 8:00PM PST - Feb 12, 2:00PM PST
             </p>
             <Countdown />
-            <button
-              className={
-                styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-              }
-            >
-              <a href="https://platform.lac.tf/register">
-                big fat pink button that says "register" under the timers or
-                smth
-              </a>
-            </button>
+            <div className={styles.heroButtonContainer}>
+              <button
+                className={
+                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                }
+              >
+                <a href="https://forms.gle/gESf8d2EMwfBKzeN6">Register</a>
+              </button>
+              <button
+                className={
+                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                }
+              >
+                <a href="https://platform.lac.tf/">CTF Platform</a>
+              </button>
+              <button
+                className={
+                  styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                }
+              >
+                <a href="/discord">Discord</a>
+              </button>
+            </div>
           </div>
         </section>
 
