@@ -5,6 +5,7 @@ import tranberg from "../public/images/tranberg.jpg";
 import sanjana from "../public/images/sanjana.jpg";
 import nathan from "../public/images/nathan.png";
 import aaron from "../public/images/aaron.png";
+import peter from "../public/images/peter.png";
 
 const data = {
   speakers: [
@@ -33,16 +34,22 @@ const data = {
       image: tranberg,
     },
     {
+      name: "Nathan Sinclair",
+      title: "Office of Cybersecurity for the City and County of San Francisco",
+      info: "Nathan Sinclair, Manager of the Cyber Defense Operations Team for the City and County of San Francisco, Office of Cybersecurity plays a key role in protecting the City and its 30,000 employees. The Cyber Defense Operations Team is a Central service that provides cybersecurity monitoring, alerting and defense strategies for the entire organization. Before joining the Department of Technology, Nathan worked for the Oakland Unified School District. Starting as an intern in high school, Nathan worked his way up through the ranks from an entry level computer tech, senior tech, and eventually Network Admin. Providing key support for admin staff, teachers, and students.",
+      image: nathan,
+    },
+    {
       name: "Sanjana Sarda",
       title: "Master's at Stanford University & UCLA Alumni",
       info: "Sanjana Sarda is a distinguished alumnus of UCLA and ACM Cyber with experience in application, cloud, hardware, and system security. She is currently pursuing her master's degree in Electrical Engineering at Stanford University focused on AI security and privacy and will be joining Anduril as their first offensive security engineer in April. She has spoken at DEFCON, HITB, and BSides San Diego and her security research has been featured in publications such as Forbes and Vice’s Motherboard. Some of her exploits include bypassing face verification in dating applications and leaking private information via Bumble's API for all users.",
       image: sanjana,
     },
     {
-      name: "Nathan Sinclair",
-      title: "Office of Cybersecurity for the City and County of San Francisco",
-      info: "Nathan Sinclair, Manager of the Cyber Defense Operations Team for the City and County of San Francisco, Office of Cybersecurity plays a key role in protecting the City and its 30,000 employees. The Cyber Defense Operations Team is a Central service that provides cybersecurity monitoring, alerting and defense strategies for the entire organization. Before joining the Department of Technology, Nathan worked for the Oakland Unified School District. Starting as an intern in high school, Nathan worked his way up through the ranks from an entry level computer tech, senior tech, and eventually Network Admin. Providing key support for admin staff, teachers, and students.",
-      image: nathan,
+      name: "Peter Sutarjo",
+      title: "Associate Game Security Engineer at Blizzard",
+      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently an Associate Game Security Engineer at Blizzard working on anticheat and antitamper technologies for games such as Overwatch 2 and Diablo IV.  Besides Blizzard, he has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make games with heart.",
+      image: peter,
     },
     {
       name: "Aaron Yoo",
