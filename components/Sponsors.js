@@ -7,14 +7,23 @@ const SponsorsStrip = () => {
     <div className={styles.sponsorsFlexContainer}>
       {data.sponsors.map((sponsor) => {
         return (
-          <figure key={sponsor.name} alt={sponsor.name} className={styles.icon}>
-            <img className={styles.logo} src={sponsor.image.src} />
-            {sponsor.flag && (
-              <div className={styles.flag}>
-                <img src={sponsor.flag.image.src} alt={sponsor.flag.blurb} />
-              </div>
-            )}
-          </figure>
+          <a href={sponsor.url} key={sponsor.name} className={styles.icon}>
+            {/*<div className={styles.sponsorsCard + ' ' + styles.icon}>*/}
+            <figure className={styles.icon}>
+              <img
+                className={styles.logo}
+                src={sponsor.image.src}
+                alt={sponsor.name}
+              />
+              {sponsor.flag && (
+                <div className={styles.flag}>
+                  <img src={sponsor.flag.image.src} alt={sponsor.flag.blurb} />
+                </div>
+              )}
+            </figure>
+            {sponsor.blurb && <p className={styles.blurb}>{sponsor.blurb}</p>}
+            {/*</div>*/}
+          </a>
         );
       })}
     </div>
