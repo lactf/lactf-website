@@ -106,13 +106,13 @@ export default function Home() {
                   CTF Platform
                 </button>
               </a>
-              <a href="/discord">
+              <a href="https://drive.google.com/file/d/1lsSF9OCtog78hdY_2WNwXgp3086cxMie/view?usp=sharing">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
                   }
                 >
-                  Discord
+                  Schedule
                 </button>
               </a>
             </div>
