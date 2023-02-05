@@ -19,7 +19,7 @@ function Navbar() {
             onClick={() => (window.location.href = "/discord")}
             className={styles.discord}
           >
-            <Link href="/discord">Join Us</Link>
+            <Link href="https://forms.gle/gESf8d2EMwfBKzeN6">Register</Link>
           </button>
         </li>
         <li>
