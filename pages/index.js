@@ -88,7 +88,7 @@ export default function Home() {
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
-              <a href="https://drive.google.com/file/d/1lsSF9OCtog78hdY_2WNwXgp3086cxMie">
+              <a href="https://static.lac.tf/schedule.pdf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
