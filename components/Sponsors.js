@@ -8,7 +8,6 @@ const SponsorsStrip = () => {
       {data.sponsors.map((sponsor) => {
         return (
           <a href={sponsor.url} key={sponsor.name} className={styles.icon}>
-            {/*<div className={styles.sponsorsCard + ' ' + styles.icon}>*/}
             <figure className={styles.icon}>
               <img
                 className={styles.logo}
@@ -22,7 +21,6 @@ const SponsorsStrip = () => {
               )}
             </figure>
             {sponsor.blurb && <p className={styles.blurb}>{sponsor.blurb}</p>}
-            {/*</div>*/}
           </a>
         );
       })}
