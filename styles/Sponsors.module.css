@@ -71,4 +71,7 @@
   .blurb {
     font-size: 16px;
   }
+  .sponsorsFlexContainer {
+    margin-bottom: 10rem;
+  }
 }
