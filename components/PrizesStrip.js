@@ -41,10 +41,6 @@ const PrizesStrip = () => {
             members. Amounts listed are per team.
           </p>
           <br />
-          <p>
-            There will also be a raffle for CrowdStrike backpacks. Come
-            in-person for a chance to win!
-          </p>
         </div>
         <div className={styles.prizesBlock}>
           <h2>Open Section</h2>
@@ -69,6 +65,10 @@ const PrizesStrip = () => {
           <br />
         </div>
       </div>
+      <p className={styles.prizebetween}>
+        There will also be a raffle for CrowdStrike backpacks. Come in-person
+        for a chance to win!
+      </p>
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
           <h3>Writeup Prizes:</h3>

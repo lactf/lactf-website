@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 3rem 0 1rem 0;
+  margin: 3rem 0 0 0;
   padding: 0px 2vw;
   height: fit-content;
 }
@@ -20,6 +20,10 @@
 .writeupprizelist > h3 {
   font-size: x-large;
   text-align: center;
+}
+.prizebetween {
+  text-align: center;
+  margin: 0 5vw 5vh 5vw;
 }
 
 .prizesBlock {
