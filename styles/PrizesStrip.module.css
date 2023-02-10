@@ -2,9 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 3rem 0 1rem 0;
+  margin: 3rem 0 0 0;
   padding: 0px 2vw;
   height: fit-content;
+}
+
+.writeprizecontainer {
+  display: flex;
+  justify-content: center;
+}
+.writeupprizelist {
+  max-width: 1100px;
+  text-align: left;
+  font-size: large;
+  padding: 0px 5vw;
+}
+.writeupprizelist > h3 {
+  font-size: x-large;
+  text-align: center;
+}
+.prizebetween {
+  text-align: center;
+  margin: 0 5vw 5vh 5vw;
 }
 
 .prizesBlock {
@@ -13,4 +32,17 @@
   width: 450px;
   max-width: 450px;
   text-align: center;
+}
+
+.prizelink {
+  text-underline: #ffffff;
+  text-decoration: underline;
+}
+.prizelink:hover {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.prizelist {
+  text-align: left;
+  font-size: large;
 }
