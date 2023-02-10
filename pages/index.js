@@ -116,6 +116,26 @@ export default function Home() {
                 </button>
               </a>
             </div>
+            <div className={styles.heroButtonContainer}>
+              <a href="https://youtube.lac.tf">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Event Streams & Recordings
+                </button>
+              </a>
+              <a href="https://zoom.lac.tf">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Event Zoom Link
+                </button>
+              </a>
+            </div>
           </div>
         </section>
 
