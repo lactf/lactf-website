@@ -144,7 +144,8 @@ export default function Home() {
           <p className={styles.headerDesc}>
             LA CTF will have prizes for both the UCLA and open sections! While
             there will be two sections for prizes, all of the challenges will be
-            the same for both sections. More information coming soon.
+            the same for both sections. Prizes will be given in the form of US
+            Amazon gift cards or by arrangement.
           </p>
           <PrizesStrip />
         </section>
