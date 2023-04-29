@@ -7,7 +7,7 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "yarn prettier -c pages/*.js styles/*.css components/*.js",
     "fix": "yarn prettier -w pages/*.js styles/*.css components/*.js",
     "postinstall": "husky install",
     "prepack": "pinst --disable",
