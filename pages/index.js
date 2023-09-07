@@ -69,6 +69,7 @@ export default function Home() {
           cardType: "summary_large_image",
         }}
       />
+      <link rel="canonical" href="https://lac.tf" />
       <Navbar />
       <main className={styles.root}>
         <BackgroundMasks />
