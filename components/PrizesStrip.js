@@ -75,7 +75,7 @@ const PrizesStrip = () => {
           <ul>
             <li>
               There will be some prizes separately designated for writeups. Stay
-              tuend for more information!
+              tuned for more information!
             </li>
             {/* <li>
               A pool of $400 worth of prize money will be given out via writeup
