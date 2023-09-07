@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
+import Head from "next/head";
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -51,25 +52,27 @@ export default function Home() {
 
   return (
     <div>
-      <NextSeo
-        title="Home | LA CTF"
-        description="LA CTF is a jeopardy-style capture-the-flag (CTF) cybersecurity competition hosted by ACM Cyber at UCLA & Psi Beta Rho!"
-        openGraph={{
-          images: [
-            {
-              url: "https://lac.tf/images/mountains-logo.gif",
-              width: 990,
-              height: 555,
-              alt: "LA CTF logo",
-            },
-          ],
-          site_name: "LA CTF",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
-      />
-      <link rel="canonical" href="https://lac.tf" />
+      <Head>
+        <NextSeo
+          title="Home | LA CTF"
+          description="LA CTF is a jeopardy-style capture-the-flag (CTF) cybersecurity competition hosted by ACM Cyber at UCLA & Psi Beta Rho!"
+          openGraph={{
+            images: [
+              {
+                url: "https://lac.tf/images/mountains-logo.gif",
+                width: 990,
+                height: 555,
+                alt: "LA CTF logo",
+              },
+            ],
+            site_name: "LA CTF",
+          }}
+          twitter={{
+            cardType: "summary_large_image",
+          }}
+        />
+        <link rel="canonical" href="https://lac.tf" />
+      </Head>
       <Navbar />
       <main className={styles.root}>
         <BackgroundMasks />
