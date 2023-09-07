@@ -12,6 +12,15 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/discord",
+        destination: "https://discord.gg/uZM6vxqHDq",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
