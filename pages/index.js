@@ -106,6 +106,9 @@ export default function Home() {
                   CTF Platform
                 </button>
               </a> */}
+              {/* This is an a tag href to a 302 redirect on /discord in case we need
+              to update the invite link. As such, react should *not* attempt to load */}
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
               <a href="/discord">
                 <button
                   className={
@@ -130,7 +133,7 @@ export default function Home() {
             </h2>
             <p className={styles.headerDesc}>
               During the competition, we will be having some speakers give
-              live-streamed talks. Stay turned for more information!
+              live-streamed talks. Stay tuned for more information!
             </p>
 
             {/* <Carousel /> */}
@@ -180,6 +183,9 @@ export default function Home() {
           </h2>
           <ul>
             <li>
+              {/* This is an a tag href to a 302 redirect on /discord in case we need
+              to update the invite link. As such, react should *not* attempt to load */}
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
               <a
                 href="/discord"
                 className={`${styles.contactsLink} ${styles.discord}`}
