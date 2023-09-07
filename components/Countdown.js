@@ -14,7 +14,7 @@ const Countdown = () => {
   return (
     <div className={styles.timerContainer}>
       <ul className={styles.timer}>
-        <CountdownRing time={time / 86400} label={"days"} max={200} />
+        <CountdownRing time={time / 86400} label={"days"} max={30} />
         <CountdownRing time={(time % 86400) / 3600} label={"hours"} max={24} />
         <CountdownRing
           time={((time % 86400) % 3600) / 60}
@@ -27,6 +27,7 @@ const Countdown = () => {
 };
 
 const CountdownRing = ({ time, label, max }) => {
+  max = time > max ? time + 0.001 : max;
   const radius = 50 / Math.sqrt(2);
   const offset = 50 - radius;
   const angle = (time / max) * 2 * Math.PI;
