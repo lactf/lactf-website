@@ -5,7 +5,7 @@ import styles from "../styles/Countdown.module.css";
 const Countdown = () => {
   let [time, setTime] = useState(0);
 
-  let updateTime = () => setTime(Math.max(1676088000 - Date.now() / 1000, 0));
+  let updateTime = () => setTime(Math.max(1708142400 - Date.now() / 1000, 0));
   useEffect(() => {
     if (time === 0) updateTime();
     setInterval(updateTime, 5000);

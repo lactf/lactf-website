@@ -84,11 +84,11 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 10, 2023 8:00PM PST - Feb 12, 2023 2:00PM PST
+              Feb 16, 2024 8:00PM PST - Feb 18, 2023 2:00PM PST
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
-              <a href="https://static.lac.tf/2023/schedule.pdf">
+              {/* <a href="https://static.lac.tf/2023/schedule.pdf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -105,7 +105,7 @@ export default function Home() {
                 >
                   CTF Platform
                 </button>
-              </a>
+              </a> */}
               <a href="/discord">
                 <button
                   className={
@@ -129,11 +129,11 @@ export default function Home() {
               <span className={styles.headerText}>Speakers</span>
             </h2>
             <p className={styles.headerDesc}>
-              Here are some of the exciting speakers that will be attending LA
-              CTF!
+              During the competition, we will be having some speakers give
+              live-streamed talks. Stay turned for more information!
             </p>
 
-            <Carousel />
+            {/* <Carousel /> */}
           </section>
         </div>
 
@@ -145,7 +145,12 @@ export default function Home() {
             LA CTF will have prizes for both the UCLA and open sections! While
             there will be two sections for prizes, all of the challenges will be
             the same for both sections. Prizes will be given in the form of US
-            Amazon gift cards or by arrangement.
+            Amazon gift cards or by arrangement, and can{" "}
+            <u>
+              <strong>
+                only be given to teams with players based in the US
+              </strong>
+            </u>
           </p>
           <PrizesStrip />
         </section>
@@ -155,9 +160,12 @@ export default function Home() {
             <span className={styles.headerText}>Sponsors</span>
           </h2>
           <p className={styles.headerDesc}>
-            LA CTF would not be possible without all of these amazing sponsors!
-            Want your company to be a sponsor? Reach out to{" "}
-            <Link href="mailto:uclacyber@gmail.com" className={styles.mailto}>
+            LA CTF would not be possible without our amazing sponsors! Want your
+            company to be a sponsor? Reach out to{" "}
+            <Link
+              href="mailto:uclacyber+lactf@gmail.com"
+              className={styles.mailto}
+            >
               uclacyber@gmail.com
             </Link>
             !
@@ -182,7 +190,7 @@ export default function Home() {
                   width={55}
                   alt="Discord logo."
                 />
-                <span>lactf.uclaacm.com/discord</span>
+                <span>lac.tf/discord</span>
               </a>
             </li>
             <li>

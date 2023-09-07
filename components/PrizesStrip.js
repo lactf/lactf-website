@@ -14,7 +14,7 @@ const PrizesStrip = () => {
           <br />
           <br />
           <ul className={styles.prizelist}>
-            <li>
+            {/* <li>
               1st place: $200 + <br />
               <a
                 className={styles.prizelink}
@@ -33,7 +33,7 @@ const PrizesStrip = () => {
             <li>2nd place: $140</li>
             <li>3rd place: $100</li>
             <li>4th & 5th place: $80</li>
-            <li>6th-10th place: $40</li>
+            <li>6th-10th place: $40</li> */}
           </ul>
           <br />
           <p>
@@ -51,12 +51,12 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          <ul className={styles.prizelist}>
+          {/* <ul className={styles.prizelist}>
             <li>1st place: $500</li>
             <li>2nd place: $300</li>
             <li>3rd place: $200</li>
             <li>4th & 5th place: $100</li>
-          </ul>
+          </ul> */}
           <br />
           <p>
             Open division prizes will be distributed to the email linked to the
@@ -66,8 +66,7 @@ const PrizesStrip = () => {
         </div>
       </div>
       <p className={styles.prizebetween}>
-        There will also be a raffle for CrowdStrike backpacks. Come in-person
-        for a chance to win!
+        Prizes will be announced closer to the competition date. Stay tuned!
       </p>
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
@@ -75,6 +74,10 @@ const PrizesStrip = () => {
           <br />
           <ul>
             <li>
+              There will be some prizes separately designated for writeups. Stay
+              tuend for more information!
+            </li>
+            {/* <li>
               A pool of $400 worth of prize money will be given out via writeup
               prizes, of which $200 is for UCLA students.
             </li>
@@ -89,7 +92,7 @@ const PrizesStrip = () => {
             <li>
               The writeup submission form will be active for 1 week after the
               CTF is over, and will be posted in our discord.
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

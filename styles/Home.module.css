@@ -245,7 +245,7 @@ a.mailto:hover {
 
 .speakers {
   position: relative;
-  min-height: 140vh;
+  /* min-height: 140vh; */
   margin: 0;
   padding: 20vh 0px 40vh 0px;
   background: 50% 42.75%/100% 61.5% no-repeat var(--sunrise-gradient),
@@ -300,7 +300,7 @@ a.mailto:hover {
   --car-offset: calc(var(--car-height) * 0.8);
   position: relative;
   z-index: 1;
-  min-height: calc(var(--car-offset) + 120vh);
+  /* min-height: calc(var(--car-offset) + 120vh); */
   margin: 0px;
   padding: var(--car-offset) 0px 40vh 0px;
   background: 50% 80%/100% 60% no-repeat var(--sunrise-gradient),
