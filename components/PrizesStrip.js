@@ -36,10 +36,10 @@ const PrizesStrip = () => {
             <li>6th-10th place: $40</li> */}
           </ul>
           <br />
-          <p>
+          {/* <p>
             UCLA division prizes will be distributed directly to individual team
             members. Amounts listed are per team.
-          </p>
+          </p> */}
           <br />
         </div>
         <div className={styles.prizesBlock}>
@@ -58,10 +58,10 @@ const PrizesStrip = () => {
             <li>4th & 5th place: $100</li>
           </ul> */}
           <br />
-          <p>
+          {/* <p>
             Open division prizes will be distributed to the email linked to the
             given winning teams. Amounts listed are per team.
-          </p>
+          </p> */}
           <br />
         </div>
       </div>
