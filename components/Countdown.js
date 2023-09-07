@@ -14,7 +14,7 @@ const Countdown = () => {
   return (
     <div className={styles.timerContainer}>
       <ul className={styles.timer}>
-        <CountdownRing time={time / 86400} label={"days"} max={138} />
+        <CountdownRing time={time / 86400} label={"days"} max={200} />
         <CountdownRing time={(time % 86400) / 3600} label={"hours"} max={24} />
         <CountdownRing
           time={((time % 86400) % 3600) / 60}
