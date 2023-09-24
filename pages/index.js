@@ -110,6 +110,15 @@ export default function Home() {
                   CTF Platform
                 </button>
               </a> */}
+              <a href="https://ctftime.org/event/2102">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  CTFtime Event
+                </button>
+              </a>
               {/* This is an a tag href to a 302 redirect on /discord in case we need
               to update the invite link. As such, react should *not* attempt to load */}
               {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
