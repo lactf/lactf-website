@@ -88,7 +88,7 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 16, 2024 8:00PM PST - Feb 18, 2023 2:00PM PST
+              Feb 16, 2024 8:00PM PST - Feb 18, 2024 2:00PM PST
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
