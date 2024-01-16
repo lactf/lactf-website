@@ -55,7 +55,27 @@ import infraFlag from "../public/images/infraFlag.svg";
 //   ],
 // };
 const data = {
-  sponsors: []
+  sponsors: [
+    {
+      name: "Sandia National Laboratories",
+      url: "https://www.sandia.gov/",
+      image: sandia,
+      flag: {
+        image: affiliateFlag,
+        blurb: "Affiliate",
+      },
+      // Taken from https://www.sandia.gov/missions/
+      blurb:
+        "Sandia strives to become the laboratory that the U.S. turns to first for technology solutions to the most challenging problems that threaten peace and freedom for our nation and the globe.",
+    },
+    {
+      name: "OtterSec",
+      url: "https://osec.io/",
+      image: ottersec,
+      blurb:
+        "OtterSec is the leading blockchain security audit team, working closely with various Layer 1s and the protocols built on them.",
+    },
+  ]
 }
 
 export default data;
