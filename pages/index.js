@@ -116,7 +116,16 @@ export default function Home() {
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
                   }
                 >
-                  CTFtime Event
+                  CTFtime
+                </button>
+              </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgFXrnVVjY5zezmgA1nk_Y4kmaN3OqY33BQNQNvFcTmqdl1g/viewform">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  RSVP Form
                 </button>
               </a>
               {/* This is an a tag href to a 302 redirect on /discord in case we need
@@ -228,7 +237,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="mailto:uclacyber@gmail.com"
+                href="mailto:uclacyber+lactf@gmail.com"
                 className={styles.contactsLink}
               >
                 <TropicalImage
@@ -237,7 +246,7 @@ export default function Home() {
                   width={50}
                   alt="Email symbol."
                 />
-                <span>uclacyber@gmail.com</span>
+                <span>uclacyber+lactf@gmail.com</span>
               </a>
             </li>
             <li>
