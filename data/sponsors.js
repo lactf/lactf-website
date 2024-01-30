@@ -75,7 +75,7 @@ const data = {
       url: "https://osec.io/",
       image: ottersec,
       blurb:
-        "OtterSec is the leading blockchain security audit team, working closely with various Layer 1s and the protocols built on them.",
+        "OtterSec is a blockchain security company focused on identifying and patching critical exploits before our clients go to market. We work closely with leading teams to provide a holistic and collaborative approach to security.",
     },
     {
       name: "Amber by LatticeWork",
