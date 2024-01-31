@@ -7,6 +7,7 @@ import affiliateFlag from "../public/images/affiliateFlag.svg";
 import infraFlag from "../public/images/infraFlag.svg";
 import lockheedmartin from "../public/images/lockheed_martin.svg";
 import tryhackme from "../public/images/tryhackme.png"
+import crowdstrike from "../public/images/crowdstrike.png"
 
 // const data = {
 //   sponsors: [
@@ -122,6 +123,13 @@ const data = {
       image: trailofbits,
       blurb:
         "Trail of Bits helps secure the world's most targeted organizations and products. We combine high-end security research with a real-world attacker mentality to reduce risk and fortify code.",
+    },
+    {
+      name: "CrowdStrike",
+      url: "https://www.crowdstrike.com/en-us/",
+      image: crowdstrike,
+      blurb:
+        "#WeAreCrowdStrike and our mission is to stop breaches. Since our inception, our market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyberattacks.",
     },
   ]
 }
