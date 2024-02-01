@@ -72,6 +72,24 @@ const data = {
         "Sandia strives to become the laboratory that the U.S. turns to first for technology solutions to the most challenging problems that threaten peace and freedom for our nation and the globe.",
     },
     {
+      name: "Trail of Bits",
+      url: "https://www.trailofbits.com/",
+      image: trailofbits,
+      blurb:
+        "Trail of Bits helps secure the world's most targeted organizations and products. We combine high-end security research with a real-world attacker mentality to reduce risk and fortify code.",
+    },
+    {
+      name: "Lockheed Martin",
+      url: "https://lockheedmartin.com/en-us",
+      image: lockheedmartin,
+      blurb:
+        "Lockheed Martin is a leading global security and aerospace company, ensuring those we serve always stay ahead and ready in the defense industry.",
+      flag: {
+        image: affiliateFlag,
+        blurb: "Affiliate",
+      }
+    },
+    {
       name: "OtterSec",
       url: "https://osec.io/",
       image: ottersec,
@@ -97,32 +115,12 @@ const data = {
       },
     },
     {
-      name: "Lockheed Martin",
-      url: "https://lockheedmartin.com/en-us",
-      image: lockheedmartin,
-      //Taken from lockheed martin meta description with the typo fixed
-      //It's still weird grammar so may need to be reconsidered
-      blurb:
-        "Lockheed Martin is a leading global security and aerospace company, ensuring those we serve always stay ahead and ready in the defense industry.",
-      flag: {
-        image: affiliateFlag,
-        blurb: "Affiliate",
-      }
-    },
-    {
       name: "TryHackMe",
       url: "https://tryhackme.com/",
       image: tryhackme,
       //Taken from try hack me meta description
       blurb:
       "TryHackMe is a free online platform for learning cyber security, using hands-on exercises and labs, all through your browser!"
-    },
-    {
-      name: "Trail of Bits",
-      url: "https://www.trailofbits.com/",
-      image: trailofbits,
-      blurb:
-        "Trail of Bits helps secure the world's most targeted organizations and products. We combine high-end security research with a real-world attacker mentality to reduce risk and fortify code.",
     },
     {
       name: "CrowdStrike",
