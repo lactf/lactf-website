@@ -104,17 +104,6 @@ const data = {
         "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF discord for a 30% discount.",
     },
     {
-      name: "Google Cloud",
-      url: "https://goo.gle/ctfsponsorship",
-      image: googlecloud,
-      blurb:
-        "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
-      flag: {
-      image: infraFlag,
-      blurb: "Infra sponsored by goo.gle/ctfsponsorship",
-      },
-    },
-    {
       name: "CrowdStrike",
       url: "https://www.crowdstrike.com/en-us/",
       image: crowdstrike,
@@ -128,6 +117,17 @@ const data = {
       //Taken from try hack me meta description
       blurb:
       "TryHackMe is a free online platform for learning cyber security, using hands-on exercises and labs, all through your browser!"
+    },
+    {
+      name: "Google Cloud",
+      url: "https://goo.gle/ctfsponsorship",
+      image: googlecloud,
+      blurb:
+        "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
+      flag: {
+      image: infraFlag,
+      blurb: "Infra sponsored by goo.gle/ctfsponsorship",
+      },
     },
   ]
 }
