@@ -115,19 +115,19 @@ const data = {
       },
     },
     {
+      name: "CrowdStrike",
+      url: "https://www.crowdstrike.com/en-us/",
+      image: crowdstrike,
+      blurb:
+        "#WeAreCrowdStrike and our mission is to stop breaches. Since our inception, our market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyberattacks.",
+    },
+    {
       name: "TryHackMe",
       url: "https://tryhackme.com/",
       image: tryhackme,
       //Taken from try hack me meta description
       blurb:
       "TryHackMe is a free online platform for learning cyber security, using hands-on exercises and labs, all through your browser!"
-    },
-    {
-      name: "CrowdStrike",
-      url: "https://www.crowdstrike.com/en-us/",
-      image: crowdstrike,
-      blurb:
-        "#WeAreCrowdStrike and our mission is to stop breaches. Since our inception, our market leading cloud-native platform has offered unparalleled protection against the most sophisticated cyberattacks.",
     },
   ]
 }
