@@ -1,61 +1,47 @@
-import nader from "../public/images/nader.jpeg";
-import nachenberg from "../public/images/nachenberg.jpg";
-import hammond from "../public/images/hammond.png";
-import tranberg from "../public/images/tranberg.jpg";
-import sanjana from "../public/images/sanjana.jpg";
-import nathan from "../public/images/nathan.png";
-import aaron from "../public/images/aaron.png";
+import samy from "../public/images/samy.jpg";
+import ytian from "../public/images/ytian.webp";
+import nader from "../public/images/nader.jpg";
+import alyssa from "../public/images/alyssa.jpeg";
 import peter from "../public/images/peter.png";
+import defund from "../public/images/defund.png";
 
 const data = {
   speakers: [
     {
-      name: "John Hammond",
-      title: "Cybersecurity Researcher, Educator and Content Creator",
-      info: "John Hammond is a cybersecurity researcher, educator and content creator. As part of the Threat Operations team at Huntress, John spends his days analyzing malware and making hackers earn their access. Previously, as a Department of Defense Cyber Training Academy instructor, he taught the Cyber Threat Emulation course, educating both civilian and military members on offensive Python, PowerShell, other scripting languages and the adversarial mindset. He has developed training material and information security challenges for events such as PicoCTF and competitions at DEFCON US. John speaks at security conferences such as BsidesNoVA, to students at colleges such as the US Naval Academy, and other online events including the SANS Holiday Hack Challenge/KringleCon. He is an online YouTube personality showcasing programming tutorials, CTF video walkthroughs and other cyber security content. John currently holds the following certifications: Security+, CEH, LFS, eJPT, eCPPT, PNPT, PCAP, OSWP, OSCP, OSCE, OSWE, OSEP, and OSED (OSCE(3)).",
-      image: hammond,
-    },
-    {
-      name: "Carey Nachenberg",
-      title: "UCLA Computer Science",
-      info: "Carey is an Adjunct Professor of Computer Science at UCLA. Carey spent the first 24 years of his career in the field of cyber-security, rising to chief engineer at Symantec and then serving as a founding member of Google's cyber-security spinout Chronicle. Most recently, Carey transitioned into the self-driving car field, serving as a principal engineer at Lyft's Level 5 autonomous vehicle division. Carey is the author of the thriller novel, The Florentine Deception.",
-      image: nachenberg,
+      name: "Samy Kamkar",
+      title: "Co-Founder, Openpath Security Inc.",
+      info: "Samy Kamkar, cofounder of Openpath Security, is a security researcher and author of the MySpace worm, the fastest spreading virus of all time. His open source research highlights the insecurities and privacy implications in everyday technologies from the Evercookie which produces virtually immutable respawning cookies, to SkyJack, a drone that wirelessly hijacks and autonomously controls other drones. Other projects include GlitchSink to non-invasively glitch secure microcontrollers for firmware and secret extraction, a 3D printed Arduino-based combination lock cracker, RollJam to wirelessly unlock and start cars (without their keys), OpenSesame turning a child's toy into a garage hacking device, and producing edible iridescent chocolate. His work has been cited by the NSA, triggered hearings on Capitol Hill, and has been the basis for security advancements across devices from the one in your pocket to the many surveilling you from the sky.",
+      image: samy,
     },
     {
       name: "Dr. Nader Sehatbakhsh",
-      title: "UCLA Electrical and Computer Engineering",
-      info: "Dr. Nader Sehatbakhsh runs the Secure Systems and Architectures (SsysArch) research lab at UCLA. His research interest is in the broad area of Security and Privacy with emphasis on hardware support for security and privacy. Specifically, he is interested in computer architecture, IoT Security, embedded/cyber-physical systems, side-channels, trusted computing and hardware enclaves, and security and privacy in machine learning. He is affiliated with the Computer Engineering Lab in Electrical and Computer Engineering (ECE) Department at UCLA.\nPrior to joining to UCLA, Dr. Nader Sehatbakhsh was a PhD student at the School of Computer Science in Georgia Tech working with Professor Milos Prvulovic and Professor Alenka Zajic where he worked on Securing Computing Systems by Mitigating and Leveraging Side-Channels. He earned his PhD in Computer Science from Georgia Tech in 2020. Before that, he earned his B.Sc. in Electrical Engineering from the University of Tehran in 2013. He joined UCLA since July 2020.",
+      title: "Assistant Professor, UCLA Electrical and Computer Engineering Department",
+      info: "Nader Sehatbakhsh runs the Secure Systems and Architectures (SsysArch) research lab at UCLA. His research interest is in the broad area of Security and Privacy with emphasis on hardware support for security and privacy. Specifically, he is interested in computer architecture, IoT Security, embedded/cyber-physical systems, and security and privacy in machine learning. He is affiliated with the Computer Engineering Lab in Electrical and Computer Engineering (ECE) Department at UCLA. Prior to joining to UCLA, Dr. Nader Sehatbakhsh was a PhD student at the School of Computer Science at Georgia Tech where he worked on Securing Computing Systems by Mitigating and Leveraging Side-Channels. He earned his PhD in Computer Science from Georgia Tech in 2020. Before that, he earned his B.Sc. in Electrical Engineering from the University of Tehran in 2013. He joined UCLA since July 2020.",
       image: nader,
     },
     {
-      name: "Dustin Tranberg",
-      title: "Office of Cybersecurity for the City and County of San Francisco",
-      info: "Dustin Tranberg works in the Office of Cybersecurity for the City and County of San Francisco, specializing in identity and access management. In his spare time, he enjoys cheese, travel, and long naps with his cat.",
-      image: tranberg,
+      name: "Dr. Yuan Tian",
+      title: "Assistant Professor, UCLA Electrical and Computer Engineering Department",
+      info: "Yuan Tian is an Assistant Professor of Electrical and Computer Engineering and the Institute for Technology, Law and Policy (ITLP) at the University of California, Los Angeles. She was an Assistant Professor at the University of Virginia, and she obtained her Ph.D. from Carnegie Mellon University in 2017. Her research interests involve security and privacy and their interactions with computer systems, machine learning, and human-computer interaction. Her current research focuses on developing new computing platforms with strong security and privacy features, particularly in the Internet of Things and machine learning. Her work has real-world impacts as countermeasures and design changes have been integrated into platforms (such as Android, Chrome, Azure, and iOS) and also impacted the security recommendations of standard organizations such as the Internet Engineering Task Force (IETF). She is a recipient of the Okawa Fundation Award 2022, Google Research Scholar Award 2021, Facebook Research Award 2021, NSF CAREER award 2020, NSF CRII award 2019, Amazon AI Faculty Fellowship 2019. Her research has appeared in top-tier venues in security, machine learning, and systems. Her projects have been covered by media outlets such as IEEE Spectrum, Forbes, Fortune, Wired, and Telegraph.",
+      image: ytian,
     },
     {
-      name: "Nathan Sinclair",
-      title: "Office of Cybersecurity for the City and County of San Francisco",
-      info: "Nathan Sinclair, Manager of the Cyber Defense Operations Team for the City and County of San Francisco, Office of Cybersecurity plays a key role in protecting the City and its 30,000 employees. The Cyber Defense Operations Team is a Central service that provides cybersecurity monitoring, alerting and defense strategies for the entire organization. Before joining the Department of Technology, Nathan worked for the Oakland Unified School District. Starting as an intern in high school, Nathan worked his way up through the ranks from an entry level computer tech, senior tech, and eventually Network Admin. Providing key support for admin staff, teachers, and students.",
-      image: nathan,
-    },
-    {
-      name: "Sanjana Sarda",
-      title: "Master's at Stanford University & UCLA Alumni",
-      info: "Sanjana Sarda is a distinguished alumnus of UCLA and ACM Cyber with experience in application, cloud, hardware, and system security. She is currently pursuing her master's degree in Electrical Engineering at Stanford University focused on AI security and privacy and will be joining Anduril as their first offensive security engineer in April. She has spoken at DEFCON, HITB, and BSides San Diego and her security research has been featured in publications such as Forbes and Vice’s Motherboard. Some of her exploits include bypassing face verification in dating applications and leaking private information via Bumble's API for all users.",
-      image: sanjana,
+      name: "Alyssa Wang",
+      title: "Systems Engineer, Cloudflare",
+      info: "Systems engineer on the Zero Trust Secure Web Gateway team at Cloudflare and UCLA ACM Cyber Alumni, class of 2022.",
+      image: alyssa,
     },
     {
       name: "Peter Sutarjo",
-      title: "Associate Game Security Engineer at Blizzard",
-      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently an Associate Game Security Engineer at Blizzard working on anticheat and antitamper technologies for games such as Overwatch 2 and Diablo IV.  Besides Blizzard, he has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make games with heart.",
+      title: "Game Security Engineer, Blizzard Entertainment",
+      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently a Game Security Engineer at Blizzard working on anticheat and antitamper technologies for games such as Overwatch 2 and Diablo IV. Besides Blizzard, he has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make narrative-driven games with heart.",
       image: peter,
     },
     {
-      name: "Aaron Yoo",
-      title: "Software Engineer at Apple & UCLA Alumni",
-      info: "Aaron Yoo is currently a software engineer on the Secure Runtime team at Apple. He also is a UCLA alumni and an ACM Cyber (formerly NetSec) alumni. Aaron has extensive experience in the field of cybersecurity. Previously, he has worked and interned at Green Hills Software, working on Green Hills INTEGRITY operating system. He also has interned at Trail of Bits, Ariento, and Ender Technology.",
-      image: aaron,
+      name: "William Wang",
+      title: "PhD Student (Cryptography), NYU",
+      info: "William is a former ACM Cyber officer, and currently a PhD student at NYU. He works on cryptography and also plays CTFs with DiceGang.",
+      image: defund,
     }
   ],
 };
