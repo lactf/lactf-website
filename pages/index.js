@@ -158,7 +158,7 @@ export default function Home() {
               live-streamed talks. Stay tuned for more information!
             </p>
 
-            {/* <Carousel /> */}
+            <Carousel />
           </section>
         </div>
 
