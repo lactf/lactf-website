@@ -59,17 +59,13 @@ const PrizesStrip = () => {
         </div>
       </div>
       <p className={styles.prizebetween}>
-        Prizes will be announced closer to the competition date. Stay tuned!
+        Prizes are subject to change and may be made conditional on proof of challenge completion (writeups).
       </p>
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
           <h3>Writeup Prizes:</h3>
           <br />
           <ul>
-            <li>
-              There will be some prizes separately designated for writeups. Stay
-              tuned for more information!
-            </li>
             <li>
               A pool of $400 worth of prize money will be given out via writeup
               prizes, of which $200 is reserved for UCLA students.
