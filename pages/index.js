@@ -100,7 +100,7 @@ export default function Home() {
                 >
                   Schedule
                 </button>
-              </a>
+              </a> */}
               <a href="https://platform.lac.tf/">
                 <button
                   className={
@@ -109,7 +109,7 @@ export default function Home() {
                 >
                   CTF Platform
                 </button>
-              </a> */}
+              </a>
               <a href="https://ctftime.org/event/2102">
                 <button
                   className={
