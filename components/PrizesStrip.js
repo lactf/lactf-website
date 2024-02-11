@@ -20,10 +20,18 @@ const PrizesStrip = () => {
                 className={styles.prizelink}
                 href="https://www.myamberlife.com/amberpro/"
               >
-                2 Amber Pro Smart Storage Devices
+                Amber Pro Smart Storage Devices
               </a>{" "}
             </li>
-            <li>2nd place: $140</li>
+            <li>
+              2nd place: $140 +<br />
+              <a
+                className={styles.prizelink}
+                href="https://www.myamberlife.com/amberpro/"
+              >
+                Amber Pro Smart Storage Devices
+              </a>{" "}
+            </li>
             <li>3rd place: $100</li>
             <li>4th & 5th place: $80</li>
             <li>6th-10th place: $40</li>
@@ -59,7 +67,8 @@ const PrizesStrip = () => {
         </div>
       </div>
       <p className={styles.prizebetween}>
-        Prizes are subject to change and may be made conditional on proof of challenge completion (writeups).
+        Prizes are subject to change and may be made conditional on proof of
+        challenge completion (writeups).
       </p>
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
