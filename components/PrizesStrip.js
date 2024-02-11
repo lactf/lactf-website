@@ -14,32 +14,33 @@ const PrizesStrip = () => {
           <br />
           <br />
           <ul className={styles.prizelist}>
-            {/* <li>
-              1st place: $200 + <br />
+            <li>
+              1st place: $200 +<br />
               <a
                 className={styles.prizelink}
                 href="https://www.myamberlife.com/amberpro/"
               >
-                Amber Pro Smart Storage Device
+                Amber Pro Smart Storage Devices
               </a>{" "}
-              + <br />
+            </li>
+            <li>
+              2nd place: $140 +<br />
               <a
                 className={styles.prizelink}
-                href="https://www.myamberlife.com/amber-x/"
+                href="https://www.myamberlife.com/amberpro/"
               >
-                Amber X Smart Storage Device
-              </a>
+                Amber Pro Smart Storage Devices
+              </a>{" "}
             </li>
-            <li>2nd place: $140</li>
             <li>3rd place: $100</li>
             <li>4th & 5th place: $80</li>
-            <li>6th-10th place: $40</li> */}
+            <li>6th-10th place: $40</li>
           </ul>
           <br />
-          {/* <p>
+          <p>
             UCLA division prizes will be distributed directly to individual team
             members. Amounts listed are per team.
-          </p> */}
+          </p>
           <br />
         </div>
         <div className={styles.prizesBlock}>
@@ -51,22 +52,23 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          {/* <ul className={styles.prizelist}>
+          <ul className={styles.prizelist}>
             <li>1st place: $500</li>
             <li>2nd place: $300</li>
             <li>3rd place: $200</li>
             <li>4th & 5th place: $100</li>
-          </ul> */}
+          </ul>
           <br />
-          {/* <p>
+          <p>
             Open division prizes will be distributed to the email linked to the
             given winning teams. Amounts listed are per team.
-          </p> */}
+          </p>
           <br />
         </div>
       </div>
       <p className={styles.prizebetween}>
-        Prizes will be announced closer to the competition date. Stay tuned!
+        Prizes are subject to change and may be made conditional on proof of
+        challenge completion (writeups).
       </p>
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
@@ -74,12 +76,8 @@ const PrizesStrip = () => {
           <br />
           <ul>
             <li>
-              There will be some prizes separately designated for writeups. Stay
-              tuned for more information!
-            </li>
-            {/* <li>
               A pool of $400 worth of prize money will be given out via writeup
-              prizes, of which $200 is for UCLA students.
+              prizes, of which $200 is reserved for UCLA students.
             </li>
             <li>
               Writeup prizes are made out to the individual or group that made
@@ -92,7 +90,7 @@ const PrizesStrip = () => {
             <li>
               The writeup submission form will be active for 1 week after the
               CTF is over, and will be posted in our discord.
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>
