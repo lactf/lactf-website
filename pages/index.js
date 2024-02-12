@@ -100,7 +100,7 @@ export default function Home() {
                 >
                   Schedule
                 </button>
-              </a>
+              </a> */}
               <a href="https://platform.lac.tf/">
                 <button
                   className={
@@ -109,7 +109,7 @@ export default function Home() {
                 >
                   CTF Platform
                 </button>
-              </a> */}
+              </a>
               <a href="https://ctftime.org/event/2102">
                 <button
                   className={
@@ -126,18 +126,6 @@ export default function Home() {
                   }
                 >
                   RSVP Form
-                </button>
-              </a>
-              {/* This is an a tag href to a 302 redirect on /discord in case we need
-              to update the invite link. As such, react should *not* attempt to load */}
-              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-              <a href="/discord">
-                <button
-                  className={
-                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                  }
-                >
-                  Discord
                 </button>
               </a>
             </div>
