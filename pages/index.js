@@ -88,19 +88,11 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 16, 2024 8:00PM PST - Feb 18, 2024 2:00PM PST
+              Feb 16, 2024 8:00PM PST - Feb 18, 2024 2:00PM PST <br />
+              Kerckhoff Grand Salon
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
-              {/* <a href="https://static.lac.tf/2023/schedule.pdf">
-                <button
-                  className={
-                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                  }
-                >
-                  Schedule
-                </button>
-              </a> */}
               <a href="https://platform.lac.tf/">
                 <button
                   className={
@@ -126,6 +118,17 @@ export default function Home() {
                   }
                 >
                   RSVP Form
+                </button>
+              </a>
+            </div>
+            <div className={styles.heroButtonContainer}>
+              <a href="https://static.lac.tf/schedule.pdf">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Schedule
                 </button>
               </a>
             </div>

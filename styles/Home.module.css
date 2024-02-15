@@ -118,6 +118,9 @@ a.mailto:hover {
 
 .heroButtonContainer > a {
   margin: 0rem auto 2.5rem auto;
+  display: flex;
+  justify-content: center;
+  width: calc(100% / 3);
 }
 
 .bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
@@ -153,7 +156,13 @@ a.mailto:hover {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 940px) {
+  .bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 900px) {
   .hero {
     padding-top: 4rem;
   }
@@ -166,11 +175,10 @@ a.mailto:hover {
     height: 3.5rem;
     padding-left: calc(1.25rem - 1px);
     padding-right: calc(1.25rem - 1px);
-    font-size: large;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .mainInfoContainer {
     max-width: 100%;
     background-color: transparent;
@@ -263,7 +271,7 @@ a.mailto:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .speakers > p {
     display: none;
   }
@@ -387,12 +395,12 @@ a.mailto:hover {
 /* === Wavy Sections === */
 /* declared at bottom so that we don't have to use !important */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .wavySection {
     --left: 0;
-    margin-left: calc((768px - 50vw) * -0.5 * var(--left));
-    margin-right: calc((768px - 50vw) * -0.5 * (1 - var(--left)));
-    padding-left: calc((768px - 50vw) * 0.5 * var(--left));
-    padding-right: calc((768px - 50vw) * 0.5 * (1 - var(--left)));
+    margin-left: calc((800px - 50vw) * -0.5 * var(--left));
+    margin-right: calc((800px - 50vw) * -0.5 * (1 - var(--left)));
+    padding-left: calc((800px - 50vw) * 0.5 * var(--left));
+    padding-right: calc((800px - 50vw) * 0.5 * (1 - var(--left)));
   }
 }

@@ -137,7 +137,7 @@ div.main {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .main > .containerLeft > div.image {
     width: 50%;
   }

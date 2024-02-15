@@ -55,7 +55,7 @@ ul.timer > li {
   font-weight: 300;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .timerContainer {
     padding: 0 1rem;
   }
