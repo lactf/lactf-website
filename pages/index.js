@@ -23,6 +23,12 @@ import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
 import SponsorsStrip from "../components/Sponsors";
 
+export const metadata = {
+  title: "LA CTF",
+  description:
+    "LA CTF hosted by ACM Cyber & Psi Beta Rho! Website for the largest annual cybersecurity competition at UCLA! Whether you are tackling your first exploit or have professional experience, there will be challenges just right for you!",
+};
+
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
   // won't show on first load so we force a CSS reflow here
