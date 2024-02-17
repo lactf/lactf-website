@@ -111,13 +111,13 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfgFXrnVVjY5zezmgA1nk_Y4kmaN3OqY33BQNQNvFcTmqdl1g/viewform">
+              <a href="https://zoom.lac.tf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
                   }
                 >
-                  RSVP Form
+                  Zoom
                 </button>
               </a>
             </div>
