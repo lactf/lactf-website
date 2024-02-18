@@ -22,6 +22,10 @@ const PrizesStrip = () => {
               >
                 Amber Pro Smart Storage Devices
               </a>{" "}
+              + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                4× 3 month TryHackMe Premium vouchers
+              </a>{" "}
             </li>
             <li>
               2nd place: $140 +<br />
@@ -31,15 +35,35 @@ const PrizesStrip = () => {
               >
                 Amber Pro Smart Storage Devices
               </a>{" "}
+              + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                2× 3 month, 2× 1 month TryHackMe Premium vouchers
+              </a>{" "}
             </li>
-            <li>3rd place: $100</li>
-            <li>4th & 5th place: $80</li>
-            <li>6th-10th place: $40</li>
+            <li>
+              3rd place: $100 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                4× 1 month TryHackMe Premium vouchers
+              </a>{" "}
+            </li>
+            <li>
+              4th & 5th place: $80 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                2× 1 month TryHackMe Premium vouchers
+              </a>{" "}
+            </li>
+            <li>
+              6th-10th place: $40 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                2× 1 month TryHackMe Premium vouchers
+              </a>{" "}
+            </li>
           </ul>
           <br />
           <p>
             UCLA division prizes will be distributed directly to individual team
-            members. Amounts listed are per team.
+            members. Amounts listed are per team. No more than one TryHackMe
+            voucher may go to any individual in a UCLA Division team.
           </p>
           <br />
         </div>
@@ -53,9 +77,24 @@ const PrizesStrip = () => {
           <br />
           <br />
           <ul className={styles.prizelist}>
-            <li>1st place: $500</li>
-            <li>2nd place: $300</li>
-            <li>3rd place: $200</li>
+            <li>
+              1st place: $500 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                2× 3 month TryHackMe Premium vouchers
+              </a>{" "}
+            </li>
+            <li>
+              2nd place: $300 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                2× 1 month TryHackMe Premium vouchers
+              </a>{" "}
+            </li>
+            <li>
+              3rd place: $200 + <br />
+              <a className={styles.prizelink} href="https://tryhackme.com/">
+                1× 1 month TryHackMe Premium voucher
+              </a>{" "}
+            </li>
             <li>4th & 5th place: $100</li>
           </ul>
           <br />
