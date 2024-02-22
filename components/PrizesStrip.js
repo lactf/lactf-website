@@ -53,10 +53,7 @@ const PrizesStrip = () => {
               </a>{" "}
             </li>
             <li>
-              6th-10th place: $40 + <br />
-              <a className={styles.prizelink} href="https://tryhackme.com/">
-                2× 1 month TryHackMe Premium vouchers
-              </a>{" "}
+              6th-10th place: $40
             </li>
           </ul>
           <br />
