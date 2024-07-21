@@ -52,9 +52,7 @@ const PrizesStrip = () => {
                 2× 1 month TryHackMe Premium vouchers
               </a>{" "}
             </li>
-            <li>
-              6th-10th place: $40
-            </li>
+            <li>6th-10th place: $40</li>
           </ul>
           <br />
           <p>
