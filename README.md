@@ -10,7 +10,7 @@ This repository contains the source code for the LA CTF website. To see the depl
 The LA CTF Website utilizes `Next.js`. In order to locally host this project, first clone the repository.
 
 ```
-git clone https://github.com/uclaacm/lactf-website.git
+git clone https://github.com/lactf/lactf-website.git
 cd lactf-website
 ```
 
