@@ -22,6 +22,7 @@ import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
 import SponsorsStrip from "../components/Sponsors";
+import Archive from "../components/Archive.js";
 
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
@@ -188,6 +189,25 @@ export default function Home() {
           </p>
 
           <SponsorsStrip />
+        </section>
+
+        <section className={`${styles.sponsors} ${styles.wavySection}`}>
+          <h2 id="sponsors">
+            <span className={styles.headerText}>Sponsors</span>
+          </h2>
+          <p className={styles.headerDesc}>
+            LA CTF would not be possible without our amazing sponsors! Want your
+            company to be a sponsor? Reach out to{" "}
+            <Link
+              href="mailto:uclacyber+lactf@gmail.com"
+              className={styles.mailto}
+            >
+              uclacyber@gmail.com
+            </Link>
+            !
+          </p>
+
+          <Archive />
         </section>
 
         <section className={styles.contacts}>
