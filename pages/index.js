@@ -88,8 +88,10 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 16, 2024 8:00PM PST - Feb 18, 2024 2:00PM PST <br />
-              Kerckhoff Grand Salon
+              Tentatively: <br />
+              Feb 21, 2025 - Feb 23, 2025
+              <br />
+              UCLA
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
@@ -160,13 +162,7 @@ export default function Home() {
           <p className={styles.headerDesc}>
             LA CTF will have prizes for both the UCLA and open sections! While
             there will be two sections for prizes, all of the challenges will be
-            the same for both sections. Prizes will be given in the form of US
-            Amazon gift cards or by arrangement, and can{" "}
-            <u>
-              <strong>
-                only be given to teams with players based in the US
-              </strong>
-            </u>
+            the same for both sections.
           </p>
           <PrizesStrip />
         </section>
