@@ -104,7 +104,7 @@ export default function Home() {
                   CTF Platform
                 </button>
               </a>
-              <a href="https://ctftime.org/event/2102">
+              <a href="https://ctftime.org/ctf/820">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -113,7 +113,7 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
-              <a href="https://zoom.lac.tf">
+              {/* <a href="https://zoom.lac.tf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -121,9 +121,9 @@ export default function Home() {
                 >
                   Zoom
                 </button>
-              </a>
+              </a> */}
             </div>
-            <div className={styles.heroButtonContainer}>
+            {/* <div className={styles.heroButtonContainer}>
               <a href="https://static.lac.tf/schedule.pdf">
                 <button
                   className={
@@ -133,7 +133,7 @@ export default function Home() {
                   Schedule
                 </button>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
 
