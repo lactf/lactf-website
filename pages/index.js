@@ -89,9 +89,9 @@ export default function Home() {
             </div>
             <p className={styles.subheading}>
               Tentatively: <br />
-              Feb 21, 2025 - Feb 23, 2025
+              Feb 8, 2025 XX:00 AM/PM PST - Feb 9, 2025 XX:00 AM/PM PST
               <br />
-              UCLA
+              Covel Grand Horizons
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
