@@ -58,7 +58,23 @@ import crowdstrike from "../public/images/crowdstrike.png"
 //   ],
 // };
 const data = {
-  sponsors: []
+  sponsors: [
+    {
+      name: "OtterSec",
+      url: "https://osec.io/",
+      image: ottersec,
+      blurb:
+        "OtterSec is the leading blockchain security audit team, working closely with various Layer 1s and the protocols built on them.",
+    },
+    {
+      name: "CrowdStrike",
+      url: "https://www.crowdstrike.com/",
+      image: crowdstrike,
+      // Taken from https://www.crowdstrike.com/en-us/about-us/
+      blurb:
+        "CrowdStrike secures the most critical areas of risk – endpoints and cloud workloads, identity, and data – to keep customers ahead of today’s adversaries and stop breaches.",
+    },
+  ]
 }
 
 export default data;

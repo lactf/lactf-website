@@ -4,10 +4,17 @@ import nader from "../public/images/nader.jpg";
 import alyssa from "../public/images/alyssa.jpeg";
 import peter from "../public/images/peter.png";
 import defund from "../public/images/defund.png";
+import placeholder from "../public/images/placeholder.jpg";
 
 const data = {
   speakers: [
     {
+      name: "Speakers Coming Soon",
+      title: "TBD...",
+      info: "",
+      image: placeholder,
+    }
+    /*{
       name: "Samy Kamkar",
       title: "Co-Founder, Openpath Security Inc.",
       info: "Samy Kamkar, cofounder of Openpath Security, is a security researcher and author of the MySpace worm, the fastest spreading virus of all time. His open source research highlights the insecurities and privacy implications in everyday technologies from the Evercookie which produces virtually immutable respawning cookies, to SkyJack, a drone that wirelessly hijacks and autonomously controls other drones. Other projects include GlitchSink to non-invasively glitch secure microcontrollers for firmware and secret extraction, a 3D printed Arduino-based combination lock cracker, RollJam to wirelessly unlock and start cars (without their keys), OpenSesame turning a child's toy into a garage hacking device, and producing edible iridescent chocolate. His work has been cited by the NSA, triggered hearings on Capitol Hill, and has been the basis for security advancements across devices from the one in your pocket to the many surveilling you from the sky.",
@@ -42,7 +49,7 @@ const data = {
       title: "PhD Student (Cryptography), NYU",
       info: "William is a former ACM Cyber officer, and currently a PhD student at NYU. He works on cryptography and also plays CTFs with DiceGang.",
       image: defund,
-    }
+    }*/
   ],
 };
 

@@ -88,8 +88,10 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 16, 2024 8:00PM PST - Feb 18, 2024 2:00PM PST <br />
-              Kerckhoff Grand Salon
+              Tentatively: <br />
+              Feb 8, 2025 - Feb 9, 2025
+              <br />
+              Covel Grand Horizons
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>
@@ -102,7 +104,7 @@ export default function Home() {
                   CTF Platform
                 </button>
               </a>
-              <a href="https://ctftime.org/event/2102">
+              <a href="https://ctftime.org/ctf/820">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -111,7 +113,7 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
-              <a href="https://zoom.lac.tf">
+              {/* <a href="https://zoom.lac.tf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -119,9 +121,9 @@ export default function Home() {
                 >
                   Zoom
                 </button>
-              </a>
+              </a> */}
             </div>
-            <div className={styles.heroButtonContainer}>
+            {/* <div className={styles.heroButtonContainer}>
               <a href="https://static.lac.tf/schedule.pdf">
                 <button
                   className={
@@ -131,7 +133,7 @@ export default function Home() {
                   Schedule
                 </button>
               </a>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -160,13 +162,7 @@ export default function Home() {
           <p className={styles.headerDesc}>
             LA CTF will have prizes for both the UCLA and open sections! While
             there will be two sections for prizes, all of the challenges will be
-            the same for both sections. Prizes will be given in the form of US
-            Amazon gift cards or by arrangement, and can{" "}
-            <u>
-              <strong>
-                only be given to teams with players based in the US
-              </strong>
-            </u>
+            the same for both sections.
           </p>
           <PrizesStrip />
         </section>

@@ -13,7 +13,7 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          <ul className={styles.prizelist}>
+          {/* <ul className={styles.prizelist}>
             <li>
               1st place: $200 +<br />
               <a
@@ -53,13 +53,13 @@ const PrizesStrip = () => {
               </a>{" "}
             </li>
             <li>6th-10th place: $40</li>
-          </ul>
+          </ul> */}
           <br />
-          <p>
+          {/* <p>
             UCLA division prizes will be distributed directly to individual team
             members. Amounts listed are per team. No more than one TryHackMe
             voucher may go to any individual in a UCLA Division team.
-          </p>
+          </p> */}
           <br />
         </div>
         <div className={styles.prizesBlock}>
@@ -71,7 +71,7 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          <ul className={styles.prizelist}>
+          {/* <ul className={styles.prizelist}>
             <li>
               1st place: $500 + <br />
               <a className={styles.prizelink} href="https://tryhackme.com/">
@@ -91,27 +91,27 @@ const PrizesStrip = () => {
               </a>{" "}
             </li>
             <li>4th & 5th place: $100</li>
-          </ul>
+          </ul> */}
           <br />
-          <p>
+          {/* <p>
             Open division prizes will be distributed to the email linked to the
             given winning teams. Amounts listed are per team.
-          </p>
+          </p> */}
           <br />
         </div>
       </div>
-      <p className={styles.prizebetween}>
+      {/* <p className={styles.prizebetween}>
         Prizes are subject to change and may be made conditional on proof of
         challenge completion (writeups).
-      </p>
+      </p> */}
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
           <h3>Writeup Prizes:</h3>
           <br />
           <ul>
             <li>
-              A pool of $400 worth of prize money will be given out via writeup
-              prizes, of which $200 is reserved for UCLA students.
+              A pool of prize money will be given out via writeup prizes, of
+              which some is reserved for UCLA students.
             </li>
             <li>
               Writeup prizes are made out to the individual or group that made

@@ -5,7 +5,11 @@ import styles from "../styles/Countdown.module.css";
 const Countdown = () => {
   let [time, setTime] = useState(0);
 
-  let updateTime = () => setTime(Math.max(1708142400 - Date.now() / 1000, 0));
+  // Tentatively February 8 - 9 (below is 02/08/2025 6:00PM PST)
+  const endOfCountdowntime = 1739066400; // Unix timestamp of the date the timer counts down to
+
+  let updateTime = () =>
+    setTime(Math.max(endOfCountdowntime - Date.now() / 1000, 0));
   useEffect(() => {
     if (time === 0) updateTime();
     setInterval(updateTime, 5000);
