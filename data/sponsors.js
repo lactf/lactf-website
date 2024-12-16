@@ -74,6 +74,17 @@ const data = {
       blurb:
         "CrowdStrike secures the most critical areas of risk – endpoints and cloud workloads, identity, and data – to keep customers ahead of today’s adversaries and stop breaches.",
     },
+    {
+      name: "Google Cloud",
+      url: "https://goo.gle/ctfsponsorship",
+      image: googlecloud,
+      blurb:
+        "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
+      flag: {
+        image: infraFlag,
+        blurb: "Infra sponsored by goo.gle/ctfsponsorship",
+      },
+    },
   ]
 }
 
