@@ -5,7 +5,7 @@ import alyssa from "../public/images/alyssa.jpeg";
 import peter from "../public/images/peter.png";
 import defund from "../public/images/defund.png";
 import placeholder from "../public/images/placeholder.jpg";
-import lowLevel from "../public/images/lowLevel.jpg";
+import lowLevel from "../public/images/lowlevel.jpg";
 
 const data = {
   speakers: [
