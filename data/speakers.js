@@ -5,15 +5,22 @@ import alyssa from "../public/images/alyssa.jpeg";
 import peter from "../public/images/peter.png";
 import defund from "../public/images/defund.png";
 import placeholder from "../public/images/placeholder.jpg";
+import lowLevel from "../public/images/lowlevel.jpg";
 
 const data = {
   speakers: [
     {
-      name: "Speakers Coming Soon",
+      name: "Ed (LowLevel)",
+      title: "Security Researcher, YouTuber",
+      info: "Ed (LowLevel) is an offensive security researcher and security engineer. Ed has been doing penetration tests, vulnerability research, and security audits for the last 10 years. On YouTube, he has a following of 750,000 subscribers and makes videos about recent vulnerabilities, and how we can all make software safer",
+      image: lowLevel,
+    },
+    {
+      name: "More speakers Coming Soon",
       title: "TBD...",
       info: "",
       image: placeholder,
-    }
+    },
     /*{
       name: "Samy Kamkar",
       title: "Co-Founder, Openpath Security Inc.",

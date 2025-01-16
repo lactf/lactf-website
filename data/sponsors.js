@@ -8,6 +8,8 @@ import infraFlag from "../public/images/infraFlag.svg";
 import lockheedmartin from "../public/images/lockheed_martin.svg";
 import tryhackme from "../public/images/tryhackme.png"
 import crowdstrike from "../public/images/crowdstrike.png"
+import spacex from "../public/images/spacex.png"
+import binaryNinja from "../public/images/binary-ninja.png"
 
 // const data = {
 //   sponsors: [
@@ -84,6 +86,27 @@ const data = {
         image: infraFlag,
         blurb: "Infra sponsored by goo.gle/ctfsponsorship",
       },
+    },
+    {
+      name: "Trail of Bits",
+      url: "https://www.trailofbits.com/",
+      image: trailofbits,
+      blurb:
+        "Trail of Bits helps secure the world's most targeted organizations and products. We combine high-end security research with a real-world attacker mentality to reduce risk and fortify code.",
+    },
+    {
+      name: "SpaceX",
+      url: "https://www.spacex.com/",
+      image: spacex,
+      blurb:
+        "SpaceX is looking for world-class talent ready to tackle challenging projects that will ultimately enable life on other planets. For example, we’re leveraging our experience in building rockets and spacecraft to deploy Starlink, the world’s most advanced broadband internet system.",
+    },
+    {
+      name: "Vector 35 - Binary Ninja",
+      url: "https://binary.ninja/",
+      image: binaryNinja,
+      blurb:
+        "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide."
     },
   ]
 }
