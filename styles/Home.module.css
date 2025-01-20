@@ -215,6 +215,11 @@ a.mailto:hover {
   z-index: 1;
   min-height: 130vh;
 }
+@media (max-width: 543px) {
+  .about {
+    min-height: 90vh;
+  }
+}
 
 .about::before {
   content: "";
