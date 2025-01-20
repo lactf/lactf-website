@@ -310,12 +310,28 @@ a.mailto:hover {
   z-index: 1;
   /* min-height: calc(var(--car-offset) + 120vh); */
   margin: 0px;
-  padding: var(--car-offset) 0px 40vh 0px;
+  padding: var(--car-offset) 0px 50vh 0px;
   background: 50% 80%/100% 60% no-repeat var(--sunrise-gradient),
     50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
     50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%);
   clip-path: url(#sponsorsClipPath);
   overflow-y: visible;
+}
+
+/* === Archive === */
+
+.archive {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 15vh;
+  /* min-height: calc(var(--car-offset) + 120vh); */
+}
+
+.archiveHeaderDesc {
+  padding: 0 10vw 10vh 10vw;
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
 }
 
 /* === Contacts & Footer === */

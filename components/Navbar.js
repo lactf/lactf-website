@@ -26,6 +26,9 @@ function Navbar() {
           <Link href="/#contact">Contact</Link>
         </li>
         <li>
+          <Link href="/#archive">Archive</Link>
+        </li>
+        <li>
           <Link href="/#sponsors">Sponsors</Link>
         </li>
         <li>
