@@ -205,7 +205,7 @@ export default function Home() {
           <h2 id="archive">
             <span className={styles.headerText}>Archive</span>
           </h2>
-          <p className={styles.headerDesc}>
+          <p className={styles.archiveHeaderDesc}>
             Check out our past competition challenges and results!
           </p>
 
