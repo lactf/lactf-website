@@ -1,0 +1,70 @@
+.archiveFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.archiveYearText {
+  margin: 0px;
+  color: #f44d8a;
+}
+
+.archiveYearFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 1rem 1rem;
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.archiveItems {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.archiveIcon {
+  margin: 10px;
+}
+
+.archiveVertCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: darkblue;
+  border-radius: 10px; */
+  margin: 0.5rem;
+  color: white;
+
+  /*color: transparent;
+  background: var(--gold-gradient);
+  background-clip: text;*/
+}
+
+.archiveVertCenter:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 840px) {
+  .icon {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .icon > figure > .flag {
+    margin: -7px -11px 0 0;
+  }
+
+  .blurb {
+    font-size: 16px;
+  }
+  .archiveFlexContainer {
+    margin-bottom: 10rem;
+  }
+}

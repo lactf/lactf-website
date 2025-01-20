@@ -172,6 +172,16 @@ export default function Home() {
           <PrizesStrip />
         </section>
 
+        {/* <section className={`${styles.sponsors} ${styles.wavySection}`}>
+          <h2 id="lactf-mini">
+            <span className={styles.headerText}>LA CTF Mini</span>
+          </h2>
+          <p className={styles.headerDesc}>
+            We are delighted to announce that a new CTF category - LA CTF Mini!
+            (ADDITIONAL DESCRIPTION)
+          </p>
+        </section> */}
+
         <section className={`${styles.sponsors} ${styles.wavySection}`}>
           <h2 id="sponsors">
             <span className={styles.headerText}>Sponsors</span>
@@ -191,20 +201,12 @@ export default function Home() {
           <SponsorsStrip />
         </section>
 
-        <section className={`${styles.sponsors} ${styles.wavySection}`}>
-          <h2 id="sponsors">
-            <span className={styles.headerText}>Sponsors</span>
+        <section className={`${styles.archive}`}>
+          <h2 id="archive">
+            <span className={styles.headerText}>Archive</span>
           </h2>
           <p className={styles.headerDesc}>
-            LA CTF would not be possible without our amazing sponsors! Want your
-            company to be a sponsor? Reach out to{" "}
-            <Link
-              href="mailto:uclacyber+lactf@gmail.com"
-              className={styles.mailto}
-            >
-              uclacyber@gmail.com
-            </Link>
-            !
+            Check out our past competition challenges and results!
           </p>
 
           <Archive />

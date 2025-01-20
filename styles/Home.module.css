@@ -318,6 +318,15 @@ a.mailto:hover {
   overflow-y: visible;
 }
 
+/* === Archive === */
+
+.archive {
+  position: relative;
+  z-index: 1;
+  /* min-height: calc(var(--car-offset) + 120vh); */
+  margin: 0px;
+}
+
 /* === Contacts & Footer === */
 
 .contacts {
