@@ -12,7 +12,7 @@ const data = {
     {
       name: "Ed (LowLevel)",
       title: "Security Researcher, YouTuber",
-      info: "Ed (LowLevel) is an offensive security researcher and security engineer. Ed has been doing penetration tests, vulnerability research, and security audits for the last 10 years. On YouTube, he has a following of 750,000 subscribers and makes videos about recent vulnerabilities, and how we can all make software safer",
+      info: "Ed (LowLevel) is an offensive security researcher and security engineer. Ed has been doing penetration tests, vulnerability research, and security audits for the last 10 years. On YouTube, he has a following of 750,000 subscribers and makes videos about recent vulnerabilities, and how we can all make software safer.",
       image: lowLevel,
     },
     {
