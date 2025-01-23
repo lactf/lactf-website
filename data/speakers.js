@@ -16,6 +16,12 @@ const data = {
       image: lowLevel,
     },
     {
+      name: "William Wang",
+      title: "PhD Student (Cryptography), NYU",
+      info: "William is a former ACM Cyber officer, and currently a PhD student at NYU. He works on cryptography and also plays CTFs with DiceGang.",
+      image: defund,
+    },
+    {
       name: "More speakers Coming Soon",
       title: "TBD...",
       info: "",
