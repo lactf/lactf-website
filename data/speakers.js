@@ -22,6 +22,12 @@ const data = {
       image: defund,
     },
     {
+      name: "Peter Sutarjo",
+      title: "Anti-Cheat Engineer, Moonshot Games",
+      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently a Game Security Engineer at Blizzard working on anticheat and antitamper technologies for games such as Overwatch 2 and Diablo IV. Besides Blizzard, he has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make narrative-driven games with heart.",
+      image: peter,
+    },
+    {
       name: "More speakers Coming Soon",
       title: "TBD...",
       info: "",
@@ -50,19 +56,7 @@ const data = {
       title: "Systems Engineer, Cloudflare",
       info: "Systems engineer on the Zero Trust Secure Web Gateway team at Cloudflare and UCLA ACM Cyber Alumni, class of 2022.",
       image: alyssa,
-    },
-    {
-      name: "Peter Sutarjo",
-      title: "Game Security Engineer, Blizzard Entertainment",
-      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently a Game Security Engineer at Blizzard working on anticheat and antitamper technologies for games such as Overwatch 2 and Diablo IV. Besides Blizzard, he has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make narrative-driven games with heart.",
-      image: peter,
-    },
-    {
-      name: "William Wang",
-      title: "PhD Student (Cryptography), NYU",
-      info: "William is a former ACM Cyber officer, and currently a PhD student at NYU. He works on cryptography and also plays CTFs with DiceGang.",
-      image: defund,
-    }*/
+    },*/
   ],
 };
 
