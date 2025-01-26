@@ -6,10 +6,13 @@ import trailofbits from "../public/images/trail-of-bits.png";
 import affiliateFlag from "../public/images/affiliateFlag.svg";
 import infraFlag from "../public/images/infraFlag.svg";
 import lockheedmartin from "../public/images/lockheed_martin.svg";
-import tryhackme from "../public/images/tryhackme.png"
-import crowdstrike from "../public/images/crowdstrike.png"
-import spacex from "../public/images/spacex.png"
-import binaryNinja from "../public/images/binary-ninja.png"
+import tryhackme from "../public/images/tryhackme.png";
+import crowdstrike from "../public/images/crowdstrike.png";
+import spacex from "../public/images/spacex.png";
+import binaryNinja from "../public/images/binary-ninja.png";
+import microsoft from "../public/images/microsoft.jpg";
+import aerospace from "../public/images/aerospace.png";
+import lockheed from "../public/images/lockheed.png";
 
 // const data = {
 //   sponsors: [
@@ -69,12 +72,24 @@ const data = {
         "OtterSec is the leading blockchain security audit team, working closely with various Layer 1s and the protocols built on them.",
     },
     {
-      name: "CrowdStrike",
-      url: "https://www.crowdstrike.com/",
-      image: crowdstrike,
-      // Taken from https://www.crowdstrike.com/en-us/about-us/
+      name: "Microsoft",
+      url: "https://www.microsoft.com/",
+      image: microsoft,
+      // Taken from https://www.microsoft.com/en-us/about
       blurb:
-        "CrowdStrike secures the most critical areas of risk – endpoints and cloud workloads, identity, and data – to keep customers ahead of today’s adversaries and stop breaches.",
+        "Microsoft's mission is to empower every person and every organization on the planet to achieve more.",
+    },
+    {
+      name: "Lockheed Martin",
+      url: "https://www.lockheedmartin.com/",
+      image: lockheed,
+      // Taken from https://aerospace.org/ SEO metadata
+      blurb:
+        "Lockheed Martin is a leading global security, defense and aerospace contractor, ensuring those we serve always stay ahead of ready.",
+      flag: {
+        image: affiliateFlag,
+        blurb: "Affiliate",
+      },
     },
     {
       name: "Google Cloud",
@@ -86,6 +101,14 @@ const data = {
         image: infraFlag,
         blurb: "Infra sponsored by goo.gle/ctfsponsorship",
       },
+    },
+    {
+      name: "CrowdStrike",
+      url: "https://www.crowdstrike.com/",
+      image: crowdstrike,
+      // Taken from https://www.crowdstrike.com/en-us/about-us/
+      blurb:
+        "CrowdStrike secures the most critical areas of risk – endpoints and cloud workloads, identity, and data – to keep customers ahead of today’s adversaries and stop breaches.",
     },
     {
       name: "Trail of Bits",
@@ -106,9 +129,24 @@ const data = {
       url: "https://binary.ninja/",
       image: binaryNinja,
       blurb:
-        "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide."
+        "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide.",
     },
-  ]
-}
+    {
+      name: "Amber by LatticeWork",
+      url: "https://www.myamberlife.com/",
+      image: latticework,
+      blurb:
+        "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF discord for a 25% discount.",
+    },
+    {
+      name: "The Aerospace Corporation",
+      url: "https://aerospace.org/",
+      image: aerospace,
+      // Taken from https://aerospace.org/ SEO metadata
+      blurb:
+        "Aerospace operates the only federally funded research and development center (FFRDC) committed exclusively to the space enterprise. Our technical experts span every discipline of space-related science and engineering.",
+    },
+  ],
+};
 
 export default data;
