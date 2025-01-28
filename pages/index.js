@@ -88,8 +88,7 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Tentatively: <br />
-              Feb 8, 2025 - Feb 9, 2025
+              Feb 7, 2025 08:00PM PST - Feb 9, 2025 02:00PM PST
               <br />
               Covel Grand Horizons
             </p>
