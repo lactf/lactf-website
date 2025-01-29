@@ -22,6 +22,7 @@ import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
 import SponsorsStrip from "../components/Sponsors";
+import Archive from "../components/Archive.js";
 
 export default function Home() {
   // there's a really weird bug in Safari where clip paths
@@ -166,6 +167,16 @@ export default function Home() {
           <PrizesStrip />
         </section>
 
+        {/* <section className={`${styles.sponsors} ${styles.wavySection}`}>
+          <h2 id="lactf-mini">
+            <span className={styles.headerText}>LA CTF Mini</span>
+          </h2>
+          <p className={styles.headerDesc}>
+            We are delighted to announce that a new CTF category - LA CTF Mini!
+            (ADDITIONAL DESCRIPTION)
+          </p>
+        </section> */}
+
         <section className={`${styles.sponsors} ${styles.wavySection}`}>
           <h2 id="sponsors">
             <span className={styles.headerText}>Sponsors</span>
@@ -183,6 +194,17 @@ export default function Home() {
           </p>
 
           <SponsorsStrip />
+        </section>
+
+        <section className={`${styles.archive}`}>
+          <h2 id="archive">
+            <span className={styles.headerText}>Archive</span>
+          </h2>
+          <p className={styles.archiveHeaderDesc}>
+            Check out our past competition challenges and results!
+          </p>
+
+          <Archive />
         </section>
 
         <section className={styles.contacts}>
