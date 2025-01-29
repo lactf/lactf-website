@@ -29,6 +29,9 @@ function Navbar() {
           <Link href="/#archive">Archive</Link>
         </li>
         <li>
+          <Link href="/#lactfmini">LA CTF Mini</Link>
+        </li>
+        <li>
           <Link href="/#sponsors">Sponsors</Link>
         </li>
         <li>

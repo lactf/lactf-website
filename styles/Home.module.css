@@ -318,6 +318,48 @@ a.mailto:hover {
   overflow-y: visible;
 }
 
+/* === LA CTF Mini === */
+
+.lactfminiFlexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.lactfminiFlagIcon {
+  margin: 0.5rem 0 1.5rem 0;
+  height: 3.5rem;
+  width: auto;
+  display: inline;
+  vertical-align: middle;
+}
+
+.lactfminiWaiver {
+  font-size: 1.2rem;
+}
+
+.lactfmini {
+  position: relative;
+  z-index: 10;
+  /* min-height: calc(var(--car-offset) + 120vh); */
+  margin: 0px;
+  padding: 10vh 0px 40vh 0px;
+  min-height: 150vh;
+  background: linear-gradient(
+    180deg,
+    #39251f 0%,
+    #612e1f 34.33%,
+    #e49651 65.17%,
+    #ffbeb2 93.68%
+  );
+  /* 50% 80%/100% 60% no-repeat var(--sunrise-gradient),
+    50% 0%/100% 50% no-repeat linear-gradient(#39251f 0%, #39251f 100%),
+    50% 100%/100% 50% no-repeat linear-gradient(#f2d219 0%, #f2d219 100%); */
+  clip-path: url(#sponsorsClipPath);
+  overflow-y: visible;
+}
+
 /* === Archive === */
 
 .archive {
