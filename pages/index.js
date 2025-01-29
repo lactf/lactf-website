@@ -169,16 +169,6 @@ export default function Home() {
         </section>
 
         <section className={`${styles.sponsors} ${styles.wavySection}`}>
-          <h2 id="lactf-mini">
-            <span className={styles.headerText}>LA CTF Mini</span>
-          </h2>
-          <p className={styles.headerDesc}>
-            We are delighted to announce that a new CTF category - LA CTF Mini!
-            (ADDITIONAL DESCRIPTION)
-          </p>
-        </section>
-
-        <section className={`${styles.sponsors} ${styles.wavySection}`}>
           <h2 id="sponsors">
             <span className={styles.headerText}>Sponsors</span>
           </h2>

@@ -23,7 +23,7 @@ function Navbar() {
           </button>
         </li>
         <li>
-          <Link href="/#contact">Contact</Link>
+          <Link href="/#contact">Contacts</Link>
         </li>
         <li>
           <Link href="/#archive">Archive</Link>
