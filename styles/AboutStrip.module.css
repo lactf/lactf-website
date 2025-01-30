@@ -59,3 +59,16 @@
 .aboutImageContainer > span {
   overflow: visible;
 }
+
+@media (max-width: 543px) {
+  .aboutImageContainer {
+    display: none;
+  }
+  .aboutBlock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .aboutBlock p {
+    margin-bottom: 0px;
+  }
+}
