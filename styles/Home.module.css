@@ -349,8 +349,8 @@ a.mailto:hover {
   z-index: 10;
   /* min-height: calc(var(--car-offset) + 120vh); */
   margin: 0px;
-  padding: 10vh 0px 40vh 0px;
-  min-height: 150vh;
+  padding: 10vh 0px 30vh 0px;
+  min-height: 100vh;
   background: linear-gradient(
     180deg,
     #39251f 0%,
