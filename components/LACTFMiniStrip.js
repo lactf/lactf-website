@@ -26,7 +26,9 @@ const AboutCard = ({ icon, big, title, desc }) => {
     <div className={styles_about.aboutBlock}>
       <div className={styles_about.aboutImageContainer}>
         <Image
-          className={big ? styles_about.aboutImageBig : styles_about.aboutImageSmall}
+          className={
+            big ? styles_about.aboutImageBig : styles_about.aboutImageSmall
+          }
           src={icon}
           layout="fill"
           alt="About icon showing details about LA CTF."
