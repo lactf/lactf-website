@@ -1,0 +1,9 @@
+.lactfminiFlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px 2vw;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, 60%);
+}

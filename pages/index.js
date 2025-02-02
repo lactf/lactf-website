@@ -22,6 +22,7 @@ import AboutStrip from "../components/AboutStrip";
 import TropicalImage from "../components/TropicalImage";
 import PrizesStrip from "../components/PrizesStrip";
 import SponsorsStrip from "../components/Sponsors";
+import LACTFMiniStrip from "../components/LACTFMiniStrip";
 import Archive from "../components/Archive.js";
 
 export default function Home() {
@@ -113,7 +114,7 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
-              {/* <a href="https://zoom.lac.tf">
+              <a href="https://zoom.lac.tf">
                 <button
                   className={
                     styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
@@ -121,9 +122,9 @@ export default function Home() {
                 >
                   Zoom
                 </button>
-              </a> */}
+              </a>
             </div>
-            {/* <div className={styles.heroButtonContainer}>
+            <div className={styles.heroButtonContainer}>
               <a href="https://static.lac.tf/schedule.pdf">
                 <button
                   className={
@@ -133,7 +134,7 @@ export default function Home() {
                   Schedule
                 </button>
               </a>
-            </div> */}
+            </div>
           </div>
         </section>
 
@@ -167,16 +168,6 @@ export default function Home() {
           <PrizesStrip />
         </section>
 
-        {/* <section className={`${styles.sponsors} ${styles.wavySection}`}>
-          <h2 id="lactf-mini">
-            <span className={styles.headerText}>LA CTF Mini</span>
-          </h2>
-          <p className={styles.headerDesc}>
-            We are delighted to announce that a new CTF category - LA CTF Mini!
-            (ADDITIONAL DESCRIPTION)
-          </p>
-        </section> */}
-
         <section className={`${styles.sponsors} ${styles.wavySection}`}>
           <h2 id="sponsors">
             <span className={styles.headerText}>Sponsors</span>
@@ -194,6 +185,42 @@ export default function Home() {
           </p>
 
           <SponsorsStrip />
+        </section>
+
+        <section className={`${styles.lactfmini}`}>
+          <div className={styles.lactfminiFlexContainer}>
+            <h2 id="lactfmini">
+              <span className={styles.headerText}>LA CTF Mini</span>
+            </h2>
+            <img
+              src={"/images/flag.png"}
+              alt="Flag"
+              className={styles.lactfminiFlagIcon}
+            />
+          </div>
+
+          <p className={styles.headerDesc}>
+            This year, we're excited to launch LA CTF Mini, a special program
+            inviting high school students from the LA area to participate in LA
+            CTF 2025! You'll enjoy all the perks of LA CTF, including:
+          </p>
+          <br></br>
+
+          <LACTFMiniStrip />
+
+          <br></br>
+          <p className={`${styles.headerDesc} ${styles.lactfminiWaiver}`}>
+            IMPORTANT: High school students, please sign the following{" "}
+            <u>
+              <Link
+                href="https://request.finance.ucla.edu/?frm_id=EventWaiver&event_id=a1qHp000004gaj9"
+                className={styles.mailto}
+              >
+                waiver
+              </Link>
+            </u>{" "}
+            by <b>Friday, 31st Jan 2025</b>!
+          </p>
         </section>
 
         <section className={`${styles.archive}`}>
