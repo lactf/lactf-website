@@ -114,26 +114,6 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
-              <a href="https://zoom.lac.tf">
-                <button
-                  className={
-                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                  }
-                >
-                  Zoom
-                </button>
-              </a>
-            </div>
-            <div className={styles.heroButtonContainer}>
-              <a href="https://static.lac.tf/schedule.pdf">
-                <button
-                  className={
-                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
-                  }
-                >
-                  Schedule
-                </button>
-              </a>
             </div>
           </div>
         </section>
