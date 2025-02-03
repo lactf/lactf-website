@@ -136,7 +136,7 @@ const data = {
       url: "https://www.myamberlife.com/",
       image: latticework,
       blurb:
-        "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF discord for a 25% discount.",
+        "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF Discord for a 25% discount.",
     },
     {
       name: "The Aerospace Corporation",
