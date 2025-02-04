@@ -84,6 +84,10 @@ const PrizesStrip = () => {
                 >
                   2× Binary Ninja Licenses
                 </a>{" "}
+                + <br />
+                <a className={styles.prizelink} href="https://ctf.dicega.ng/">
+                  DiceCTF 2025 Finals invitation
+                </a>
               </li>
               <li>
                 2nd place: $300 + <br />
