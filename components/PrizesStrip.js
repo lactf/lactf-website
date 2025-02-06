@@ -134,8 +134,8 @@ const PrizesStrip = () => {
           <br />
           <ul>
             <li>
-              A pool of $700 worth of prize money will be given out via writeup
-              prizes, of which $150 is reserved for UCLA students.
+              A pool of $500 worth of prize money will be given out via writeup
+              prizes, of which $100 is reserved for UCLA students.
             </li>
             <li>
               Writeup prizes are made out to the individual or group that made
