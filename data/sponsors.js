@@ -65,6 +65,30 @@ import lockheed from "../public/images/lockheed.png";
 const data = {
   sponsors: [
     {
+      name: "The Aerospace Corporation",
+      url: "https://aerospace.org/",
+      image: aerospace,
+      flag: {
+        image: affiliateFlag,
+        blurb: "Affiliate",
+      },
+      // Taken from https://aerospace.org/ SEO metadata
+      blurb:
+        "Aerospace operates the only federally funded research and development center (FFRDC) committed exclusively to the space enterprise. Our technical experts span every discipline of space-related science and engineering.",
+    },
+    {
+      name: "Lockheed Martin",
+      url: "https://www.lockheedmartin.com/",
+      image: lockheed,
+      // Taken from https://aerospace.org/ SEO metadata
+      blurb:
+        "Lockheed Martin is a leading global security, defense and aerospace contractor, ensuring those we serve always stay ahead of ready.",
+      flag: {
+        image: affiliateFlag,
+        blurb: "Affiliate",
+      },
+    },
+    {
       name: "OtterSec",
       url: "https://osec.io/",
       image: ottersec,
@@ -78,18 +102,6 @@ const data = {
       // Taken from https://www.microsoft.com/en-us/about
       blurb:
         "Microsoft's mission is to empower every person and every organization on the planet to achieve more.",
-    },
-    {
-      name: "Lockheed Martin",
-      url: "https://www.lockheedmartin.com/",
-      image: lockheed,
-      // Taken from https://aerospace.org/ SEO metadata
-      blurb:
-        "Lockheed Martin is a leading global security, defense and aerospace contractor, ensuring those we serve always stay ahead of ready.",
-      flag: {
-        image: affiliateFlag,
-        blurb: "Affiliate",
-      },
     },
     {
       name: "Google Cloud",
@@ -137,14 +149,6 @@ const data = {
       image: latticework,
       blurb:
         "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF Discord for a 25% discount.",
-    },
-    {
-      name: "The Aerospace Corporation",
-      url: "https://aerospace.org/",
-      image: aerospace,
-      // Taken from https://aerospace.org/ SEO metadata
-      blurb:
-        "Aerospace operates the only federally funded research and development center (FFRDC) committed exclusively to the space enterprise. Our technical experts span every discipline of space-related science and engineering.",
     },
   ],
 };
