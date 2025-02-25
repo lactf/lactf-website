@@ -16,7 +16,7 @@ const PrizesStrip = () => {
           {
             <ul className={styles.prizelist}>
               <li>
-                1st place: $200 +<br />
+                1st place: $300 +<br />
                 <a
                   className={styles.prizelink}
                   href="https://www.latticeworkinc.com/hardware/amberpro/"
@@ -32,7 +32,7 @@ const PrizesStrip = () => {
                 </a>{" "}
               </li>
               <li>
-                2nd place: $140 +<br />
+                2nd place: $240 +<br />
                 <a
                   className={styles.prizelink}
                   href="https://www.latticeworkinc.com/hardware/amberpro/"
@@ -47,8 +47,8 @@ const PrizesStrip = () => {
                   2x Binary Ninja Licenses
                 </a>{" "}
               </li>
-              <li>3rd place: $100</li>
-              <li>4th & 5th place: $80</li>
+              <li>3rd place: $200</li>
+              <li>4th & 5th place: $130</li>
               <li>6th-10th place: $40</li>
             </ul>
           }
@@ -77,7 +77,7 @@ const PrizesStrip = () => {
           {
             <ul className={styles.prizelist}>
               <li>
-                1st place: $500 + <br />
+                1st place: $650 + <br />
                 <a
                   className={styles.prizelink}
                   href="https://binary.ninja/features/"
@@ -90,7 +90,7 @@ const PrizesStrip = () => {
                 </a>
               </li>
               <li>
-                2nd place: $300 + <br />
+                2nd place: $400 + <br />
                 <a
                   className={styles.prizelink}
                   href="https://binary.ninja/features/"
