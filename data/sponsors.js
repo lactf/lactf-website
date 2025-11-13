@@ -143,13 +143,13 @@ const data = {
     //   blurb:
     //     "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide.",
     // },
-    // {
-    //   name: "Amber by LatticeWork",
-    //   url: "https://www.myamberlife.com/",
-    //   image: latticework,
-    //   blurb:
-    //     "Store your data locally and access it from anywhere without subscription fees! UCLA students, open a ticket in the LA CTF Discord for a 30% discount.",
-    // },
+    {
+      name: "Amber by LatticeWork",
+      url: "https://www.myamberlife.com/",
+      image: latticework,
+      blurb:
+        "Store your data locally and access it from anywhere without subscription fees!",
+    },
   ],
 };
 
