@@ -198,14 +198,14 @@ export default function Home() {
           <p className={styles.headerDesc}>
             This year, we're excited to launch LA CTF Mini, a special program
             inviting high school students from the LA area to participate in LA
-            CTF 2025! You'll enjoy all the perks of LA CTF, including:
+            CTF 2026! You'll enjoy all the perks of LA CTF, including:
           </p>
           <br></br>
 
           <LACTFMiniStrip />
 
           <br></br>
-          <p className={`${styles.headerDesc} ${styles.lactfminiWaiver}`}>
+          {/* <p className={`${styles.headerDesc} ${styles.lactfminiWaiver}`}>
             IMPORTANT: High school students, please sign the following{" "}
             <u>
               <Link
@@ -216,7 +216,7 @@ export default function Home() {
               </Link>
             </u>{" "}
             by <b>Friday, 31st Jan 2025</b>!
-          </p>
+          </p> */}
         </section>
 
         <section className={`${styles.archive}`}>
