@@ -55,7 +55,8 @@
 .blurb {
   width: 100%;
   margin-top: 20px;
-  text-align: center;
+  text-align: justify;
+  font-size: small;
   color: black;
 }
 

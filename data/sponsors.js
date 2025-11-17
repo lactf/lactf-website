@@ -13,6 +13,8 @@ import binaryNinja from "../public/images/binary-ninja.png";
 import microsoft from "../public/images/microsoft.jpg";
 import aerospace from "../public/images/aerospace.png";
 import lockheed from "../public/images/lockheed.png";
+import verkada from "../public/images/verkada.png";
+import zellic from "../public/images/zellic.png";
 
 // const data = {
 //   sponsors: [
@@ -150,6 +152,20 @@ const data = {
       blurb:
         "Store your data locally and access it from anywhere without subscription fees!",
     },
+    {
+      name: "Verkada",
+      url: "https://www.verkada.com/",
+      image: verkada,
+      blurb: 
+        "Protect people and places in a privacy-sensitive way. Trusted by over 33,000 organizations, Verkada builds physical security solutions that integrate seamlessly behind a single, cloud-based software platform."
+    },
+    {
+      name: "Zellic",
+      url: "https://www.zellic.io/",
+      image: zellic,
+      blurb:
+        "Zellic is a security research firm. We hire talented hackers to break critical software, ranging from virtual machines to compilers and major web apps to proof systems. Before Zellic, we founded perfect blue, the #1 CTF team in 2020 and 2021. We offer a comprehensive benefits package and direct equity participation, as well as flexible hours, remote work, and both full-time and part-time roles. To learn more about Zellic, check out our blog: zellic.io/auditooor-grindset. Work at Zellic: [jobs@zellic.io](mailto:jobs@zellic.io) | @gf_256",
+    }
   ],
 };
 

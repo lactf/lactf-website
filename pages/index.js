@@ -90,9 +90,16 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 7, 2025 08:00PM PST - Feb 9, 2025 02:00PM PST
+              Feb 6, 2026 06:00PM PST - Feb 8, 2026 06:00PM PST
               <br />
-              Covel Grand Horizons
+            </p>
+            <p className={styles.subheading}>
+              <b>In-Person Event</b>
+              <div className={styles.subheading}>
+                Feb 7, 2026 08:00AM PST - Feb 7, 2026 07:00PM PST
+                <br />
+                Tom Bradley International Hall, Room 300
+              </div>
             </p>
             <Countdown />
             <div className={styles.heroButtonContainer}>

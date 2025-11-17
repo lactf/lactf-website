@@ -35,6 +35,11 @@ main.root {
   z-index: 1;
 }
 
+.subheading > div {
+  margin: 0;
+  font-size: medium;
+}
+
 @media (max-width: 600px) {
   .subheading {
     font-size: larger;
