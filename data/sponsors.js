@@ -12,6 +12,7 @@ import aerospace from "../public/images/aerospace.png";
 import lockheed from "../public/images/lockheed.png";
 import verkada from "../public/images/verkada.png";
 import zellic from "../public/images/zellic.png";
+import offsec from "../public/images/offsec.png"
 
 const data = {
   sponsors: [
@@ -84,13 +85,6 @@ const data = {
     //     "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide.",
     // },
     {
-      name: "Amber by LatticeWork",
-      url: "https://www.myamberlife.com/",
-      image: latticework,
-      blurb:
-        "Store your data locally and access it from anywhere without subscription fees!",
-    },
-    {
       name: "Verkada",
       url: "https://www.verkada.com/",
       image: verkada,
@@ -105,6 +99,13 @@ const data = {
         "Zellic is a security research firm. We hire talented hackers to break critical software, ranging from virtual machines to compilers and major web apps to proof systems. Before Zellic, we founded perfect blue, the #1 CTF team in 2020 and 2021. We offer a comprehensive benefits package and direct equity participation, as well as flexible hours, remote work, and both full-time and part-time roles. To learn more about Zellic, check out our blog: zellic.io/auditooor-grindset. Work at Zellic: jobs@zellic.io | @gf_256",
     },
     {
+      name: "Amber by LatticeWork",
+      url: "https://www.myamberlife.com/",
+      image: latticework,
+      blurb:
+        "Store your data locally and access it from anywhere without subscription fees!",
+    },
+    {
       name: "Google Cloud",
       url: "https://goo.gle/ctfsponsorship",
       image: googlecloud,
@@ -114,6 +115,20 @@ const data = {
         image: infraFlag,
         blurb: "Infra sponsored by goo.gle/ctfsponsorship",
       },
+    },
+    {
+      name: "OffSec",
+      url: "https://www.offsec.com/community/ugc/",
+      image: offsec,
+      blurb:
+        "OffSec is a global leader in cybersecurity education, built on a commitment to excellence, integrity, and growth. The OffSec User Generated Content Program is a space built for creators like you. Turn your ideas into real labs that thousands of learners worldwide will use to practice and grow their skills.",
+    },
+    {
+      name: "Vector 35 - Binary Ninja",
+      url: "https://binary.ninja/",
+      image: binaryNinja,
+      blurb:
+        "Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers. Developed with a focus on delivering a high-quality API for automation and a clean and usable GUI, Binary Ninja is in active use by malware analysts, vulnerability researchers, and software developers worldwide.",
     },
   ],
 };
