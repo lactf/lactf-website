@@ -157,7 +157,7 @@ export default function Home() {
             <span className={styles.headerText}>Prizes</span>
           </h2>
           <p className={styles.headerDesc}>
-            LA CTF will have prizes for both the UCLA and open sections! While
+            LA CTF will have prizes for both the UCLA and Open sections! While
             there will be two sections for prizes, all of the challenges will be
             the same for both sections.
           </p>
@@ -196,7 +196,7 @@ export default function Home() {
           </div>
 
           <p className={styles.headerDesc}>
-            This year, we're excited to launch LA CTF Mini, a special program
+            This year, we're excited to continue LA CTF Mini, a special program
             inviting high school students from the LA area to participate in LA
             CTF 2026! You'll enjoy all the perks of LA CTF, including:
           </p>

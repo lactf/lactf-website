@@ -7,13 +7,13 @@ const PrizesStrip = () => {
         <div className={styles.prizesBlock}>
           <h2>UCLA Section</h2>
           <p>
-            The UCLA Section will be composed of teams that must consist of a
-            maximum of four current UCLA undergraduate students in order to be
-            eligible for prizes.
+            The UCLA Section is composed of teams consisting of only current
+            UCLA undergraduate students. Teams must have a maximum of four
+            students in order to be eligible for prizes.
           </p>
           <br />
           <br />
-          {
+          {/*
             <ul className={styles.prizelist}>
               <li>
                 1st place: $300 +<br />
@@ -51,9 +51,9 @@ const PrizesStrip = () => {
               <li>4th & 5th place: $130</li>
               <li>6th-10th place: $40</li>
             </ul>
-          }
+            */}
           <br />
-          {
+          {/*
             <p>
               UCLA division prizes will be distributed directly to individual
               team members in the form of{" "}
@@ -62,19 +62,19 @@ const PrizesStrip = () => {
               </a>
               . Amounts listed are per team.
             </p>
-          }
+            */}
           <br />
         </div>
         <div className={styles.prizesBlock}>
           <h2>Open Section</h2>
           <p>
-            The Open Section will be composed of teams with no size limit and
-            can be from anywhere to be eligible for prizes. All skill levels and
-            experiences are welcomed!
+            The Open Section is composed of teams with no size limit and any
+            place of origin. Every non-UCLA team is eligible for Open Section
+            prizes. All experience levels are welcome!
           </p>
           <br />
           <br />
-          {
+          {/*
             <ul className={styles.prizelist}>
               <li>
                 1st place: $650 + <br />
@@ -101,9 +101,9 @@ const PrizesStrip = () => {
               <li>3rd place: $200</li>
               <li>4th & 5th place: $100</li>
             </ul>
-          }
+            */}
           <br />
-          {
+          {/*
             <p>
               Open division prizes will be distributed to the email linked to
               the given winning teams in the form of{" "}
@@ -112,11 +112,11 @@ const PrizesStrip = () => {
               </a>
               . Amounts listed are per team.
             </p>
-          }
+            */}
           <br />
         </div>
       </div>
-      {
+      {/*
         <p className={styles.prizebetween}>
           Additionally,{" "}
           <a className={styles.prizelink} href="https://binary.ninja/features/">
@@ -127,10 +127,14 @@ const PrizesStrip = () => {
           Prizes are subject to change and may be made conditional on proof of
           challenge completion (writeups).
         </p>
-      }
+        */}
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
-          <h3>Writeup Prizes:</h3>
+          <h3>
+            Prizes, including writeup prizes, will be announced closer to the
+            competition date. Stay tuned!
+          </h3>
+          {/* <h3>Writeup Prizes:</h3>
           <br />
           <ul>
             <li>
@@ -149,7 +153,7 @@ const PrizesStrip = () => {
               The writeup submission form will be active for 1 week after the
               CTF is over, and will be posted in our discord.
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
