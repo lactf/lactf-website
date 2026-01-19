@@ -96,9 +96,21 @@ export default function Home() {
             <p className={styles.subheading}>
               <b>In-Person Event</b>
               <div className={styles.subheading}>
-                Feb 7, 2026 08:00AM PST - Feb 7, 2026 07:00PM PST
+                Feb 7, 2026 09:00AM PST - Feb 7, 2026 07:00PM PST
                 <br />
                 Tom Bradley International Hall, Room 300
+              </div>
+              <br />
+              <div className={styles.heroButtonContainer}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQhyWLlZb8DYMu7brLgqPt0E29JeJoX5KDD7fqV2rUWUvnXw/viewform?usp=dialog">
+                  <button
+                    className={
+                      styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                    }
+                  >
+                    RSVP for in-person!
+                  </button>
+                </a>
               </div>
             </p>
             <Countdown />
