@@ -10,12 +10,6 @@ import gary from "../public/images/gary.jpg"
 
 const data = {
   speakers: [
-      {
-      name: "More Speakers Coming Soon",
-      title: "TBD...",
-      info: "",
-      image: placeholder,
-    },
     {
       name: "Dr. Nader Sehatbakhsh",
       title: "Assistant Professor, UCLA Electrical and Computer Engineering Department",
@@ -51,6 +45,12 @@ const data = {
       title: "PhD Student (Applied Cryptography), Georgia Tech",
       info: "Former cyber officer and UCLA alumni. Currently a PhD at Georgia Tech focusing on applied cryptography.",
       image: gary,
+    },
+      {
+      name: "More Speakers Coming Soon",
+      title: "TBD...",
+      info: "",
+      image: placeholder,
     },
   ],
 };
