@@ -8,9 +8,16 @@ import defund from "../public/images/defund.png";
 import placeholder from "../public/images/placeholder.jpg";
 import lowLevel from "../public/images/lowlevel.jpg";
 import gary from "../public/images/gary.jpg"
+import raphael from "../public/images/raphael.jpeg"
 
 const data = {
   speakers: [
+    {
+      name: "Raphael Ruban",
+      title: "Software Engineer, Verkada",
+      info: "Raphael Ruban graduated from Stanford in 2024 with a BS and MS in Computer Science. He will be speaking on agentic AI and threat detection: Developing threat detections is slow, repetitive work. Learn how we cut threat detection development and maintenance time by over 80%. We'll explore our 'detection duet': a custom agentic workflow for writing new rules from unstructured ideas, and a general-purpose agent for code maintenance.",
+      image: raphael,
+    },
     {
       name: "Dr. Nader Sehatbakhsh",
       title: "Assistant Professor, UCLA Electrical and Computer Engineering Department",
@@ -23,12 +30,12 @@ const data = {
       info: "Yuan Tian is an Associate Professor of Electrical and Computer Engineering, Computer Science, and the Institute for Technology, Law and Policy (ITLP) at the University of California, Los Angeles. Her research interests involve security and privacy and their interactions with computer systems, machine learning, and human-computer interaction. Her current research focuses on developing new computing platforms with strong security and privacy features, particularly in the Generative AI and Internet of Things. Her work has real-world impacts as countermeasures and design changes have been integrated into platforms (such as Android, Chrome, Azure, and iOS) and also impacted the security recommendations of standard organizations such as the Internet Engineering Task Force (IETF). She is a recipient of the Okawa Fundation Award 2022, Google Research Scholar Award 2021, Facebook Research Award 2021, NSF CAREER award 2020, NSF CRII award 2019, Amazon AI Faculty Fellowship 2019. Her research has appeared in top-tier venues in security, machine learning, and systems. Her projects have been covered by media outlets such as IEEE Spectrum, Forbes, Fortune, Wired, and Telegraph.",
       image: yuan,
     },
-    // {
-    //   name: "Akshara Sundararajan",
-    //   title: "Senior Software Engineer, Google",
-    //   info: "Akshara Sundararajan is a founding member and former president of ACM Cyber. Akshara now works as a senior software engineer at Google Cloud, where she leads abuse protections for GenAI APIs, including Gemini API and Vertex AI. Her work focuses on detecting and mitigating scaled attacks against Google Cloud resources and APIs. She also previously interned at Google, Symantec, Thomson Reuters, and Ariento. Her work has been featured in the Google Cloud Security & Identity blog.",
-    //   image: akshara,
-    // },
+    {
+      name: "Akshara Sundararajan",
+      title: "Senior Software Engineer, Google",
+      info: "Akshara Sundararajan is a founding member and former president of ACM Cyber. Akshara now works as a senior software engineer at Google Cloud, where she works on Identity and Access Management Infrastructure. She previously led abuse protections for GenAI APIs, including Gemini API and Vertex AI.  She also previously interned at Google, Symantec, Thomson Reuters, and Ariento. Her work has been featured in the Google Cloud Security & Identity blog.",
+      image: akshara,
+    },
     {
       name: "Sanjana Sarda",
       title: "Offensive Security, Anduril",
