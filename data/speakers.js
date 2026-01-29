@@ -9,6 +9,7 @@ import placeholder from "../public/images/placeholder.jpg";
 import lowLevel from "../public/images/lowlevel.jpg";
 import gary from "../public/images/gary.jpg"
 import raphael from "../public/images/raphael.jpeg"
+import benson from "../public/images/benson.jpeg"
 
 const data = {
   speakers: [
@@ -60,7 +61,13 @@ const data = {
       info: "Former cyber officer and UCLA alumni. Currently a PhD at Georgia Tech focusing on applied cryptography.",
       image: gary,
     },
-      {
+    {
+      name: "Benson Liu",
+      title: "Security Engineer, Meta",
+      info: "Benson is an ACM Cyber and UCLA alumni who has worked in a variety of roles ranging from offensive security, program analysis, and threat hunting at companies like SpaceX, Microsoft, Trail of Bits, and CrowdStrike. He is passionate about breaking and developing high-impact software working to make it easy to write safer software and find bugs faster. Currently, he is working on Application Security as a Security Engineer at Meta. Benson is also an avid CTF player, previously leading UCLA's competitive team and founding LA CTF!",
+      image: benson,
+    },
+    {
       name: "More Speakers Coming Soon",
       title: "TBD...",
       info: "",
