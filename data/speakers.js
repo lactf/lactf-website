@@ -50,12 +50,12 @@ const data = {
       info: "Sanjana Sarda is a UCLA and ACM Cyber alum who currently leads offensive security efforts at Anduril, building on her focus in AI security and privacy from her master's at Stanford. She has spoken at DEFCON, LayerOne, and BSides San Diego, and her research has been featured in Forbes and Vice's Motherboard.",
       image: sanjana,
     },
-    // {
-    //   name: "Peter Sutarjo",
-    //   title: "Anti-Cheat Engineer, Moonshot Games",
-    //   info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently an Anti-Cheat Engineer at Moonshot Games working on anticheat and antitamper technologies. He has also previously interned at Novacoast and Symantec. He also is a Lead Programmer for Sondering Studio, an indie-game studio founded by ACM Studio alumni aiming to make narrative-driven games with heart.",
-    //   image: peter,
-    // },
+    {
+      name: "Peter Sutarjo",
+      title: "Senior Game Security Engineer",
+      info: "Peter Sutarjo is a former ACM Cyber Officer and ACM Studio President. He has previously hosted workshops on game hacking for ACM Cyber and ACM Studio. He is currently a Senior Game Security Engineer at Bungie working on client anticheat for the upcoming game, Marathon. He has also previously worked for Moonshot Games, working on anticheat and gameplay features for Wildgate, and Blizzard Entertainment, where he helped ship a new anticheat system for Overwatch 2.",
+      image: peter,
+    },
     {
       name: "William Wang",
       title: "PhD Student (Cryptography), NYU",
@@ -73,12 +73,6 @@ const data = {
       title: "Security Engineer, Meta",
       info: "Benson is an ACM Cyber and UCLA alumni who has worked in a variety of roles ranging from offensive security, program analysis, and threat hunting at companies like SpaceX, Microsoft, Trail of Bits, and CrowdStrike. He is passionate about breaking and developing high-impact software working to make it easy to write safer software and find bugs faster. Currently, he is working on Application Security as a Security Engineer at Meta. Benson is also an avid CTF player, previously leading UCLA's competitive team and founding LA CTF!",
       image: benson,
-    },
-    {
-      name: "More Speakers Coming Soon",
-      title: "TBD...",
-      info: "",
-      image: placeholder,
     },
   ],
 };

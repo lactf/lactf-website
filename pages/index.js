@@ -133,6 +133,15 @@ export default function Home() {
                   CTFtime
                 </button>
               </a>
+              <a href="https://static.lac.tf/schedule.pdf">
+                <button
+                  className={
+                    styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
+                  }
+                >
+                  Schedule
+                </button>
+              </a>
             </div>
           </div>
         </section>
