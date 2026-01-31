@@ -10,9 +10,16 @@ import lowLevel from "../public/images/lowlevel.jpg";
 import gary from "../public/images/gary.jpg"
 import raphael from "../public/images/raphael.jpeg"
 import benson from "../public/images/benson.jpeg"
+import laurie from "../public/images/laurie.jpg"
 
 const data = {
   speakers: [
+    {
+      name: "Laurie Kirk",
+      title: "Security Engineer",
+      info: "Laurie Kirk is a researcher at Google specializing in Reverse Engineering, deobfuscation, and decompilation. She runs a YouTube channel (@LaurieWired) that covers all sorts of in-depth research topics on reverse engineering, low level programming, and software optimizations. She has spoken at multiple conferences including DEFCON, REcon, Objective by the Sea, Strange Loop, and TROOPERS.",
+      image: laurie,
+    },
     {
       name: "Raphael Ruban",
       title: "Software Engineer, Verkada",
