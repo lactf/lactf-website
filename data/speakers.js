@@ -11,6 +11,7 @@ import gary from "../public/images/gary.jpg"
 import raphael from "../public/images/raphael.jpeg"
 import benson from "../public/images/benson.jpeg"
 import laurie from "../public/images/laurie.jpg"
+import salma from "../public/images/salma.jpeg"
 
 const data = {
   speakers: [
@@ -73,6 +74,12 @@ const data = {
       title: "Security Engineer, Meta",
       info: "Benson is an ACM Cyber and UCLA alumni who has worked in a variety of roles ranging from offensive security, program analysis, and threat hunting at companies like SpaceX, Microsoft, Trail of Bits, and CrowdStrike. He is passionate about breaking and developing high-impact software working to make it easy to write safer software and find bugs faster. Currently, he is working on Application Security as a Security Engineer at Meta. Benson is also an avid CTF player, previously leading UCLA's competitive team and founding LA CTF!",
       image: benson,
+    },
+    {
+      name: "Salma Alandary",
+      title: "Security Engineer",
+      info: "Salma is a UCLA and ACM Cyber alumn. She is currently an engineer on SeatGeek's security team, focusing on building platform security services and tooling across the organization. Prior to her current role, she worked on malware research at Sandia Labs while obtaining her MS from UCLA.",
+      image: salma,
     },
   ],
 };
