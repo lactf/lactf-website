@@ -56,4 +56,4 @@ Page                                       Size     First Load JS
 ```
 
 ## Acknowledgements
-Special thanks to Angela Ling for helping to fully design the LA CTF website! Additional thanks to Salma Alandary & Juliet Zhang for contributing to the website design and assets. Shout out to Andrew Kuai, Alec Machlis, Benson Liu, Laura Ness, & Gary Song for all being part of the core team to develop the site content and implementation! To contact the maintainers of this project, please reach out to [uclacyber@gmail.com](mailto:uclacyber@gmail.com).
+Special thanks to Angela Ling for helping to fully design the LA CTF website! Additional thanks to Salma Alandary & Juliet Zhang for contributing to the website design and assets. Shout out to Andrew Kuai, Alec Machlis, Benson Liu, Laura Ness, & Gary Song for all being part of the core team to develop the site content and implementation! To contact the maintainers of this project, please reach out to [uclacyber+lactf-gh@gmail.com](mailto:uclacyber+lactf-gh@gmail.com).
