@@ -187,7 +187,7 @@ export default function Home() {
               href="mailto:uclacyber+lactf@gmail.com"
               className={styles.mailto}
             >
-              uclacyber@gmail.com
+              uclacyber+lactf@gmail.com
             </Link>
             !
           </p>
