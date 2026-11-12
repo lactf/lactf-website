@@ -90,19 +90,19 @@ export default function Home() {
               />
             </div>
             <p className={styles.subheading}>
-              Feb 6, 2026 06:00PM PST - Feb 8, 2026 06:00PM PST
+              Feb 19, 2027 06:00PM PST - Feb 21, 2027 06:00PM PST
               <br />
             </p>
             <p className={styles.subheading}>
               <b>In-Person Event</b>
               <div className={styles.subheading}>
-                Feb 7, 2026 09:00AM PST - Feb 7, 2026 07:00PM PST
+                Feb 20, 2027 09:00AM PST - Feb 20, 2027 07:00PM PST
                 <br />
-                Tom Bradley International Hall, Room 300
+                TBD
               </div>
               <br />
               <div className={styles.heroButtonContainer}>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQhyWLlZb8DYMu7brLgqPt0E29JeJoX5KDD7fqV2rUWUvnXw/viewform?usp=dialog">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScWJZBfxdA29utYGsJXkzRftokC4zVNKXIdqYWhhXRyGly_Gg/viewform?usp=sharing&ouid=107353344166505705447">
                   <button
                     className={
                       styles.bigFatPinkButtonThatSaysRegisterUnderTheTimersOrSmth
