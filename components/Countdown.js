@@ -8,12 +8,13 @@ const Countdown = () => {
   // below is 02/19/2027 6:00PM PST
   const endOfCountdowntime = 1803088800; // Unix timestamp of the date the timer counts down to
 
-  let updateTime = () =>
-    setTime(Math.max(endOfCountdowntime - Date.now() / 1000, 0));
   useEffect(() => {
-    if (time === 0) updateTime();
-    setInterval(updateTime, 5000);
-  }, [time]);
+    const updateTime = () =>
+      setTime(Math.max(endOfCountdowntime - Date.now() / 1000, 0));
+    updateTime();
+    const id = setInterval(updateTime, 5000);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <div className={styles.timerContainer}>

@@ -93,7 +93,7 @@ export default function Home() {
               Feb 19, 2027 06:00PM PST - Feb 21, 2027 06:00PM PST
               <br />
             </p>
-            <p className={styles.subheading}>
+            <div className={styles.subheading}>
               <b>In-Person Event</b>
               <div className={styles.subheading}>
                 Feb 20, 2027 09:00AM PST - Feb 20, 2027 07:00PM PST
@@ -112,7 +112,7 @@ export default function Home() {
                   </button>
                 </a>
               </div>
-            </p>
+            </div>
             <Countdown />
             <div className={styles.heroButtonContainer}>
               <a href="https://platform.lac.tf/">
