@@ -13,7 +13,8 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          {
+          {/*
+            
             <ul className={styles.prizelist}>
               <li>
                 1st place: $240 + <br />
@@ -81,9 +82,10 @@ const PrizesStrip = () => {
               </li>
               <li>6th-10th place: $40</li>
             </ul>
-          }
+            
+          */}
           <br />
-          {
+          {/*
             <p>
               UCLA division prizes will be distributed directly to individual
               team members in the form of{" "}
@@ -91,8 +93,7 @@ const PrizesStrip = () => {
                 US amazon.com gift cards
               </a>
               . Amounts listed are per team.
-            </p>
-          }
+            </p>*/}
           <br />
         </div>
         <div className={styles.prizesBlock}>
@@ -104,7 +105,7 @@ const PrizesStrip = () => {
           </p>
           <br />
           <br />
-          {
+          {/*
             <ul className={styles.prizelist}>
               <li>
                 1st place: $500 + <br />
@@ -156,9 +157,9 @@ const PrizesStrip = () => {
               </li>
               <li>4th & 5th place: $100</li>
             </ul>
-          }
+          */}
           <br />
-          {
+          {/*
             <p>
               Open division prizes will be distributed to the email linked to
               the given winning teams in the form of{" "}
@@ -166,12 +167,11 @@ const PrizesStrip = () => {
                 US amazon.com gift cards
               </a>
               . Amounts listed are per team.
-            </p>
-          }
+            </p>*/}
           <br />
         </div>
       </div>
-      {
+      {/*
         <p className={styles.prizebetween}>
           Additionally,{" "}
           <a className={styles.prizelink} href="https://binary.ninja/features/">
@@ -181,14 +181,16 @@ const PrizesStrip = () => {
           <br />
           Prizes are subject to change and may be made conditional on proof of
           challenge completion (writeups).
-        </p>
-      }
+        </p>*/}
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
-          {/*<h3>
-            Prizes, including writeup prizes, will be announced closer to the
-            competition date. Stay tuned!
-          </h3>*/}
+          {
+            <h3>
+              Prizes, including writeup prizes, will be announced closer to the
+              competition date. Stay tuned!
+            </h3>
+          }
+          {/*
           <h3>Writeup Prizes:</h3>
           <br />
           <ul>
@@ -209,6 +211,7 @@ const PrizesStrip = () => {
               CTF is over, and will be posted in our discord.
             </li>
           </ul>
+          */}
         </div>
       </div>
     </div>

@@ -11,6 +11,8 @@ import zellic from "../public/images/zellic.png";
 import offsec from "../public/images/offsec.png";
 import bhis from "../public/images/bhis.png";
 import hexrays from "../public/images/hex-rays.png"
+import placeholder from "../public/images/placeholder.jpg";
+
 
 const data = {
   sponsors: [
@@ -26,6 +28,7 @@ const data = {
     //   blurb:
     //     "Aerospace operates the only federally funded research and development center (FFRDC) committed exclusively to the space enterprise. Our technical experts span every discipline of space-related science and engineering.",
     // },
+    /*
     {
       name: "Verkada",
       url: "https://www.verkada.com/",
@@ -100,6 +103,7 @@ const data = {
       blurb:
         "IDA is the leading tool for binary analysis, trusted by top cybersecurity teams for reverse engineering and malware defense. Simplify complex binaries and boost your security processes with its advanced analysis features.",
     },
+    */
   ],
 };
 

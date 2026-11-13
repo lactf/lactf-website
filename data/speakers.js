@@ -16,6 +16,13 @@ import salma from "../public/images/salma.jpeg"
 const data = {
   speakers: [
     {
+      name: "Speakers Coming Soon",
+      title: "TBD...",
+      info: "",
+      image: placeholder,
+    }
+    /*
+    {
       name: "Laurie Kirk",
       title: "Security Engineer",
       info: "Laurie Kirk is a researcher at Google specializing in Reverse Engineering, deobfuscation, and decompilation. She runs a YouTube channel (@LaurieWired) that covers all sorts of in-depth research topics on reverse engineering, low level programming, and software optimizations. She has spoken at multiple conferences including DEFCON, REcon, Objective by the Sea, Strange Loop, and TROOPERS.",
@@ -81,6 +88,7 @@ const data = {
       info: "Salma is a UCLA and ACM Cyber alumn. She is currently an engineer on SeatGeek's security team, focusing on building platform security services and tooling across the organization. Prior to her current role, she worked on malware research at Sandia Labs while obtaining her MS from UCLA.",
       image: salma,
     },
+    */
   ],
 };
 
