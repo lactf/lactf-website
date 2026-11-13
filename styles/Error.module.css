@@ -1,14 +1,103 @@
+main.error {
+  --mountain-mode: contain;
+}
+
+@media (min-aspect-ratio: 1440/514) {
+  main.error {
+    --mountain-mode: cover;
+  }
+}
+
 .error {
-  min-height: 90vh;
-  padding: 4rem 0 4rem 0;
-  margin: 4rem 20% 0 20%;
+  position: relative;
+  min-height: 100vh;
+  padding: 8rem 1rem 30vh 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
+
+  background: bottom/var(--mountain-mode) no-repeat
+      url("../public/images/mountains.svg"),
+    top/cover no-repeat url("../public/images/clouds.svg"),
+    top/100% 90% no-repeat var(--sky-gradient), #ffd99f;
 }
 
-.home a {
-  text-decoration: underline;
+.card {
+  max-width: 50rem;
+  padding: 2.5rem 3rem;
+  background-color: rgba(0, 0, 0, 30%);
+  border-radius: 2rem;
 }
 
-.home:hover a {
-  color: #ffba44;
+.code {
+  display: table;
+  margin: 0 auto;
+  color: transparent;
+  background: var(--gold-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.title {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.desc {
+  margin-bottom: 2rem;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.homeButton {
+  display: inline-block;
+  color: white;
+  background-color: #f44d8a;
+  border: 2px #f44d8a solid;
+  border-radius: 0.75rem;
+  padding: calc(1rem - 1px) calc(1.5rem - 1px);
+  font-size: larger;
+  font-weight: bold;
+  transition-property: color, background-color, border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+.homeButton:hover {
+  color: #f44d8a;
+  background-color: white;
+  border-color: white;
+}
+
+.homeButton::after {
+  content: "➜";
+  margin-left: 1rem;
+}
+
+@media (max-width: 800px) {
+  .error {
+    padding-top: 6rem;
+  }
+
+  .card {
+    padding: 2rem 1.25rem;
+    background-color: transparent;
+  }
+
+  .code {
+    font-size: 5rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .homeButton {
+    font-size: medium;
+  }
 }
