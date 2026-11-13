@@ -93,8 +93,7 @@ const PrizesStrip = () => {
                 US amazon.com gift cards
               </a>
               . Amounts listed are per team.
-            </p>*/
-          }
+            </p>*/}
           <br />
         </div>
         <div className={styles.prizesBlock}>
@@ -168,8 +167,7 @@ const PrizesStrip = () => {
                 US amazon.com gift cards
               </a>
               . Amounts listed are per team.
-            </p>*/
-          }
+            </p>*/}
           <br />
         </div>
       </div>
@@ -183,14 +181,15 @@ const PrizesStrip = () => {
           <br />
           Prizes are subject to change and may be made conditional on proof of
           challenge completion (writeups).
-        </p>*/
-      }
+        </p>*/}
       <div className={styles.writeprizecontainer}>
         <div className={styles.writeupprizelist}>
-          {<h3>
-            Prizes, including writeup prizes, will be announced closer to the
-            competition date. Stay tuned!
-          </h3>}
+          {
+            <h3>
+              Prizes, including writeup prizes, will be announced closer to the
+              competition date. Stay tuned!
+            </h3>
+          }
           {/*
           <h3>Writeup Prizes:</h3>
           <br />
