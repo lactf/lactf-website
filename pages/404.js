@@ -13,11 +13,7 @@ export default function Error() {
       <Navbar />
       <main className={styles.error}>
         <div className={styles.card}>
-          <span className={styles.code}>404</span>
-          <h1 className={styles.title}>Flag not found!</h1>
-          <p className={styles.desc}>
-            Looks like this page wandered off into the desert.
-          </p>
+          <h1 className={styles.title}>Error 404: Flag not found!</h1>
           <Link href="/">
             <a className={styles.homeButton}>Back to home</a>
           </Link>
