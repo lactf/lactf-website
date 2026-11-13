@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 import Footer from "../components/Footer";
 
 import Navbar from "../components/Navbar";
@@ -8,12 +9,15 @@ import styles from "../styles/Error.module.css";
 export default function Error() {
   return (
     <div>
+      <NextSeo title="404 | LA CTF" noindex />
       <Navbar />
       <main className={styles.error}>
-        <h1>Error 404: Flag not found!</h1>
-        <p className={styles.home}>
-          Click <Link href="/">here</Link> to return to the home page.
-        </p>
+        <div className={styles.card}>
+          <h1 className={styles.title}>Error 404: Flag not found!</h1>
+          <Link href="/">
+            <a className={styles.homeButton}>Back to home</a>
+          </Link>
+        </div>
       </main>
       <Footer />
     </div>
