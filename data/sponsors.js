@@ -16,6 +16,17 @@ import placeholder from "../public/images/placeholder.jpg";
 
 const data = {
   sponsors: [
+    {
+      name: "Google Cloud",
+      url: "https://goo.gle/ctfsponsorship",
+      image: googlecloud,
+      blurb:
+        "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
+      flag: {
+        image: infraFlag,
+        blurb: "Infra sponsored by goo.gle/ctfsponsorship",
+      },
+    }
     // {
     //   name: "The Aerospace Corporation",
     //   url: "https://aerospace.org/",
@@ -63,17 +74,6 @@ const data = {
       image: latticework,
       blurb:
         "Store your data locally and access it from anywhere without subscription fees!",
-    },
-    {
-      name: "Google Cloud",
-      url: "https://goo.gle/ctfsponsorship",
-      image: googlecloud,
-      blurb:
-        "Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.",
-      flag: {
-        image: infraFlag,
-        blurb: "Infra sponsored by goo.gle/ctfsponsorship",
-      },
     },
     {
       name: "OffSec",
