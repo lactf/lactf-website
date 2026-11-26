@@ -26,6 +26,13 @@ const data = {
         image: infraFlag,
         blurb: "Infra sponsored by goo.gle/ctfsponsorship",
       },
+    },
+    {
+      name: "Hex-Rays",
+      url: "https://hex-rays.com/",
+      image: hexrays,
+      blurb:
+        "IDA is the leading tool for binary analysis, trusted by top cybersecurity teams for reverse engineering and malware defense. Simplify complex binaries and boost your security processes with its advanced analysis features.",
     }
     // {
     //   name: "The Aerospace Corporation",
@@ -95,13 +102,6 @@ const data = {
       image: bhis,
       blurb:
         "At Black Hills Information Security (BHIS), we strive to strengthen our customers' information security infrastructure and employees through penetration testing, consulting, and defensive security services. Since our founding in 2008, companies of all sizes, from small community banks to Fortune 100 companies, have entrusted us with their business.",
-    },
-    {
-      name: "Hex-Rays",
-      url: "https://hex-rays.com/",
-      image: hexrays,
-      blurb:
-        "IDA is the leading tool for binary analysis, trusted by top cybersecurity teams for reverse engineering and malware defense. Simplify complex binaries and boost your security processes with its advanced analysis features.",
     },
     */
   ],
